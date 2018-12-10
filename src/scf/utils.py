@@ -1,26 +1,9 @@
 from collections import OrderedDict
+import csv
+import definitions
 from openpyxl.worksheet.read_only import ReadOnlyWorksheet
+import os
 import re
-
-
-TYPES = [
-    ('public', 'nominal'),
-    ('internal', 'nominal'),
-    ('public', 'real'),
-    ('internal', 'real'),
-]
-
-URL = r'https://www.federalreserve.gov/econres/files/scf2016_tables_{source}_{dollar}_historical.xlsx'
-
-HEADER_ROWS = {
-    '2': [4, 5],
-    '13': [3, 4],
-}
-
-YEAR_INFO = {
-    '2': {'column': 0, 'regex': r'^\s*(\d{4})'},
-    '13': {'cell': 'A2', 'regex': r'^\s*(\d{4})'},
-}
 
 
 def get_table_num(sheet_name, regex=r'^Table (\d+)'):
@@ -38,10 +21,10 @@ def get_table_num_from_sheet(sheet):
 
 def get_header_rows(sheet):
     num = get_table_num_from_sheet(sheet)
-    return HEADER_ROWS[num]
+    return definitions.HEADER_ROWS[num]
 
 
-def get_headers(sheet):
+def get_input_headers(sheet):
     assert isinstance(sheet, ReadOnlyWorksheet), 'Found type {0}'.format(type(sheet))
 
     header_rows = get_header_rows(sheet)
@@ -72,7 +55,7 @@ def get_headers(sheet):
 
 def get_year_info(sheet):
     num = get_table_num_from_sheet(sheet)
-    return YEAR_INFO[num]
+    return definitions.YEAR_INFO[num]
 
 
 def get_year_by_cell(cell, regex, default=None):
@@ -107,3 +90,21 @@ def is_number(v):
         return False
 
 
+def mkdirp(file_dir):
+    if not os.path.exists(file_dir):
+        os.makedirs(file_dir)
+    return file_dir
+
+
+def mkfdirp(file_path):
+    mkdirp(os.path.dirname(file_path))
+    return file_path
+
+
+def write_csv(output, headers, data):
+    mkfdirp(output)
+    with open(output, 'w', newline='\n') as f:
+        cw = csv.DictWriter(f, fieldnames=headers)
+        cw.writeheader()
+        for row in data:
+            cw.writerow(row)

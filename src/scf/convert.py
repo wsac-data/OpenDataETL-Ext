@@ -1,4 +1,6 @@
+import definitions
 import re
+import utils
 
 DOLLAR = ' ($)'
 PERCENT = ' (%)'
@@ -21,6 +23,8 @@ class Converter:
 
         if not v or v == '*':
             return ''
+        elif v == '†':
+            return '0.0'
         else:
             try:
                 return str(self._convert(v))
@@ -76,4 +80,40 @@ class DataTypeConverter:
             return PercentConverter()
         else:
             return default()
+
+
+def get_default_converter(cvt_type=None):
+    cvt = {
+        None: IdentityConverter,
+        'identity': IdentityConverter,
+        'percent': PercentConverter,
+        'dollar': ThousandDollarConverter,
+    }
+    return cvt[cvt_type]
+
+
+def get_suffix(cvt_type=None):
+    suffices = {
+        None: '',
+        'identity': '',
+        'percent': PERCENT,
+        'dollar': DOLLAR,
+    }
+    return suffices[cvt_type]
+
+
+def get_default_converter_by_sheet(sheet):
+    num = utils.get_table_num_from_sheet(sheet)
+    return get_default_converter(definitions.CONVERT_INFO[num]['default_converter'])
+
+
+def get_headers(sheet):
+    num = utils.get_table_num_from_sheet(sheet)
+    headers = utils.get_input_headers(sheet)
+    headers_list = list(headers.keys())
+    types = definitions.CONVERT_INFO[num]['types']
+    beg_headers = definitions.BEG_HEADERS[num]
+    assert isinstance(types, list)
+
+    return beg_headers + [h + get_suffix(t) for t in types for h in headers_list[1:]]
 
