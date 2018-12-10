@@ -8,7 +8,7 @@ Converts
 
 import argparse
 from collections import OrderedDict
-import convert
+from scf import convert
 import csv
 from openpyxl import load_workbook
 from openpyxl.worksheet.read_only import ReadOnlyWorksheet
