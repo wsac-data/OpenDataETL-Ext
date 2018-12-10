@@ -11,11 +11,19 @@ import csv
 from collections import OrderedDict
 from openpyxl import load_workbook
 from openpyxl.worksheet.read_only import ReadOnlyWorksheet
+import os
 import re
 from time import time
 
 DOLLAR = ' ($)'
 PERCENT = ' (%)'
+
+DATA = [
+    dict(url=r'https://www.federalreserve.gov/econres/files/scf2016_tables_internal_nominal_historical.xlsx'),
+    dict(url=r'https://www.federalreserve.gov/econres/files/scf2016_tables_internal_real_historical.xlsx'),
+    dict(url=r'https://www.federalreserve.gov/econres/files/scf2016_tables_public_nominal_historical.xlsx'),
+    dict(url=r'https://www.federalreserve.gov/econres/files/scf2016_tables_public_real_historical.xlsx'),
+]
 
 
 class WorkbookDataDefinition:
@@ -118,9 +126,9 @@ class DataTypeConverter:
 
     def __new__(cls, data_type_str):
         data_type_str = data_type_str.strip().lower()
-        if 'thousands of dollars' in data_type_str:
+        if re.search(r'thousands of (\d{4}\s+)?dollars', data_type_str):
             return ThousandDollarConverter()
-        elif 'percentage' in data_type_str:
+        elif re.search(r'percentage', data_type_str):
             return PercentConverter()
         else:
             return Converter()
@@ -188,6 +196,17 @@ def retrieve_data(workbook, pattern, defn=None):
     return out_headers, out_data
 
 
+def mkdirp(file_dir):
+    if not os.path.exists(file_dir):
+        os.makedirs(file_dir)
+    return file_dir
+
+
+def mkfdirp(file_path):
+    mkdirp(os.path.dirname(file_path))
+    return file_path
+
+
 def transform(workbook, pattern, output, defn=None):
     """
     Transform data within a messy Excel workbook file
@@ -201,6 +220,7 @@ def transform(workbook, pattern, output, defn=None):
 
     print('Saving to {0}'.format(output))
     start = time()
+    mkfdirp(output)
     with open(output, 'w', newline='\n') as f:
         headers, data = retrieve_data(workbook, pattern, defn=defn)
         cw = csv.DictWriter(f, fieldnames=headers)
