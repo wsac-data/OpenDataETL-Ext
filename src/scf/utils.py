@@ -70,6 +70,9 @@ def get_year_by_cell(cell, regex, default=None):
 def get_year(sheet, rows, default=None):
     year_info = get_year_info(sheet)
 
+    if len(year_info) == 0:
+        return 0
+
     if 'cell' in year_info:
         cell = sheet[year_info['cell']]
     elif 'column' in year_info:

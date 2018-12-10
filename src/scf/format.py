@@ -10,6 +10,7 @@ import argparse
 from collections import OrderedDict
 import convert
 import definitions
+import itertools
 from openpyxl import load_workbook
 from openpyxl.worksheet.read_only import ReadOnlyWorksheet
 import re
@@ -33,6 +34,7 @@ def retrieve_data(workbook, pattern, verbose=False):
         sheet = wb[sheet_name]
         assert isinstance(sheet, ReadOnlyWorksheet), 'Found type {0}'.format(type(sheet))
 
+        header_rows = utils.get_header_rows(sheet)
         headers = utils.get_input_headers(sheet)
         headers_list = list(headers.keys())
 
@@ -49,34 +51,44 @@ def retrieve_data(workbook, pattern, verbose=False):
         check_col = headers[headers_list[1]]
 
         default_cvt = convert.get_default_converter_by_sheet(sheet)
-        cvt = convert.IdentityConverter()
-        characteristic = ''
+        cvt = default_cvt
+
         year = 0
-        for row in sheet.rows:
+        characteristic = ''
+        sub_char = ''
+
+        for row in itertools.islice(sheet.rows, max(header_rows), None):
 
             year = utils.get_year(sheet, row, default=year)
 
-            check_val = str(row[check_col].value or '').strip()
+            check_val = convert.prepare_str(row[check_col].value)
+            char_val = convert.prepare_str(row[char_col].value)
+
+            if char_val:
+                sub_char = char_val
 
             if utils.is_number(check_val) or check_val in {'*', '†'}:
 
-                key = '__'.join([str(year), characteristic, row[char_col].value or ''])
+                key = '__'.join([str(year), characteristic, convert.prepare_str(row[char_col].value)])
 
                 if key not in out_data:
-                    out_data[key] = {
-                        'Year': year,
-                        'Characteristic': characteristic,
-                        'Sub-Characteristic': row[char_col].value or '',
-                    }
+                    out_data[key] = {'Sub-Characteristic': sub_char}
+
+                    if characteristic and 'Characteristic' in out_headers:
+                        out_data[key]['Characteristic'] = characteristic
+
+                    if year:
+                        out_data[key]['Year'] = str(year)
 
                 # add data to row
                 out_data[key].update({
-                    cvt.convert_header(h): cvt.convert(row[c].value or '')
+                    cvt.convert_header(h): cvt.convert(row[c].value)
                     for h, c in headers.items()
                 })
 
             else:
-                characteristic = str(row[char_col].value or '').strip()
+
+                characteristic = char_val
                 if not characteristic and check_val:
                     cvt = convert.DataTypeConverter(check_val, default=default_cvt)
 
