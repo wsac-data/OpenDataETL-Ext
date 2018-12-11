@@ -21,7 +21,7 @@ HEADER_ROWS = {
 YEAR_INFO = {
     '2': {'column': 0, 'regex': r'^\s*(\d{4})'},
     '3': {},
-    '4': {'column': 0, 'regex': r'^\s*(\d{4})'},
+    '4': {},
     '13': {'cell': 'A2', 'regex': r'^\s*(\d{4})'},
     '16': {},
     '17': {},
@@ -39,7 +39,7 @@ CONVERT_INFO = {
 BEG_HEADERS = {
     '2': ['Year', 'Characteristic', 'Sub-Characteristic'],
     '3': ['Sub-Characteristic'],
-    '4': ['Year', 'Characteristic', 'Sub-Characteristic'],
+    '4': ['Characteristic', 'Sub-Characteristic'],
     '13': ['Year', 'Characteristic', 'Sub-Characteristic'],
     '16': ['Sub-Characteristic'],
     '17': ['Characteristic', 'Sub-Characteristic'],

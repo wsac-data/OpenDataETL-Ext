@@ -104,10 +104,20 @@ def mkfdirp(file_path):
     return file_path
 
 
-def write_csv(output, headers, data):
-    mkfdirp(output)
-    with open(output, 'w', newline='\n') as f:
+def write_csv(out_file, headers, data):
+
+    # make directory
+    mkfdirp(out_file)
+
+    # write to temporary file
+    with open(out_file + '.tmp', 'w', newline='\n') as f:
         cw = csv.DictWriter(f, fieldnames=headers)
         cw.writeheader()
         for row in data:
             cw.writerow(row)
+
+    # move temporary file to actual location
+    if os.path.exists(out_file):
+        os.remove(out_file)
+    os.rename(out_file + '.tmp', out_file)
+
