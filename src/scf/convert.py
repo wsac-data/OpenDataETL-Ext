@@ -44,14 +44,11 @@ class Converter:
         return [self.convert_header(h) for h in headers]
 
     def iter_headers(self, headers, cvt_info=None):
-        for h in headers:
-            self.set_header(h)
-
-            types = [None] if cvt_info is None else cvt_info.types
-
-            cvt = self.convert
-
-            for t in types:
+        types = [None] if cvt_info is None else cvt_info.types
+        for t in types:
+            for h in headers:
+                self.set_header(h)
+                cvt = self.convert
                 new_h = self.convert_header(h, col_type=t)
                 yield h, new_h, cvt
 
