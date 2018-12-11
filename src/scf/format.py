@@ -26,6 +26,7 @@ def retrieve_data(workbook, pattern, verbose=False):
 
     out_headers = []
     out_data = OrderedDict()
+
     for sheet_i, sheet_name in enumerate(sheets):
 
         if verbose:
@@ -36,13 +37,17 @@ def retrieve_data(workbook, pattern, verbose=False):
 
         header_rows = utils.get_header_rows(sheet)
         headers = utils.get_input_headers(sheet)
-        headers_list = list(headers.keys())
+        cvt_info = convert.get_convert_info(sheet)
+        default_cvt = convert.get_default_converter_by_sheet(sheet)
 
         # headers
+        headers_list = list(headers.keys())
         curr_headers = convert.get_headers(sheet)
 
         if sheet_i == 0:
             out_headers = curr_headers
+        elif cvt_info.add_horizontally:
+            out_headers += [h for h in curr_headers if h not in out_headers]  # keep adding headers
         else:
             if curr_headers != out_headers:
                 warnings.warn('Differences:\n  {0}'.format('\n  '.join(set(out_headers) - set(curr_headers))))
@@ -50,7 +55,6 @@ def retrieve_data(workbook, pattern, verbose=False):
         char_col = headers.pop(headers_list[0])
         check_col = headers[headers_list[1]]
 
-        default_cvt = convert.get_default_converter_by_sheet(sheet)
         cvt = default_cvt
 
         year = 0
@@ -61,15 +65,15 @@ def retrieve_data(workbook, pattern, verbose=False):
 
             year = utils.get_year(sheet, row, default=year)
 
-            check_val = convert.prepare_str(row[check_col].value)
-            char_val = convert.prepare_str(row[char_col].value)
+            check_val = utils.prepare_str(row[check_col].value)
+            char_val = utils.prepare_str(row[char_col].value)
 
             if char_val:
                 sub_char = char_val
 
             if utils.is_number(check_val) or check_val in {'*', '†', 'n.a.'}:
 
-                key = '__'.join([str(year), characteristic, convert.prepare_str(row[char_col].value)])
+                key = '__'.join([str(year), characteristic, utils.prepare_str(row[char_col].value)])
 
                 if key not in out_data:
                     out_data[key] = {'Sub-Characteristic': sub_char}
@@ -81,10 +85,8 @@ def retrieve_data(workbook, pattern, verbose=False):
                         out_data[key]['Year'] = str(year)
 
                 # add data to row
-                out_data[key].update({
-                    cvt.convert_header(h): cvt.convert(row[c].value)
-                    for h, c in headers.items()
-                })
+                out_data[key].update({new_h: c(row[headers[h]].value)
+                                      for h, new_h, c in cvt.iter_headers(headers.keys())})
 
             else:
 

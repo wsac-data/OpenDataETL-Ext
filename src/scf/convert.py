@@ -6,18 +6,6 @@ DOLLAR = ' ($)'
 PERCENT = ' (%)'
 
 
-def remove_extra_whitespace(v):
-    return re.sub(r'\s+', ' ', v)
-
-
-def prepare_str(v):
-    if v is None:
-        v = ''
-
-    v = str(v).strip()
-    return remove_extra_whitespace(v)
-
-
 class Converter:
 
     def __init__(self, add_suffix=True):
@@ -30,8 +18,11 @@ class Converter:
     def _convert(self, v):
         raise NotImplementedError()
 
+    def set_header(self, h):
+        pass
+
     def convert(self, v):
-        v = prepare_str(v)
+        v = utils.prepare_str(v)
 
         if not v or v == '*':
             return ''
@@ -43,11 +34,26 @@ class Converter:
             except ValueError:
                 return str(v)
 
-    def convert_header(self, header):
-        return header + (self.units if self.add_suffix else '')
+    def convert_header(self, header, col_type=None):
+        suffix = ''
+        if self.add_suffix:
+            suffix = get_suffix(col_type) if col_type else self.units
+        return header + suffix
 
     def convert_headers(self, headers):
         return [self.convert_header(h) for h in headers]
+
+    def iter_headers(self, headers, cvt_info=None):
+        for h in headers:
+            self.set_header(h)
+
+            types = [None] if cvt_info is None else cvt_info.types
+
+            cvt = self.convert
+
+            for t in types:
+                new_h = self.convert_header(h, col_type=t)
+                yield h, new_h, cvt
 
 
 class IdentityConverter(Converter):
@@ -80,28 +86,60 @@ class PercentConverter(Converter):
         return float(v) / 100.0
 
 
+class ThousandDollarDefaultConverter(Converter):
+
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        Converter.__init__(self, **kwargs)
+        self._curr = None
+
+    @property
+    def units(self):
+        return self._curr.units
+
+    def set_header(self, h):
+        Converter.set_header(self, h)
+        self._curr = DataTypeConverter(h, ThousandDollarConverter(**self.kwargs), **self.kwargs)
+
+    def _convert(self, v):
+        return self._curr._convert(v)
+
+
 class DataTypeConverter:
     thousand_dollars = 0
     percent = 1
 
-    def __new__(cls, data_type_str, default=None):
-        data_type_str = data_type_str.strip().lower()
-        if re.search(r'thousands of (\d{4}\s+)?dollars', data_type_str):
-            return ThousandDollarConverter()
-        elif re.search(r'percentage', data_type_str):
-            return PercentConverter()
-        else:
-            return default if default is not None else IdentityConverter()
-
-
-def get_default_converter(cvt_type, add_suffix):
     cvt = {
-        None: IdentityConverter(add_suffix),
-        'identity': IdentityConverter(add_suffix),
-        'percent': PercentConverter(add_suffix),
-        'dollar': ThousandDollarConverter(add_suffix),
+        None: IdentityConverter,
+        'identity': IdentityConverter,
+        'percent': PercentConverter,
+        'dollar': ThousandDollarConverter,
+        'dollar_default': ThousandDollarDefaultConverter,
+        'column': Converter,
     }
-    return cvt[cvt_type]
+
+    def __new__(cls, data_type_str, default=None, **kwargs):
+        data_type_str = data_type_str.strip().lower()
+        if re.search(r'thousands of (\d{4}\s+)?dollars', data_type_str, flags=re.I):
+            return ThousandDollarConverter(**kwargs)
+        elif re.search(r'percentage', data_type_str, flags=re.I):
+            return PercentConverter(**kwargs)
+        elif data_type_str in cls.cvt:
+            return cls.cvt[data_type_str](**kwargs)
+        else:
+            if default is not None:
+                if isinstance(default, Converter):
+                    return default
+                else:
+                    return DataTypeConverter(default, **kwargs)
+            else:
+                return IdentityConverter(**kwargs)
+
+
+def get_convert_info(sheet):
+    num = utils.get_table_num_from_sheet(sheet)
+    ci = definitions.CONVERT_INFO[num]
+    return ci
 
 
 def get_suffix(cvt_type=None):
@@ -115,19 +153,21 @@ def get_suffix(cvt_type=None):
 
 
 def get_default_converter_by_sheet(sheet):
-    num = utils.get_table_num_from_sheet(sheet)
-    cvt_info = definitions.CONVERT_INFO[num]
-    return get_default_converter(cvt_info['default_converter'], cvt_info['add_suffix'])
+    ci = get_convert_info(sheet)
+    return DataTypeConverter(ci.default, add_suffix=ci.add_suffix)
 
 
 def get_headers(sheet):
     num = utils.get_table_num_from_sheet(sheet)
     headers = utils.get_input_headers(sheet)
-    headers_list = list(headers.keys())
-    types = definitions.CONVERT_INFO[num]['types']
-    add_suffix = definitions.CONVERT_INFO[num]['add_suffix']
+    headers_list = list(headers.keys())[1:]
+    ci = get_convert_info(sheet)
     beg_headers = definitions.BEG_HEADERS[num]
-    assert isinstance(types, list)
 
-    return beg_headers + [h + (get_suffix(t) if add_suffix else '') for t in types for h in headers_list[1:]]
+    default = get_default_converter_by_sheet(sheet)
+    return beg_headers + [new_h for _, new_h, _ in default.iter_headers(headers_list, cvt_info=ci)]
 
+
+def get_converters_by_header(sheet, headers):
+    default = get_default_converter_by_sheet(sheet)
+    return [DataTypeConverter(h, default=default) for h in headers]

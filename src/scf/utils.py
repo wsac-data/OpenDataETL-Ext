@@ -6,6 +6,18 @@ import os
 import re
 
 
+def remove_extra_whitespace(v):
+    return re.sub(r'\s+', ' ', v)
+
+
+def prepare_str(v):
+    if v is None:
+        v = ''
+
+    v = str(v).strip()
+    return remove_extra_whitespace(v)
+
+
 def get_table_num(sheet_name, regex=r'^Table (\d+)'):
     m = re.search(regex, sheet_name)
     if m is None:
@@ -37,7 +49,7 @@ def get_input_headers(sheet):
         for i, r in enumerate(header_rows):
             v = str(sheet.cell(row=r, column=c).value or '')
             if v.strip():
-                curr_data[i] = re.sub(r'[\r\n]', ' ', v, flags=re.I)
+                curr_data[i] = prepare_str(v)
                 updated = True
             elif i > 0:
                 curr_data[i] = ''
