@@ -67,7 +67,7 @@ def retrieve_data(workbook, pattern, verbose=False):
             if char_val:
                 sub_char = char_val
 
-            if utils.is_number(check_val) or check_val in {'*', '†'}:
+            if utils.is_number(check_val) or check_val in {'*', '†', 'n.a.'}:
 
                 key = '__'.join([str(year), characteristic, convert.prepare_str(row[char_col].value)])
 
