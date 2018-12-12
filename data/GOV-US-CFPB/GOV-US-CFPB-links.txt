@@ -1,0 +1,16 @@
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/auto-loans/lending-borrower-age/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/auto-loans/lending-neighborhood-income-level/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/auto-loans/borrower-risk-profiles/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/auto-loans/origination-activity/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/credit-cards/lending-borrower-age/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/credit-cards/lending-neighborhood-income-level/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/credit-cards/borrower-risk-profiles/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/credit-cards/origination-activity/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/mortgages/lending-borrower-age/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/mortgages/lending-neighborhood-income-level/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/mortgages/borrower-risk-profiles/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/mortgages/origination-activity/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/student-loans/lending-borrower-age/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/student-loans/lending-neighborhood-income-level/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/student-loans/borrower-risk-profiles/
+https://www.consumerfinance.gov/data-research/consumer-credit-trends/student-loans/origination-activity/
