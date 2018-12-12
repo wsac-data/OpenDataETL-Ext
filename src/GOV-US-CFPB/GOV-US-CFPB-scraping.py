@@ -8,9 +8,6 @@ from pathlib import Path
 data_path = Path(__file__).parents[2] / "data" / "GOV-US-CFPB"
 out_data_path = data_path / "raw"
 
-with (data_path / "GOV-US-CFPB-links.txt").open("r") as file:
-    links = file.readlines()
-
 # a function to find the tags we want:
 def tag_constraint(tag):
     if tag.has_attr("class") & tag.has_attr("href"):
@@ -18,6 +15,10 @@ def tag_constraint(tag):
             return True
     else:
         return False
+
+
+with (data_path / "GOV-US-CFPB-links.txt").open("r") as file:
+    links = file.readlines()
 
 for link in links:
     r = requests.get(link)

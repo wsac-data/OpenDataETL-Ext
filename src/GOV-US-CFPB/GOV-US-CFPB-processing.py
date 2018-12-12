@@ -106,7 +106,6 @@ for i, c in enumerate(csv_name_elements):
             df = format_vol_group(df, grouping, type_of_value)
     elif grouping == None:
         df = format_no_group(df, type_of_value)
-    print(df.columns)
 
     #combine the df into the appropriate master
     if grouping == "Age_Group":
