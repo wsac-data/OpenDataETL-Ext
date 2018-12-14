@@ -5,7 +5,7 @@ import numpy as np
 # This file was developed using a REPL process in ipython
 
 # Set ipython's max row display
-pd.set_option('display.max_row', 500)
+# pd.set_option('display.max_row', 500)
 
 # Set iPython's max column width to 50
 # pd.set_option('display.max_columns', 10)
@@ -88,8 +88,14 @@ def correct_levels(indx):
 
 
 ## Washington 2013 All ##
-wa_2013_all = pd.read_excel('../../data/College_Board/Washington_Summary_13.xls', sheet_name = 'All', skiprows=4, header=[0,1], 
-        index_col = [0,1], usecols = 'B:AL', na_values = {'*',''}, skipfooter = 5)
+wa_2013_all = pd.read_excel('../../data/College_Board/Washington_Summary_13.xls', 
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        index_col = [0,1], 
+        usecols = 'B:AL', 
+        na_values = {'*',''}, 
+        skipfooter = 5)
 clean_indexes(wa_2013_all)
 wa_2013_all = clean_data(wa_2013_all)
 
