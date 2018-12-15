@@ -48,7 +48,7 @@ CONVERT_INFO = {
     '13': ConvertInfo('identity', types=['percent', 'dollar'], add_suffix=True, header_rows=[3, 4]),
     '15': ConvertInfo('percent', header_rows=[4], year_row=3),
     '16': ConvertInfo('percent', year_row=3, header='Percent of Respondents'),
-    '17': ConvertInfo('percent', add_suffix=True, header_rows=[4], year_row=4),
+    '17': ConvertInfo('percent', add_suffix=True, header_rows=[3], year_row=4),
 }
 
 BEG_HEADERS = {

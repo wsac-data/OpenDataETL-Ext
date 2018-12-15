@@ -37,7 +37,6 @@ def retrieve_data(workbook, pattern, verbose=False):
 
         year_row, _, header_rows = utils.get_header_rows(sheet)
         years, headers, columns = utils.get_input_headers(sheet)
-        cvt_info = convert.get_convert_info(sheet)
         default_cvt = convert.get_default_converter_by_sheet(sheet)
 
         # headers
@@ -49,8 +48,19 @@ def retrieve_data(workbook, pattern, verbose=False):
             if curr_headers != out_headers:
                 warnings.warn('Differences:\n  {0}'.format('\n  '.join(set(out_headers) - set(curr_headers))))
 
-        char_col = columns[headers[0]][years[0]]
-        check_col = columns[headers[1]][years[0]]
+        def get_col(h, yr):
+            d = columns[h]
+            if isinstance(yr, list):
+                if yr:
+                    yr = yr[0]
+                else:
+                    yr = 0
+            else:
+                yr = int(yr)
+            return d[yr] if yr in d else next(v for v in d.values())
+
+        char_col = get_col(headers[0], years)
+        check_col = get_col(headers[1], years)
 
         cvt = default_cvt
 
@@ -91,7 +101,7 @@ def retrieve_data(workbook, pattern, verbose=False):
                             out_data[key]['Year'] = str(y)
 
                     # add data to row
-                    out_data[key].update({new_h: c(row[columns[h][y]].value)
+                    out_data[key].update({new_h: c(row[get_col(h, y)].value)
                                           for h, new_h, c in cvt.iter_headers(headers[1:])})
 
                 else:

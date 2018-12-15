@@ -1,6 +1,6 @@
 @echo off
 
-set py=C:\Programs\Anaconda3\python.exe
+set py=start C:\Programs\Anaconda3\python.exe
 set fp="../../data/scf/scf2016_tables_{source}_{dollar}_historical.xlsx"
 
 echo Start processing Table 1...

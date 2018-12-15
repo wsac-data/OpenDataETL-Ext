@@ -36,7 +36,19 @@ def get_table_num_from_sheet(sheet):
 def get_header_rows(sheet):
     num = get_table_num_from_sheet(sheet)
     ci = definitions.CONVERT_INFO[num]
-    return ci.year_row, ci.header.strip(), ci.header_rows
+
+    header_rows = ci.header_rows
+    year_row = ci.year_row
+    header = ci.header.strip()
+
+    if not header_rows:  # use the header if header_rows row is -1 is nothing
+        assert year_row, 'Must have a year row when header_rows not specified'
+        assert header, 'Header needs to be provided if header_rows is not!'
+
+    if year_row and year_row not in header_rows:
+        header_rows = [year_row] + header_rows
+
+    return year_row, header, header_rows
 
 
 def split_header(header, header_sep=', '):
@@ -64,13 +76,6 @@ def get_input_headers(sheet, header_sep=', ', year_sep=' - '):
     year_row, header, header_rows = get_header_rows(sheet)
 
     years = []
-    if not header_rows:  # use the header if header_rows row is -1 is nothing
-        assert year_row, 'Must have a year row when header_rows not specified'
-        assert header, 'Header needs to be provided if header_rows is not!'
-
-    if year_row and year_row not in header_rows:
-        header_rows = [year_row] + header_rows
-
     headers = []
     year = 0
     columns = OrderedDict()
@@ -87,13 +92,18 @@ def get_input_headers(sheet, header_sep=', ', year_sep=' - '):
 
         for i, r in enumerate(header_rows):
 
+            v = str(sheet.cell(row=r, column=c).value or '').strip()
             if c != 1 and r == year_row:
-                updated = curr_data[i] != header
-                curr_data[i] = header.strip()
-                continue
 
-            v = str(sheet.cell(row=r, column=c).value or '')
-            if v.strip():
+                if len(header_rows) == 1 and not v:
+                    updated = False
+                    break
+
+                curr_data[i] = header.strip()
+                updated = True
+
+            elif v:
+
                 curr_data[i] = prepare_str(v)
                 updated = True
 
@@ -119,7 +129,8 @@ def get_input_headers(sheet, header_sep=', ', year_sep=' - '):
     for h, v in columns.items():
         if 0 in v:
             for y in years:
-                v[y] = v[0]
+                if y not in v:
+                    v[y] = v[0]
 
     return years, headers, columns
 

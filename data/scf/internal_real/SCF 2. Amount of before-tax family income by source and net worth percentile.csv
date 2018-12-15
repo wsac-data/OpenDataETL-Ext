@@ -1,0 +1,71 @@
+SCF Table,!Calculation,Year,Characteristic,Sub-Characteristic,"Percentile of net worth, Less than 25 (%)","Percentile of net worth, 25–49.9 (%)","Percentile of net worth, 50–74.9 (%)","Percentile of net worth, 75–89.9 (%)","Percentile of net worth, 90–100 (%)",All families (%)
+2,Internal-Real,1989,1989 Survey of Consumer Finances,Wages,0.7859999999999999,0.82,0.763,0.723,0.442,0.6579999999999999
+2,Internal-Real,1989,1989 Survey of Consumer Finances,Interest or dividends,0.001,0.015,0.02,0.048,0.141,0.064
+2,Internal-Real,1989,1989 Survey of Consumer Finances,"Business, farm, self-employment",0.016,0.035,0.035,0.091,0.23,0.109
+2,Internal-Real,1989,1989 Survey of Consumer Finances,Capital gains,,0.004,0.019,0.026000000000000002,0.12300000000000001,0.052000000000000005
+2,Internal-Real,1989,1989 Survey of Consumer Finances,Social Security or retirement,0.078,0.09,0.111,0.095,0.052000000000000005,0.08199999999999999
+2,Internal-Real,1989,1989 Survey of Consumer Finances,Transfers or other,0.11699999999999999,0.036000000000000004,0.051,0.018000000000000002,0.012,0.035
+2,Internal-Real,1989,1989 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,1992,1992 Survey of Consumer Finances,Wages,0.741,0.813,0.725,0.639,0.433,0.63
+2,Internal-Real,1992,1992 Survey of Consumer Finances,Interest or dividends,0.002,0.005,0.018000000000000002,0.044000000000000004,0.11900000000000001,0.052000000000000005
+2,Internal-Real,1992,1992 Survey of Consumer Finances,"Business, farm, self-employment",0.019,0.033,0.063,0.087,0.29,0.132
+2,Internal-Real,1992,1992 Survey of Consumer Finances,Capital gains,,0.001,0.004,0.015,0.045,0.019
+2,Internal-Real,1992,1992 Survey of Consumer Finances,Social Security or retirement,0.08,0.071,0.096,0.099,0.054000000000000006,0.077
+2,Internal-Real,1992,1992 Survey of Consumer Finances,Transfers or other,0.157,0.077,0.094,0.11599999999999999,0.059000000000000004,0.09
+2,Internal-Real,1992,1992 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,1995,1995 Survey of Consumer Finances,Wages,0.802,0.8540000000000001,0.804,0.725,0.505,0.6990000000000001
+2,Internal-Real,1995,1995 Survey of Consumer Finances,Interest or dividends,0.002,0.004,0.013000000000000001,0.033,0.122,0.05
+2,Internal-Real,1995,1995 Survey of Consumer Finances,"Business, farm, self-employment",0.019,0.027000000000000003,0.055,0.08199999999999999,0.248,0.11599999999999999
+2,Internal-Real,1995,1995 Survey of Consumer Finances,Capital gains,0.006999999999999999,0.005,0.01,0.012,0.06,0.026000000000000002
+2,Internal-Real,1995,1995 Survey of Consumer Finances,Social Security or retirement,0.078,0.08,0.1,0.142,0.053,0.086
+2,Internal-Real,1995,1995 Survey of Consumer Finances,Transfers or other,0.092,0.031,0.018000000000000002,0.006999999999999999,0.011000000000000001,0.023
+2,Internal-Real,1995,1995 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,1998,1998 Survey of Consumer Finances,Wages,0.851,0.868,0.799,0.721,0.467,0.685
+2,Internal-Real,1998,1998 Survey of Consumer Finances,Interest or dividends,0.001,0.004,0.013000000000000001,0.036000000000000004,0.091,0.042
+2,Internal-Real,1998,1998 Survey of Consumer Finances,"Business, farm, self-employment",0.016,0.035,0.045,0.096,0.26899999999999996,0.128
+2,Internal-Real,1998,1998 Survey of Consumer Finances,Capital gains,0.001,0.005,0.006,0.023,0.11199999999999999,0.045
+2,Internal-Real,1998,1998 Survey of Consumer Finances,Social Security or retirement,0.073,0.07,0.121,0.11199999999999999,0.048,0.081
+2,Internal-Real,1998,1998 Survey of Consumer Finances,Transfers or other,0.057999999999999996,0.018000000000000002,0.016,0.011000000000000001,0.012,0.018000000000000002
+2,Internal-Real,1998,1998 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,2001,2001 Survey of Consumer Finances,Wages,0.8420000000000001,0.8690000000000001,0.823,0.747,0.495,0.693
+2,Internal-Real,2001,2001 Survey of Consumer Finances,Interest or dividends,0.001,0.004,0.011000000000000001,0.035,0.087,0.042
+2,Internal-Real,2001,2001 Survey of Consumer Finances,"Business, farm, self-employment",0.019,0.013000000000000001,0.044000000000000004,0.07200000000000001,0.239,0.11699999999999999
+2,Internal-Real,2001,2001 Survey of Consumer Finances,Capital gains,0.0,0.003,0.011000000000000001,0.026000000000000002,0.124,0.055
+2,Internal-Real,2001,2001 Survey of Consumer Finances,Social Security or retirement,0.08900000000000001,0.08900000000000001,0.102,0.107,0.044000000000000004,0.078
+2,Internal-Real,2001,2001 Survey of Consumer Finances,Transfers or other,0.048,0.022000000000000002,0.01,0.013000000000000001,0.011000000000000001,0.016
+2,Internal-Real,2001,2001 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,2004,2004 Survey of Consumer Finances,Wages,0.821,0.855,0.7929999999999999,0.7240000000000001,0.53,0.6970000000000001
+2,Internal-Real,2004,2004 Survey of Consumer Finances,Interest or dividends,0.0,0.003,0.006999999999999999,0.019,0.08199999999999999,0.035
+2,Internal-Real,2004,2004 Survey of Consumer Finances,"Business, farm, self-employment",0.011000000000000001,0.026000000000000002,0.051,0.086,0.215,0.109
+2,Internal-Real,2004,2004 Survey of Consumer Finances,Capital gains,0.0,0.0,0.0,0.012,0.083,0.032
+2,Internal-Real,2004,2004 Survey of Consumer Finances,Social Security or retirement,0.096,0.092,0.132,0.153,0.08199999999999999,0.109
+2,Internal-Real,2004,2004 Survey of Consumer Finances,Transfers or other,0.07200000000000001,0.025,0.017,0.006999999999999999,0.008,0.018000000000000002
+2,Internal-Real,2004,2004 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,2007,2007 Survey of Consumer Finances,Wages,0.799,0.8,0.777,0.723,0.46299999999999997,0.645
+2,Internal-Real,2007,2007 Survey of Consumer Finances,Interest or dividends,0.001,0.003,0.006999999999999999,0.019,0.078,0.037000000000000005
+2,Internal-Real,2007,2007 Survey of Consumer Finances,"Business, farm, self-employment",0.018000000000000002,0.053,0.069,0.079,0.24600000000000002,0.136
+2,Internal-Real,2007,2007 Survey of Consumer Finances,Capital gains,0.001,0.004,0.013000000000000001,0.028999999999999998,0.14400000000000002,0.067
+2,Internal-Real,2007,2007 Survey of Consumer Finances,Social Security or retirement,0.095,0.109,0.11800000000000001,0.142,0.062,0.096
+2,Internal-Real,2007,2007 Survey of Consumer Finances,Transfers or other,0.086,0.032,0.016,0.008,0.006999999999999999,0.019
+2,Internal-Real,2007,2007 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,2010,2010 Survey of Consumer Finances,Wages,0.759,0.807,0.763,0.6970000000000001,0.5579999999999999,0.6809999999999999
+2,Internal-Real,2010,2010 Survey of Consumer Finances,Interest or dividends,0.001,0.001,0.004,0.016,0.087,0.036000000000000004
+2,Internal-Real,2010,2010 Survey of Consumer Finances,"Business, farm, self-employment",0.035,0.046,0.048,0.07200000000000001,0.239,0.122
+2,Internal-Real,2010,2010 Survey of Consumer Finances,Capital gains,0.001,0.002,0.001,-0.002,0.023,0.009000000000000001
+2,Internal-Real,2010,2010 Survey of Consumer Finances,Social Security or retirement,0.094,0.096,0.159,0.201,0.078,0.12
+2,Internal-Real,2010,2010 Survey of Consumer Finances,Transfers or other,0.111,0.047,0.025,0.017,0.015,0.032
+2,Internal-Real,2010,2010 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,2013,2013 Survey of Consumer Finances,Wages,0.737,0.7929999999999999,0.728,0.691,0.467,0.624
+2,Internal-Real,2013,2013 Survey of Consumer Finances,Interest or dividends,0.0,0.001,0.004,0.012,0.084,0.037000000000000005
+2,Internal-Real,2013,2013 Survey of Consumer Finances,"Business, farm, self-employment",0.028999999999999998,0.031,0.040999999999999995,0.077,0.24100000000000002,0.127
+2,Internal-Real,2013,2013 Survey of Consumer Finances,Capital gains,0.0,0.001,0.006999999999999999,0.013999999999999999,0.106,0.048
+2,Internal-Real,2013,2013 Survey of Consumer Finances,Social Security or retirement,0.113,0.125,0.18899999999999997,0.18600000000000003,0.084,0.13
+2,Internal-Real,2013,2013 Survey of Consumer Finances,Transfers or other,0.121,0.048,0.032,0.02,0.017,0.034
+2,Internal-Real,2013,2013 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
+2,Internal-Real,2016,2016 Survey of Consumer Finances,Wages,0.764,0.794,0.7020000000000001,0.649,0.47100000000000003,0.608
+2,Internal-Real,2016,2016 Survey of Consumer Finances,Interest or dividends,0.0,0.001,0.004,0.012,0.07,0.034
+2,Internal-Real,2016,2016 Survey of Consumer Finances,"Business, farm, self-employment",0.027000000000000003,0.038,0.066,0.08199999999999999,0.233,0.135
+2,Internal-Real,2016,2016 Survey of Consumer Finances,Capital gains,,0.002,0.003,0.019,0.115,0.055
+2,Internal-Real,2016,2016 Survey of Consumer Finances,Social Security or retirement,0.11699999999999999,0.127,0.19,0.217,0.086,0.135
+2,Internal-Real,2016,2016 Survey of Consumer Finances,Transfers or other,0.091,0.038,0.035,0.021,0.025,0.033
+2,Internal-Real,2016,2016 Survey of Consumer Finances,Total,1.0,1.0,1.0,1.0,1.0,1.0
