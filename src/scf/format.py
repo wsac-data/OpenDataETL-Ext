@@ -35,25 +35,22 @@ def retrieve_data(workbook, pattern, verbose=False):
         sheet = wb[sheet_name]
         assert isinstance(sheet, ReadOnlyWorksheet), 'Found type {0}'.format(type(sheet))
 
-        header_rows = utils.get_header_rows(sheet)
-        headers = utils.get_input_headers(sheet)
+        year_row, _, header_rows = utils.get_header_rows(sheet)
+        years, headers, columns = utils.get_input_headers(sheet)
         cvt_info = convert.get_convert_info(sheet)
         default_cvt = convert.get_default_converter_by_sheet(sheet)
 
         # headers
-        headers_list = list(headers.keys())
         curr_headers = convert.get_headers(sheet)
 
         if sheet_i == 0:
             out_headers = curr_headers
-        elif cvt_info.add_horizontally:
-            out_headers += [h for h in curr_headers if h not in out_headers]  # keep adding headers
         else:
             if curr_headers != out_headers:
                 warnings.warn('Differences:\n  {0}'.format('\n  '.join(set(out_headers) - set(curr_headers))))
 
-        char_col = headers.pop(headers_list[0])
-        check_col = headers[headers_list[1]]
+        char_col = columns[headers[0]][years[0]]
+        check_col = columns[headers[1]][years[0]]
 
         cvt = default_cvt
 
@@ -61,69 +58,89 @@ def retrieve_data(workbook, pattern, verbose=False):
         characteristic = ''
         sub_char = ''
 
-        for row in itertools.islice(sheet.rows, max(header_rows), None):
+        if year_row:
+            gen_years = years
+        else:
+            gen_years = [None]
 
-            year = utils.get_year(sheet, row, default=year)
+        for y in gen_years:
 
-            check_val = utils.prepare_str(row[check_col].value)
-            char_val = utils.prepare_str(row[char_col].value)
+            for row in itertools.islice(sheet.rows, max(header_rows), None):
 
-            if char_val:
-                sub_char = char_val
+                if not year_row:
+                    year = utils.get_year(sheet, row, default=year)
+                    y = year
 
-            if utils.is_number(check_val) or check_val in {'*', '†', 'n.a.'}:
+                check_val = utils.prepare_str(row[check_col].value)
+                char_val = utils.prepare_str(row[char_col].value)
 
-                key = '__'.join([str(year), characteristic, utils.prepare_str(row[char_col].value)])
+                if char_val:
+                    sub_char = char_val
 
-                if key not in out_data:
-                    out_data[key] = {'Sub-Characteristic': sub_char}
+                if utils.is_number(check_val) or check_val in {'*', '†', 'n.a.'}:
 
-                    if characteristic and 'Characteristic' in out_headers:
-                        out_data[key]['Characteristic'] = characteristic
+                    key = '__'.join([str(y), characteristic, utils.prepare_str(row[char_col].value)])
 
-                    if year:
-                        out_data[key]['Year'] = str(year)
+                    if key not in out_data:
+                        out_data[key] = {'Sub-Characteristic': sub_char}
 
-                # add data to row
-                out_data[key].update({new_h: c(row[headers[h]].value)
-                                      for h, new_h, c in cvt.iter_headers(headers.keys())})
+                        if characteristic and 'Characteristic' in out_headers:
+                            out_data[key]['Characteristic'] = characteristic
 
-            else:
+                        if y:
+                            out_data[key]['Year'] = str(y)
 
-                characteristic = char_val
-                if not characteristic and check_val:
-                    cvt = convert.DataTypeConverter(check_val, default=default_cvt)
+                    # add data to row
+                    out_data[key].update({new_h: c(row[columns[h][y]].value)
+                                          for h, new_h, c in cvt.iter_headers(headers[1:])})
+
+                else:
+
+                    characteristic = char_val
+                    if not characteristic and check_val:
+                        cvt = convert.DataTypeConverter(check_val, default=default_cvt)
 
     return out_headers, out_data
 
 
-def transform(workbook, pattern, output, verbose=False):
+def transform(workbook, pattern, output, beg_cols=(), verbose=False):
     """
     Transform data within a messy Excel workbook file
 
     :param workbook: Workbook file path
     :param pattern: Pattern of sheet names to extract
     :param output: File path to CSV output file
+    :param beg_cols: Beginning columns
+    :param verbose: Verbosity
     :return: Returns transformed workbook
     """
 
     print('Working on {0}...'.format(output))
     start = time()
     headers, data = retrieve_data(workbook, pattern, verbose=verbose)
-    utils.write_csv(output, headers, data.values())
+    headers = [c for c, v in beg_cols] + headers
+    out_data = [utils.merge_dicts(v, beg_cols) for v in data.values()]
+    utils.write_csv(output, headers, out_data)
     print('  Finished in {0:.1f} seconds'.format(time() - start))
 
 
-def transform_all(workbook, pattern, output, verbose=False):
+def transform_all(workbook, pattern, output, beg_cols=(), verbose=False):
+
+    def t(s):
+        return s.title()
 
     if '{source}' in workbook or '{dollar}' in workbook:
         for source, dollar in definitions.TYPES:
             wb_file = workbook.format(source=source, dollar=dollar)
             out_file = output.format(source=source, dollar=dollar)
-            transform(wb_file, pattern, out_file, verbose=verbose)
+            beg_col_fmt = [(
+                c.format(source=t(source), dollar=t(dollar)),
+                v.format(source=t(source), dollar=t(dollar)),
+            ) for c, v in beg_cols]
+            transform(wb_file, pattern, out_file, beg_cols=beg_col_fmt, verbose=verbose)
 
     else:
-        transform(workbook, pattern, output, verbose=verbose)
+        transform(workbook, pattern, output, beg_cols=beg_cols, verbose=verbose)
 
 
 def main():
@@ -132,11 +149,13 @@ def main():
     parser.add_argument('workbook', type=str, help='Path to the workbook')
     parser.add_argument('pattern', type=str, help='REGEX pattern of the sheet names to extract')
     parser.add_argument('output', type=str, help='Location of CSV output file')
+    parser.add_argument('--beg_col', action='append', type=str, nargs=2, default=[],
+                        help='Added columns on the left side')
     parser.add_argument('--verbose', action='store_true', default=False, help='Verbosity')
 
     args = parser.parse_args()
 
-    transform_all(args.workbook, args.pattern, args.output, verbose=args.verbose)
+    transform_all(args.workbook, args.pattern, args.output, beg_cols=args.beg_col, verbose=args.verbose)
 
 
 if __name__ == '__main__':

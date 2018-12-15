@@ -26,7 +26,7 @@ class Converter:
 
         if not v or v == '*':
             return ''
-        elif v == '†':
+        elif v in {'†', 'n.a.'}:
             return '0.0'
         else:
             try:
@@ -156,13 +156,12 @@ def get_default_converter_by_sheet(sheet):
 
 def get_headers(sheet):
     num = utils.get_table_num_from_sheet(sheet)
-    headers = utils.get_input_headers(sheet)
-    headers_list = list(headers.keys())[1:]
+    _, headers, _ = utils.get_input_headers(sheet)
     ci = get_convert_info(sheet)
     beg_headers = definitions.BEG_HEADERS[num]
 
     default = get_default_converter_by_sheet(sheet)
-    return beg_headers + [new_h for _, new_h, _ in default.iter_headers(headers_list, cvt_info=ci)]
+    return beg_headers + [new_h for _, new_h, _ in default.iter_headers(headers[1:], cvt_info=ci)]
 
 
 def get_converters_by_header(sheet, headers):
