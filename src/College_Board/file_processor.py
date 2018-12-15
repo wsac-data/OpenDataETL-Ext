@@ -1,5 +1,6 @@
 import pandas as pd
 from pandas import DataFrame, Series
+from pandas import IndexSlice as idx
 import numpy as np
 
 # This file was developed using a REPL process in ipython
@@ -94,37 +95,36 @@ wa_2013_all = pd.read_excel('../../data/College_Board/Washington_Summary_13.xls'
         header=[0,1], 
         index_col = [0,1], 
         usecols = 'B:AL', 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 5)
+
 clean_indexes(wa_2013_all)
 wa_2013_all = clean_data(wa_2013_all)
-
 # move mean score to second level of index
 wa_2013_all.index = pd.MultiIndex.from_tuples(
         [('', 'MEAN SCORE') if x[0] == 'MEAN SCORE' else (x[0], x[1]) for x in wa_2013_all.index])
-
+#
 # remove TOTAL
 wa_2013_all.index = pd.MultiIndex.from_tuples(
         [('', x[1]) if x[0] == 'TOTAL' else (x[0], x[1]) for x in wa_2013_all.index])
-
+#
 wa_2013_all.index = correct_levels(wa_2013_all.index)
-
+#
 # stack subjects
 wa_2013_all = wa_2013_all.stack('subject')
-
+#
 # move mean scores to separate df
 tmp_df = wa_2013_all.copy(deep=True)
-
+#
 # remove mean score from working df
 wa_2013_all.drop('MEAN SCORE', level=1, inplace = True)
-
+#
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
-
-
+#
 wa_2013_all['MEAN SCORE'] = np.nan
 for ethnicity in list(set(wa_2013_all.index.get_level_values(0))):
     for subject in list(set(wa_2013_all.index.get_level_values(2))):
@@ -133,18 +133,18 @@ for ethnicity in list(set(wa_2013_all.index.get_level_values(0))):
                     idx[ethnicity, :, subject],:].values[0][0]
         except IndexError:
             continue
-
+#
 wa_2013_all['H2'] = 'D'
 wa_2013_all['MEASURE NAME'] = 'SCHOOL AP SCORE DISTRIBUTIONS BY TOTAL AND ETHNIC GROUP'
 wa_2013_all['AP Exam Year'] = 2013
 wa_2013_all['Table Name'] = 'WA-ALL CAND'
 wa_2013_all['Geography'] = 'Washington'
 wa_2013_all['Student Group'] = 'All Students'
-
+#
 wa_2013_all = wa_2013_all.reset_index()
-
+#
 wa_2013_all = wa_2013_all[['H2','MEASURE NAME', 'AP Exam Year', 'Table Name', 'Geography', 'Student Group', 'ethnicity', 'AP_score', 'subject', 'NUMBER OF STUDENTS FOR EACH EXAMINATION', 'MEAN SCORE']]
-
+#
 wa_2013_all.rename(columns={'ethnicity': 'Subgroup'}, inplace=True)
 wa_2013_all.rename(columns={'AP_score': 'AP Score'}, inplace=True)
 wa_2013_all.rename(columns={'subject': 'Subject'}, inplace=True)
@@ -158,7 +158,7 @@ year = 2013
 wa_2013_fem = pd.read_excel(
         '../../data/College_Board/Washington_Summary_13.xls', 
         sheet_name = 'Females', skiprows=4, header=[0,1], 
-        index_col = [0,1], usecols = 'B:AL', na_values = {'*',''}, skipfooter = 5)
+        index_col = [0,1], usecols = 'B:AL', na_values = {'*','','No Data'}, skipfooter = 5)
 
 clean_indexes(wa_2013_fem)
 wa_2013_fem = clean_data(wa_2013_fem)
@@ -178,7 +178,7 @@ wa_2013_fem.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2013_fem['MEAN SCORE'] = np.nan
@@ -213,7 +213,7 @@ year = 2013
 wa_2013_mal = pd.read_excel(
         '../../data/College_Board/Washington_Summary_13.xls', 
         sheet_name = 'Males', skiprows=4, header=[0,1], 
-        index_col = [0,1], usecols = 'B:AL', na_values = {'*',''}, skipfooter = 5)
+        index_col = [0,1], usecols = 'B:AL', na_values = {'*','','No Data'}, skipfooter = 5)
 
 clean_indexes(wa_2013_mal)
 wa_2013_mal = clean_data(wa_2013_mal)
@@ -233,7 +233,7 @@ wa_2013_mal.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2013_mal['MEAN SCORE'] = np.nan
@@ -267,10 +267,24 @@ student_group = 'All Students'
 year = 2014
 wa_2014_all = pd.read_excel(
         '../../data/College_Board/Washington-Summary-2014.xlsx', 
-        sheet_name = 'All', skiprows=4, header=[0,1], 
-        index_col = [0,1], usecols = 'B:AL', na_values = {'*',''}, skipfooter = 5)
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        index_col = [0,1], 
+        usecols = 'B:AL', 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 5)
+
 
 clean_indexes(wa_2014_all)
+# why are there "No Data" values
+# wa_2014_all.index.levels[1]
+# wa_2014_all.columns.levels[1]
+# wa_2014_all.loc[idx['PUERTO RICAN',:], idx[:, 'STUDIO ART:  2-D DESIGN']]
+# wa_2014_all.loc[idx['PUERTO RICAN',:], idx[:, 'STUDIO ART:  3-D DESIGN']]
+# wa_2014_all.loc[idx['PUERTO RICAN',:], idx[:, 'STUDIO ART:  DRAWING']]
+# all blank cells in washington 2014 are filled with "No Data" 
+# added added 'No Data' to na_values
 wa_2014_all = clean_data(wa_2014_all)
 # move mean score to second level of index
 wa_2014_all.index = pd.MultiIndex.from_tuples(
@@ -288,7 +302,7 @@ wa_2014_all.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2014_all['MEAN SCORE'] = np.nan
@@ -323,8 +337,13 @@ student_group = 'Female Students'
 year = 2014
 wa_2014_female = pd.read_excel(
         '../../data/College_Board/Washington-Summary-2014.xlsx', 
-        sheet_name = 'Females', skiprows=4, header=[0,1], 
-        index_col = [0,1], usecols = 'B:AL', na_values = {'*',''}, skipfooter = 5)
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        index_col = [0,1], 
+        usecols = 'B:AL', 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 5)
 
 clean_indexes(wa_2014_female)
 wa_2014_female = clean_data(wa_2014_female)
@@ -344,7 +363,7 @@ wa_2014_female.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2014_female['MEAN SCORE'] = np.nan
@@ -379,7 +398,7 @@ year = 2014
 wa_2014_male = pd.read_excel(
         '../../data/College_Board/Washington-Summary-2014.xlsx', 
         sheet_name = 'Males', skiprows=4, header=[0,1], 
-        index_col = [0,1], usecols = 'B:AL', na_values = {'*',''}, skipfooter = 5)
+        index_col = [0,1], usecols = 'B:AL', na_values = {'*','','No Data'}, skipfooter = 5)
 
 clean_indexes(wa_2014_male)
 wa_2014_male = clean_data(wa_2014_male)
@@ -399,7 +418,7 @@ wa_2014_male.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2014_male['MEAN SCORE'] = np.nan
@@ -438,7 +457,7 @@ wa_2015_all = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AN', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 6)
 
 clean_indexes(wa_2015_all)
@@ -459,7 +478,7 @@ wa_2015_all.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2015_all['MEAN SCORE'] = np.nan
@@ -498,7 +517,7 @@ wa_2015_female = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AN', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 6)
 
 clean_indexes(wa_2015_female)
@@ -519,7 +538,7 @@ wa_2015_female.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2015_female['MEAN SCORE'] = np.nan
@@ -558,7 +577,7 @@ wa_2015_male = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AN', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 6)
 
 clean_indexes(wa_2015_male)
@@ -579,7 +598,7 @@ wa_2015_male.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2015_male['MEAN SCORE'] = np.nan
@@ -619,7 +638,7 @@ wa_2016_all = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AO', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 7)
 
 clean_indexes(wa_2016_all)
@@ -640,7 +659,7 @@ wa_2016_all.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2016_all['MEAN SCORE'] = np.nan
@@ -680,7 +699,7 @@ wa_2016_female = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AO', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 7)
 
 clean_indexes(wa_2016_female)
@@ -701,7 +720,7 @@ wa_2016_female.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2016_female['MEAN SCORE'] = np.nan
@@ -740,7 +759,7 @@ wa_2016_male = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AO', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 7)
 
 clean_indexes(wa_2016_male)
@@ -761,7 +780,7 @@ wa_2016_male.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2016_male['MEAN SCORE'] = np.nan
@@ -800,7 +819,7 @@ wa_2017_all = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AP', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 8)
 
 clean_indexes(wa_2017_all)
@@ -821,7 +840,7 @@ wa_2017_all.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2017_all['MEAN SCORE'] = np.nan
@@ -860,7 +879,7 @@ wa_2017_female = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AP', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 8)
 
 clean_indexes(wa_2017_female)
@@ -881,7 +900,7 @@ wa_2017_female.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2017_female['MEAN SCORE'] = np.nan
@@ -921,7 +940,7 @@ wa_2017_male = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AP', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 8)
 
 clean_indexes(wa_2017_male)
@@ -942,7 +961,7 @@ wa_2017_male.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2017_male['MEAN SCORE'] = np.nan
@@ -982,7 +1001,7 @@ wa_2018_all = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AP', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 6)
 
 clean_indexes(wa_2018_all)
@@ -1003,7 +1022,7 @@ wa_2018_all.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2018_all['MEAN SCORE'] = np.nan
@@ -1042,7 +1061,7 @@ wa_2018_female = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AP', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 6)
 
 clean_indexes(wa_2018_female)
@@ -1063,7 +1082,7 @@ wa_2018_female.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2018_female['MEAN SCORE'] = np.nan
@@ -1103,7 +1122,7 @@ wa_2018_male = pd.read_excel(
         header=[0,1], 
         usecols = 'B:AP', 
         index_col = [0,1], 
-        na_values = {'*',''}, 
+        na_values = {'*','','No Data'}, 
         skipfooter = 6)
 
 clean_indexes(wa_2018_male)
@@ -1124,7 +1143,7 @@ wa_2018_male.drop('MEAN SCORE', level=1, inplace = True)
 # remove all but mean scores from temp df
 # wa_2013.loc[[,'MEAN SCORE']]
 # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
-idx = pd.IndexSlice
+#idx = pd.IndexSlice
 tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
 # add mean score for correct index to mean score column
 wa_2018_male['MEAN SCORE'] = np.nan
@@ -1151,7 +1170,7 @@ wa_2018_male.rename(columns={'AP_score': 'AP Score'}, inplace=True)
 wa_2018_male.rename(columns={'subject': 'Subject'}, inplace=True)
 wa_2018_male.rename(columns={'NUMBER OF STUDENTS FOR EACH EXAMINATION': 'Student Count'}, inplace=True)
 
-## Staple together and write output
+## Staple together 
 big_df = pd.concat([wa_2013_all, wa_2013_fem, wa_2013_mal, 
                     wa_2014_all, wa_2014_female, wa_2014_male,
                     wa_2015_all, wa_2015_female, wa_2015_male,
@@ -1159,6 +1178,46 @@ big_df = pd.concat([wa_2013_all, wa_2013_fem, wa_2013_mal,
                     wa_2017_all, wa_2017_female, wa_2017_male,
                     wa_2018_all, wa_2018_female, wa_2018_male
                     ], ignore_index = True)
+
+# check for "No Data"
+big_df[~big_df['Student Count'].apply(np.isreal)] 
+# All rows of student count are numbers
+
+big_df[~big_df['MEAN SCORE'].apply(np.isreal)] 
+# All rows of mean score are numbers
+
+## Consistency Checks ##
+# check for inconsistent naming in subject
+# set(big_df['Subject'])
+# potentials for inconsistent values
+# 'ART HISTORY',
+# 'ART:  HISTORY',
+# 'LATIN',
+# 'LATIN ',
+# 'SPANISH LANG. & CULTURE',
+# 'SPANISH LANGUAGE',
+# 'SPANISH LIT & CULTURE',
+# 'SPANISH LIT. & CULTURE',
+# 'SPANISH LITERATURE',
+# art history
+# big_df[big_df['Subject'].str.contains('ART')]['Subject'].value_counts()
+# replace inconsistent subject values
+# big_df['Subject'].replace('ART HISTORY', 'ART:  HISTORY', inplace = True)
+# latin
+# big_df[big_df['Subject'].str.contains('LATIN')]['Subject'].value_counts()
+# big_df['Subject'].replace('LATIN ', 'LATIN', inplace = True)
+# spanish literature & culture
+# big_df[big_df['Subject'].str.contains('SPANISH')]['Subject'].value_counts()
+# big_df['Subject'].replace('SPANISH LIT & CULTURE', 'SPANISH LIT. & CULTURE', inplace = True)
+# large number of other spanish placement exams 
+# Problems with ethnicity overlap
+# big_df.iloc[:,6].value_counts().sort_index()
+# american indian
+# big_df.iloc[:,6].replace('AMERICAN INDIAN', 'AMERICAN INDIAN/ALASKA NATIVE', inplace = False).value_counts().sort_index()
+# no response
+# big_df.iloc[:,6].replace('NOT STATED', 'NO RESPONSE', inplace = False).value_counts().sort_index()
+
+## Write output
 writer = pd.ExcelWriter('../../data/College_Board/output.xlsx')
 big_df.to_excel(writer, index=False)
 writer.save()
