@@ -1,0 +1,471 @@
+SCF Table,!Calculation,Year,Characteristic,Sub-Characteristic,"Income, Median ($)","Income, Mean ($)",Percentage of families that saved (%),Percentage of families (%)
+1,Internal-Real,1989,,All families,48000.0,75800.0,0.0,1.0
+1,Internal-Real,1989,Percentile of income,Less than 20,11700.0,11100.0,0.0,0.2
+1,Internal-Real,1989,Percentile of income,20–39.9,27300.0,27400.0,0.0,0.2
+1,Internal-Real,1989,Percentile of income,40–59.9,48000.0,48300.0,0.0,0.2
+1,Internal-Real,1989,Percentile of income,60–79.9,75900.0,76300.0,0.0,0.2
+1,Internal-Real,1989,Percentile of income,80–89.9,111000.0,114100.0,0.0,0.1
+1,Internal-Real,1989,Percentile of income,90–100,194700.0,317300.0,0.0,0.1
+1,Internal-Real,1989,Age of head (years),Less than 35,38900.0,52000.0,0.0,0.281
+1,Internal-Real,1989,Age of head (years),35–44,68200.0,92200.0,0.0,0.215
+1,Internal-Real,1989,Age of head (years),45–54,72100.0,112700.0,0.0,0.152
+1,Internal-Real,1989,Age of head (years),55–64,49300.0,89000.0,0.0,0.139
+1,Internal-Real,1989,Age of head (years),65–74,30200.0,61900.0,0.0,0.125
+1,Internal-Real,1989,Age of head (years),75 or more,25800.0,47300.0,0.0,0.08900000000000001
+1,Internal-Real,1989,Family structure,Single with child(ren),25700.0,36600.0,0.0,0.11
+1,Internal-Real,1989,Family structure,"Single, no child, age less than 55",33200.0,57800.0,0.0,0.156
+1,Internal-Real,1989,Family structure,"Single, no child, age 55 or more",19400.0,32800.0,0.0,0.152
+1,Internal-Real,1989,Family structure,Couple with child(ren),70500.0,96700.0,0.0,0.36200000000000004
+1,Internal-Real,1989,Family structure,"Couple, no child",60400.0,103500.0,0.0,0.22
+1,Internal-Real,1989,Education of head,No high school diploma,25400.0,36400.0,0.0,0.243
+1,Internal-Real,1989,Education of head,High school diploma,42200.0,55800.0,0.0,0.322
+1,Internal-Real,1989,Education of head,Some college,56500.0,76400.0,0.0,0.204
+1,Internal-Real,1989,Education of head,College degree,87600.0,144400.0,0.0,0.231
+1,Internal-Real,1989,Race or ethnicity of respondent,White non-Hispanic,56500.0,86800.0,0.0,0.748
+1,Internal-Real,1989,Race or ethnicity of respondent,Black or African-American non-hispanic,21400.0,36900.0,0.0,0.128
+1,Internal-Real,1989,Race or ethnicity of respondent,Hispanic or Latino,27300.0,41700.0,0.0,0.079
+1,Internal-Real,1989,Race or ethnicity of respondent,Other or Multiple Race,42200.0,62400.0,0.0,0.045
+1,Internal-Real,1989,Current work status of head,Working for someone else,60000.0,76600.0,0.0,0.57
+1,Internal-Real,1989,Current work status of head,Self-employed,70100.0,172500.0,0.0,0.111
+1,Internal-Real,1989,Current work status of head,Retired,27100.0,44500.0,0.0,0.252
+1,Internal-Real,1989,Current work status of head,Other not working,13600.0,26100.0,0.0,0.066
+1,Internal-Real,1989,Current occupation of head,Managerial or professional,88000.0,139000.0,0.0,0.21600000000000003
+1,Internal-Real,1989,Current occupation of head,"Technical, sales, or services",46700.0,75000.0,0.0,0.222
+1,Internal-Real,1989,Current occupation of head,Other occupation,56500.0,66300.0,0.0,0.243
+1,Internal-Real,1989,Current occupation of head,Retired or other not working,23400.0,40600.0,0.0,0.319
+1,Internal-Real,1989,Region,Northeast,54500.0,86900.0,0.0,0.20800000000000002
+1,Internal-Real,1989,Region,Midwest,46600.0,79000.0,0.0,0.244
+1,Internal-Real,1989,Region,South,40900.0,64700.0,0.0,0.344
+1,Internal-Real,1989,Region,West,56500.0,79200.0,0.0,0.204
+1,Internal-Real,1989,Urbanicity,Metropolitan statistical area (MSA),50100.0,80700.0,0.0,0.81
+1,Internal-Real,1989,Urbanicity,Non-MSA,37700.0,54800.0,0.0,0.19
+1,Internal-Real,1989,Housing status,Owner,62300.0,95400.0,0.0,0.639
+1,Internal-Real,1989,Housing status,Renter or other,25700.0,41100.0,0.0,0.361
+1,Internal-Real,1989,Percentile of net worth,Less than 25,19500.0,27300.0,0.0,0.25
+1,Internal-Real,1989,Percentile of net worth,25–49.9,41100.0,46900.0,0.0,0.25
+1,Internal-Real,1989,Percentile of net worth,50–74.9,58900.0,67400.0,0.0,0.25
+1,Internal-Real,1989,Percentile of net worth,75–89.9,77900.0,95000.0,0.0,0.15
+1,Internal-Real,1989,Percentile of net worth,90–100,146100.0,261200.0,0.0,0.1
+1,Internal-Real,1992,,All families,44700.0,67100.0,0.5710000000000001,1.0
+1,Internal-Real,1992,Percentile of income,Less than 20,11300.0,11000.0,0.302,0.2
+1,Internal-Real,1992,Percentile of income,20–39.9,26600.0,26600.0,0.491,0.2
+1,Internal-Real,1992,Percentile of income,40–59.9,44700.0,45500.0,0.5920000000000001,0.2
+1,Internal-Real,1992,Percentile of income,60–79.9,70800.0,72500.0,0.7,0.2
+1,Internal-Real,1992,Percentile of income,80–89.9,105700.0,107700.0,0.716,0.1
+1,Internal-Real,1992,Percentile of income,90–100,180500.0,252000.0,0.82,0.1
+1,Internal-Real,1992,Age of head (years),Less than 35,41300.0,50800.0,0.591,0.258
+1,Internal-Real,1992,Age of head (years),35–44,60200.0,78200.0,0.569,0.228
+1,Internal-Real,1992,Age of head (years),45–54,70000.0,95100.0,0.59,0.162
+1,Internal-Real,1992,Age of head (years),55–64,49800.0,83100.0,0.5920000000000001,0.132
+1,Internal-Real,1992,Age of head (years),65–74,29900.0,48600.0,0.541,0.126
+1,Internal-Real,1992,Age of head (years),75 or more,23100.0,39200.0,0.494,0.094
+1,Internal-Real,1992,Family structure,Single with child(ren),23300.0,35400.0,0.452,0.11199999999999999
+1,Internal-Real,1992,Family structure,"Single, no child, age less than 55",33400.0,44700.0,0.519,0.162
+1,Internal-Real,1992,Family structure,"Single, no child, age 55 or more",20500.0,31700.0,0.466,0.153
+1,Internal-Real,1992,Family structure,Couple with child(ren),69400.0,93900.0,0.621,0.32799999999999996
+1,Internal-Real,1992,Family structure,"Couple, no child",56700.0,82800.0,0.657,0.245
+1,Internal-Real,1992,Education of head,No high school diploma,20600.0,29200.0,0.381,0.204
+1,Internal-Real,1992,Education of head,High school diploma,40000.0,50400.0,0.568,0.3
+1,Internal-Real,1992,Education of head,Some college,49800.0,63600.0,0.611,0.221
+1,Internal-Real,1992,Education of head,College degree,79100.0,116200.0,0.682,0.275
+1,Internal-Real,1992,Race or ethnicity of respondent,White non-Hispanic,51600.0,74200.0,0.611,0.753
+1,Internal-Real,1992,Race or ethnicity of respondent,Black or African-American non-hispanic,28700.0,40200.0,0.424,0.127
+1,Internal-Real,1992,Race or ethnicity of respondent,Hispanic or Latino,28800.0,38700.0,0.38799999999999996,0.075
+1,Internal-Real,1992,Race or ethnicity of respondent,Other or Multiple Race,46400.0,72500.0,0.62,0.046
+1,Internal-Real,1992,Current work status of head,Working for someone else,57800.0,73400.0,0.632,0.5479999999999999
+1,Internal-Real,1992,Current work status of head,Self-employed,75200.0,127800.0,0.594,0.109
+1,Internal-Real,1992,Current work status of head,Retired,25500.0,38500.0,0.48100000000000004,0.262
+1,Internal-Real,1992,Current work status of head,Other not working,18900.0,35000.0,0.414,0.081
+1,Internal-Real,1992,Current occupation of head,Managerial or professional,82500.0,123500.0,0.675,0.21899999999999997
+1,Internal-Real,1992,Current occupation of head,"Technical, sales, or services",49200.0,63300.0,0.604,0.24
+1,Internal-Real,1992,Current occupation of head,Other occupation,49800.0,60300.0,0.598,0.198
+1,Internal-Real,1992,Current occupation of head,Retired or other not working,23300.0,37600.0,0.465,0.34299999999999997
+1,Internal-Real,1992,Region,Northeast,55700.0,77600.0,0.575,0.20199999999999999
+1,Internal-Real,1992,Region,Midwest,48500.0,69200.0,0.613,0.244
+1,Internal-Real,1992,Region,South,39500.0,57100.0,0.542,0.34600000000000003
+1,Internal-Real,1992,Region,West,44300.0,71200.0,0.564,0.209
+1,Internal-Real,1992,Urbanicity,Metropolitan statistical area (MSA),48100.0,72100.0,0.58,0.815
+1,Internal-Real,1992,Urbanicity,Non-MSA,34100.0,45300.0,0.53,0.185
+1,Internal-Real,1992,Housing status,Owner,58400.0,82200.0,0.632,0.639
+1,Internal-Real,1992,Housing status,Renter or other,28700.0,40400.0,0.462,0.361
+1,Internal-Real,1992,Percentile of net worth,Less than 25,21800.0,29000.0,0.374,0.25
+1,Internal-Real,1992,Percentile of net worth,25–49.9,41300.0,46500.0,0.525,0.25
+1,Internal-Real,1992,Percentile of net worth,50–74.9,55000.0,61100.0,0.635,0.25
+1,Internal-Real,1992,Percentile of net worth,75–89.9,72200.0,85400.0,0.7070000000000001,0.15
+1,Internal-Real,1992,Percentile of net worth,90–100,135600.0,201700.0,0.8109999999999999,0.1
+1,Internal-Real,1995,,All families,48100.0,69900.0,0.552,1.0
+1,Internal-Real,1995,Percentile of income,Less than 20,10800.0,10400.0,0.316,0.2
+1,Internal-Real,1995,Percentile of income,20–39.9,27600.0,27500.0,0.434,0.2
+1,Internal-Real,1995,Percentile of income,40–59.9,48100.0,47100.0,0.5720000000000001,0.2
+1,Internal-Real,1995,Percentile of income,60–79.9,71400.0,72500.0,0.6679999999999999,0.2
+1,Internal-Real,1995,Percentile of income,80–89.9,107400.0,109000.0,0.6990000000000001,0.1
+1,Internal-Real,1995,Percentile of income,90–100,176300.0,274500.0,0.8420000000000001,0.1
+1,Internal-Real,1995,Age of head (years),Less than 35,40100.0,48900.0,0.564,0.248
+1,Internal-Real,1995,Age of head (years),35–44,60000.0,76300.0,0.5429999999999999,0.23
+1,Internal-Real,1995,Age of head (years),45–54,63000.0,103500.0,0.58,0.179
+1,Internal-Real,1995,Age of head (years),55–64,52900.0,84400.0,0.58,0.125
+1,Internal-Real,1995,Age of head (years),65–74,30200.0,58600.0,0.5,0.12
+1,Internal-Real,1995,Age of head (years),75 or more,25100.0,41600.0,0.517,0.098
+1,Internal-Real,1995,Family structure,Single with child(ren),25900.0,32900.0,0.369,0.12
+1,Internal-Real,1995,Family structure,"Single, no child, age less than 55",35200.0,41700.0,0.511,0.158
+1,Internal-Real,1995,Family structure,"Single, no child, age 55 or more",20400.0,34800.0,0.444,0.138
+1,Internal-Real,1995,Family structure,Couple with child(ren),67900.0,94800.0,0.601,0.319
+1,Internal-Real,1995,Family structure,"Couple, no child",59600.0,91500.0,0.6559999999999999,0.266
+1,Internal-Real,1995,Education of head,No high school diploma,22800.0,32800.0,0.428,0.185
+1,Internal-Real,1995,Education of head,High school diploma,40800.0,54700.0,0.506,0.317
+1,Internal-Real,1995,Education of head,Some college,50700.0,65099.99999999999,0.561,0.249
+1,Internal-Real,1995,Education of head,College degree,75600.0,121500.0,0.6940000000000001,0.249
+1,Internal-Real,1995,Race or ethnicity of respondent,White non-Hispanic,51800.0,76800.0,0.591,0.7759999999999999
+1,Internal-Real,1995,Race or ethnicity of respondent,Black or African-American non-hispanic,27100.0,35800.0,0.38,0.128
+1,Internal-Real,1995,Race or ethnicity of respondent,Hispanic or Latino,34000.0,49100.0,0.44,0.057
+1,Internal-Real,1995,Race or ethnicity of respondent,Other or Multiple Race,54900.0,73000.0,0.505,0.039
+1,Internal-Real,1995,Current work status of head,Working for someone else,57700.0,75800.0,0.604,0.583
+1,Internal-Real,1995,Current work status of head,Self-employed,59300.0,125200.0,0.634,0.10300000000000001
+1,Internal-Real,1995,Current work status of head,Retired,26300.0,43900.0,0.46,0.251
+1,Internal-Real,1995,Current work status of head,Other not working,17700.0,28300.0,0.308,0.064
+1,Internal-Real,1995,Current occupation of head,Managerial or professional,83400.0,127900.0,0.695,0.198
+1,Internal-Real,1995,Current occupation of head,"Technical, sales, or services",48100.0,67200.0,0.545,0.242
+1,Internal-Real,1995,Current occupation of head,Other occupation,54200.0,62900.0,0.601,0.24600000000000002
+1,Internal-Real,1995,Current occupation of head,Retired or other not working,24900.0,40700.0,0.429,0.314
+1,Internal-Real,1995,Region,Northeast,48100.0,77100.0,0.526,0.198
+1,Internal-Real,1995,Region,Midwest,49000.0,71200.0,0.5920000000000001,0.239
+1,Internal-Real,1995,Region,South,44500.0,64700.0,0.546,0.35100000000000003
+1,Internal-Real,1995,Region,West,49700.0,70200.0,0.54,0.212
+1,Internal-Real,1995,Urbanicity,Metropolitan statistical area (MSA),50000.0,74000.0,0.5579999999999999,0.853
+1,Internal-Real,1995,Urbanicity,Non-MSA,33500.0,45600.0,0.518,0.147
+1,Internal-Real,1995,Housing status,Owner,59300.0,86500.0,0.613,0.647
+1,Internal-Real,1995,Housing status,Renter or other,28900.0,39300.0,0.44,0.353
+1,Internal-Real,1995,Percentile of net worth,Less than 25,22700.0,29100.0,0.35700000000000004,0.25
+1,Internal-Real,1995,Percentile of net worth,25–49.9,44900.0,48900.0,0.512,0.25
+1,Internal-Real,1995,Percentile of net worth,50–74.9,55600.0,63900.0,0.596,0.25
+1,Internal-Real,1995,Percentile of net worth,75–89.9,66800.0,82600.0,0.6859999999999999,0.15
+1,Internal-Real,1995,Percentile of net worth,90–100,126500.0,219800.0,0.826,0.1
+1,Internal-Real,1998,,All families,49300.0,78500.0,0.5589999999999999,1.0
+1,Internal-Real,1998,Percentile of income,Less than 20,12200.0,11700.0,0.321,0.2
+1,Internal-Real,1998,Percentile of income,20–39.9,29900.0,29800.0,0.455,0.2
+1,Internal-Real,1998,Percentile of income,40–59.9,49300.0,50100.0,0.561,0.2
+1,Internal-Real,1998,Percentile of income,60–79.9,78600.0,80100.0,0.679,0.2
+1,Internal-Real,1998,Percentile of income,80–89.9,116500.0,117300.0,0.737,0.1
+1,Internal-Real,1998,Percentile of income,90–100,192700.0,323800.0,0.82,0.1
+1,Internal-Real,1998,Age of head (years),Less than 35,40400.0,53200.0,0.53,0.233
+1,Internal-Real,1998,Age of head (years),35–44,62100.0,88500.0,0.573,0.233
+1,Internal-Real,1998,Age of head (years),45–54,74800.0,103000.0,0.578,0.192
+1,Internal-Real,1998,Age of head (years),55–64,56800.0,105900.0,0.611,0.128
+1,Internal-Real,1998,Age of head (years),65–74,35900.0,68900.0,0.563,0.11199999999999999
+1,Internal-Real,1998,Age of head (years),75 or more,24700.0,43100.0,0.486,0.102
+1,Internal-Real,1998,Family structure,Single with child(ren),26900.0,37400.0,0.392,0.113
+1,Internal-Real,1998,Family structure,"Single, no child, age less than 55",35900.0,45500.0,0.52,0.16399999999999998
+1,Internal-Real,1998,Family structure,"Single, no child, age 55 or more",24700.0,38500.0,0.479,0.13699999999999998
+1,Internal-Real,1998,Family structure,Couple with child(ren),76800.0,106600.0,0.591,0.327
+1,Internal-Real,1998,Family structure,"Couple, no child",62800.0,103000.0,0.659,0.258
+1,Internal-Real,1998,Education of head,No high school diploma,22900.0,32000.0,0.395,0.165
+1,Internal-Real,1998,Education of head,High school diploma,43100.0,54600.0,0.537,0.319
+1,Internal-Real,1998,Education of head,Some college,52800.0,74000.0,0.575,0.25
+1,Internal-Real,1998,Education of head,College degree,88200.0,139700.0,0.6709999999999999,0.267
+1,Internal-Real,1998,Race or ethnicity of respondent,White non-Hispanic,56300.0,87300.0,0.6,0.768
+1,Internal-Real,1998,Race or ethnicity of respondent,Black or African-American non-hispanic,28400.0,42200.0,0.375,0.11599999999999999
+1,Internal-Real,1998,Race or ethnicity of respondent,Hispanic or Latino,34700.0,46600.0,0.449,0.07200000000000001
+1,Internal-Real,1998,Race or ethnicity of respondent,Other or Multiple Race,49300.0,71100.0,0.507,0.044000000000000004
+1,Internal-Real,1998,Current work status of head,Working for someone else,59800.0,79000.0,0.598,0.5920000000000001
+1,Internal-Real,1998,Current work status of head,Self-employed,77800.0,161300.0,0.611,0.113
+1,Internal-Real,1998,Current work status of head,Retired,28400.0,48600.0,0.48700000000000004,0.244
+1,Internal-Real,1998,Current work status of head,Other not working,17200.0,32100.0,0.33299999999999996,0.051
+1,Internal-Real,1998,Current occupation of head,Managerial or professional,89700.0,142600.0,0.684,0.242
+1,Internal-Real,1998,Current occupation of head,"Technical, sales, or services",45200.0,69100.0,0.556,0.21
+1,Internal-Real,1998,Current occupation of head,Other occupation,55300.0,62800.0,0.556,0.253
+1,Internal-Real,1998,Current occupation of head,Retired or other not working,26200.0,46000.0,0.461,0.295
+1,Internal-Real,1998,Region,Northeast,52300.0,89900.0,0.535,0.193
+1,Internal-Real,1998,Region,Midwest,48600.0,72300.0,0.583,0.23600000000000002
+1,Internal-Real,1998,Region,South,46600.0,72900.0,0.55,0.35700000000000004
+1,Internal-Real,1998,Region,West,53400.0,84200.0,0.569,0.213
+1,Internal-Real,1998,Urbanicity,Metropolitan statistical area (MSA),52300.0,83300.0,0.563,0.853
+1,Internal-Real,1998,Urbanicity,Non-MSA,41300.0,50100.0,0.536,0.147
+1,Internal-Real,1998,Housing status,Owner,64500.0,98400.0,0.622,0.662
+1,Internal-Real,1998,Housing status,Renter or other,29900.0,39400.0,0.434,0.33799999999999997
+1,Internal-Real,1998,Percentile of net worth,Less than 25,23500.0,30000.0,0.363,0.25
+1,Internal-Real,1998,Percentile of net worth,25–49.9,44900.0,49900.0,0.503,0.25
+1,Internal-Real,1998,Percentile of net worth,50–74.9,59800.0,69100.0,0.618,0.25
+1,Internal-Real,1998,Percentile of net worth,75–89.9,83700.0,99700.0,0.7190000000000001,0.15
+1,Internal-Real,1998,Percentile of net worth,90–100,130300.00000000001,262500.0,0.8,0.1
+1,Internal-Real,2001,,All families,54100.0,92200.0,0.5920000000000001,1.0
+1,Internal-Real,2001,Percentile of income,Less than 20,13900.0,13600.0,0.3,0.2
+1,Internal-Real,2001,Percentile of income,20–39.9,33000.0,32700.000000000004,0.534,0.2
+1,Internal-Real,2001,Percentile of income,40–59.9,54100.0,54600.0,0.613,0.2
+1,Internal-Real,2001,Percentile of income,60–79.9,87800.0,88300.0,0.72,0.2
+1,Internal-Real,2001,Percentile of income,80–89.9,133800.0,132900.0,0.7490000000000001,0.1
+1,Internal-Real,2001,Percentile of income,90–100,229800.0,410400.0,0.843,0.1
+1,Internal-Real,2001,Age of head (years),Less than 35,45300.0,59900.0,0.529,0.22699999999999998
+1,Internal-Real,2001,Age of head (years),35–44,69700.0,104500.0,0.623,0.223
+1,Internal-Real,2001,Age of head (years),45–54,73900.0,126300.0,0.617,0.20600000000000002
+1,Internal-Real,2001,Age of head (years),55–64,61300.0,117800.0,0.62,0.132
+1,Internal-Real,2001,Age of head (years),65–74,37600.0,78800.0,0.618,0.107
+1,Internal-Real,2001,Age of head (years),75 or more,30300.0,49800.0,0.555,0.10400000000000001
+1,Internal-Real,2001,Family structure,Single with child(ren),30700.0,39900.0,0.452,0.114
+1,Internal-Real,2001,Family structure,"Single, no child, age less than 55",39000.0,54700.0,0.5579999999999999,0.151
+1,Internal-Real,2001,Family structure,"Single, no child, age 55 or more",23000.0,44100.0,0.495,0.132
+1,Internal-Real,2001,Family structure,Couple with child(ren),84600.0,127200.0,0.619,0.311
+1,Internal-Real,2001,Family structure,"Couple, no child",69700.0,116400.0,0.6809999999999999,0.292
+1,Internal-Real,2001,Education of head,No high school diploma,23000.0,34000.0,0.387,0.16
+1,Internal-Real,2001,Education of head,High school diploma,46000.0,60800.0,0.5670000000000001,0.317
+1,Internal-Real,2001,Education of head,Some college,56000.0,76300.0,0.621,0.239
+1,Internal-Real,2001,Education of head,College degree,98100.0,173500.0,0.713,0.284
+1,Internal-Real,2001,Race or ethnicity of respondent,White non-Hispanic,61300.0,104300.0,0.631,0.754
+1,Internal-Real,2001,Race or ethnicity of respondent,Black or African-American non-hispanic,33900.0,50600.0,0.46,0.126
+1,Internal-Real,2001,Race or ethnicity of respondent,Hispanic or Latino,33400.0,52300.0,0.434,0.078
+1,Internal-Real,2001,Race or ethnicity of respondent,Other or Multiple Race,47400.0,74300.0,0.586,0.042
+1,Internal-Real,2001,Current work status of head,Working for someone else,64099.99999999999,91300.0,0.616,0.609
+1,Internal-Real,2001,Current work status of head,Self-employed,85800.0,187500.0,0.7040000000000001,0.11699999999999999
+1,Internal-Real,2001,Current work status of head,Retired,28500.0,54200.0,0.505,0.23
+1,Internal-Real,2001,Current work status of head,Other not working,22600.0,49700.0,0.42700000000000005,0.045
+1,Internal-Real,2001,Current occupation of head,Managerial or professional,96500.0,169600.0,0.7240000000000001,0.271
+1,Internal-Real,2001,Current occupation of head,"Technical, sales, or services",48800.0,72200.0,0.5820000000000001,0.237
+1,Internal-Real,2001,Current occupation of head,Other occupation,55700.0,66400.0,0.5660000000000001,0.218
+1,Internal-Real,2001,Current occupation of head,Retired or other not working,28000.0,53500.0,0.49200000000000005,0.27399999999999997
+1,Internal-Real,2001,Region,Northeast,55900.0,105300.0,0.581,0.19
+1,Internal-Real,2001,Region,Midwest,59500.0,87700.0,0.63,0.23
+1,Internal-Real,2001,Region,South,48800.0,83200.0,0.573,0.36200000000000004
+1,Internal-Real,2001,Region,West,55200.0,100400.0,0.595,0.218
+1,Internal-Real,2001,Urbanicity,Metropolitan statistical area (MSA),55700.0,98100.0,0.597,0.862
+1,Internal-Real,2001,Urbanicity,Non-MSA,41000.0,55500.0,0.563,0.138
+1,Internal-Real,2001,Housing status,Owner,70600.0,115300.0,0.667,0.677
+1,Internal-Real,2001,Housing status,Renter or other,33400.0,43700.0,0.436,0.32299999999999995
+1,Internal-Real,2001,Percentile of net worth,Less than 25,26700.0,32500.0,0.345,0.25
+1,Internal-Real,2001,Percentile of net worth,25–49.9,47400.0,53600.0,0.542,0.25
+1,Internal-Real,2001,Percentile of net worth,50–74.9,69300.0,79800.0,0.682,0.25
+1,Internal-Real,2001,Percentile of net worth,75–89.9,94300.0,106500.0,0.774,0.15
+1,Internal-Real,2001,Percentile of net worth,90–100,171400.0,347100.0,0.841,0.1
+1,Internal-Real,2004,,All families,55000.0,90000.0,0.561,1.0
+1,Internal-Real,2004,Percentile of income,Less than 20,14100.0,13700.0,0.34,0.2
+1,Internal-Real,2004,Percentile of income,20–39.9,32700.000000000004,33200.0,0.433,0.2
+1,Internal-Real,2004,Percentile of income,40–59.9,55000.0,55200.0,0.545,0.2
+1,Internal-Real,2004,Percentile of income,60–79.9,86800.0,88000.0,0.693,0.2
+1,Internal-Real,2004,Percentile of income,80–89.9,133200.0,135500.0,0.778,0.1
+1,Internal-Real,2004,Percentile of income,90–100,235100.0,384300.0,0.8059999999999999,0.1
+1,Internal-Real,2004,Age of head (years),Less than 35,41800.0,57400.0,0.55,0.222
+1,Internal-Real,2004,Age of head (years),35–44,63600.0,94000.0,0.58,0.20600000000000002
+1,Internal-Real,2004,Age of head (years),45–54,77700.0,120000.0,0.585,0.20800000000000002
+1,Internal-Real,2004,Age of head (years),55–64,69200.0,127600.0,0.585,0.152
+1,Internal-Real,2004,Age of head (years),65–74,42400.0,76000.0,0.5710000000000001,0.105
+1,Internal-Real,2004,Age of head (years),75 or more,30100.0,52000.0,0.457,0.107
+1,Internal-Real,2004,Family structure,Single with child(ren),32700.000000000004,41700.0,0.39799999999999996,0.121
+1,Internal-Real,2004,Family structure,"Single, no child, age less than 55",36800.0,50000.0,0.528,0.153
+1,Internal-Real,2004,Family structure,"Single, no child, age 55 or more",27100.0,43300.0,0.45899999999999996,0.146
+1,Internal-Real,2004,Family structure,Couple with child(ren),83600.0,125900.0,0.617,0.317
+1,Internal-Real,2004,Family structure,"Couple, no child",74500.0,118200.0,0.644,0.263
+1,Internal-Real,2004,Education of head,No high school diploma,24700.0,33000.0,0.359,0.14400000000000002
+1,Internal-Real,2004,Education of head,High school diploma,45500.0,57000.0,0.54,0.306
+1,Internal-Real,2004,Education of head,Some college,56200.0,73500.0,0.527,0.244
+1,Internal-Real,2004,Education of head,College degree,100600.0,163300.0,0.7040000000000001,0.305
+1,Internal-Real,2004,Race or ethnicity of respondent,White non-Hispanic,62900.0,102600.0,0.601,0.722
+1,Internal-Real,2004,Race or ethnicity of respondent,Black or African-American non-hispanic,35500.0,49600.0,0.429,0.131
+1,Internal-Real,2004,Race or ethnicity of respondent,Hispanic or Latino,34700.0,50200.0,0.43,0.09
+1,Internal-Real,2004,Race or ethnicity of respondent,Other or Multiple Race,57500.0,85100.0,0.561,0.057999999999999996
+1,Internal-Real,2004,Current work status of head,Working for someone else,62700.0,89200.0,0.5920000000000001,0.601
+1,Internal-Real,2004,Current work status of head,Self-employed,84900.0,180100.0,0.687,0.11800000000000001
+1,Internal-Real,2004,Current work status of head,Retired,31100.0,55000.0,0.44,0.237
+1,Internal-Real,2004,Current work status of head,Other not working,26100.0,47500.0,0.449,0.044000000000000004
+1,Internal-Real,2004,Current occupation of head,Managerial or professional,98200.0,163100.0,0.677,0.28300000000000003
+1,Internal-Real,2004,Current occupation of head,"Technical, sales, or services",47600.0,67500.0,0.5539999999999999,0.221
+1,Internal-Real,2004,Current occupation of head,Other occupation,57500.0,64400.00000000001,0.573,0.21600000000000003
+1,Internal-Real,2004,Current occupation of head,Retired or other not working,30300.0,53800.0,0.441,0.281
+1,Internal-Real,2004,Region,Northeast,64700.0,111300.0,0.595,0.188
+1,Internal-Real,2004,Region,Midwest,57500.0,85800.0,0.599,0.22899999999999998
+1,Internal-Real,2004,Region,South,47000.0,78800.0,0.525,0.363
+1,Internal-Real,2004,Region,West,58800.0,94800.0,0.552,0.22
+1,Internal-Real,2004,Urbanicity,Metropolitan statistical area (MSA),58800.0,97800.0,0.569,0.8290000000000001
+1,Internal-Real,2004,Urbanicity,Non-MSA,38000.0,52100.0,0.523,0.171
+1,Internal-Real,2004,Housing status,Owner,70200.0,111100.0,0.623,0.691
+1,Internal-Real,2004,Housing status,Renter or other,31300.0,42900.0,0.423,0.309
+1,Internal-Real,2004,Percentile of net worth,Less than 25,26100.0,31900.0,0.34700000000000003,0.25
+1,Internal-Real,2004,Percentile of net worth,25–49.9,47000.0,53600.0,0.537,0.25
+1,Internal-Real,2004,Percentile of net worth,50–74.9,66600.0,77200.0,0.621,0.25
+1,Internal-Real,2004,Percentile of net worth,75–89.9,98000.0,111800.0,0.726,0.15
+1,Internal-Real,2004,Percentile of net worth,90–100,182900.0,325600.0,0.76,0.1
+1,Internal-Real,2007,,All families,54800.0,97600.0,0.564,1.0
+1,Internal-Real,2007,Percentile of income,Less than 20,14300.0,14200.0,0.337,0.2
+1,Internal-Real,2007,Percentile of income,20–39.9,33300.0,32800.0,0.45,0.2
+1,Internal-Real,2007,Percentile of income,40–59.9,54800.0,54700.0,0.578,0.2
+1,Internal-Real,2007,Percentile of income,60–79.9,86900.0,88700.0,0.6679999999999999,0.2
+1,Internal-Real,2007,Percentile of income,80–89.9,132000.0,134400.0,0.7290000000000001,0.1
+1,Internal-Real,2007,Percentile of income,90–100,239600.0,460500.0,0.848,0.1
+1,Internal-Real,2007,Age of head (years),Less than 35,43300.0,59900.0,0.589,0.21600000000000003
+1,Internal-Real,2007,Age of head (years),35–44,65500.0,96900.0,0.564,0.196
+1,Internal-Real,2007,Age of head (years),45–54,74300.0,130199.99999999999,0.5579999999999999,0.20800000000000002
+1,Internal-Real,2007,Age of head (years),55–64,63200.0,128800.00000000001,0.584,0.168
+1,Internal-Real,2007,Age of head (years),65–74,45100.0,107000.0,0.5670000000000001,0.105
+1,Internal-Real,2007,Age of head (years),75 or more,26400.0,52900.0,0.494,0.106
+1,Internal-Real,2007,Family structure,Single with child(ren),33300.0,48800.0,0.41600000000000004,0.122
+1,Internal-Real,2007,Family structure,"Single, no child, age less than 55",39300.0,54600.0,0.5489999999999999,0.14
+1,Internal-Real,2007,Family structure,"Single, no child, age 55 or more",28500.0,42400.0,0.485,0.149
+1,Internal-Real,2007,Family structure,Couple with child(ren),82500.0,130900.0,0.601,0.318
+1,Internal-Real,2007,Family structure,"Couple, no child",71500.0,133200.0,0.64,0.271
+1,Internal-Real,2007,Education of head,No high school diploma,25700.0,36300.0,0.41600000000000004,0.135
+1,Internal-Real,2007,Education of head,High school diploma,42500.0,59200.0,0.511,0.32899999999999996
+1,Internal-Real,2007,Education of head,Some college,54800.0,78600.0,0.557,0.245
+1,Internal-Real,2007,Education of head,College degree,100000.0,185300.0,0.7,0.29100000000000004
+1,Internal-Real,2007,Race or ethnicity of respondent,White non-Hispanic,60000.0,112300.0,0.588,0.7070000000000001
+1,Internal-Real,2007,Race or ethnicity of respondent,Black or African-American non-hispanic,36200.0,52500.0,0.455,0.11699999999999999
+1,Internal-Real,2007,Race or ethnicity of respondent,Hispanic or Latino,41700.0,55600.0,0.51,0.086
+1,Internal-Real,2007,Race or ethnicity of respondent,Other or Multiple Race,58600.0,81000.0,0.5770000000000001,0.09
+1,Internal-Real,2007,Current work status of head,Working for someone else,65500.0,96200.0,0.603,0.599
+1,Internal-Real,2007,Current work status of head,Self-employed,87600.0,222100.0,0.628,0.105
+1,Internal-Real,2007,Current work status of head,Retired,28600.0,59200.0,0.466,0.25
+1,Internal-Real,2007,Current work status of head,Other not working,23600.0,41000.0,0.45299999999999996,0.046
+1,Internal-Real,2007,Current occupation of head,Managerial or professional,98800.0,180800.0,0.7020000000000001,0.275
+1,Internal-Real,2007,Current occupation of head,"Technical, sales, or services",51200.0,78200.0,0.556,0.218
+1,Internal-Real,2007,Current occupation of head,Other occupation,57200.0,67100.0,0.536,0.21100000000000002
+1,Internal-Real,2007,Current occupation of head,Retired or other not working,27600.0,56300.0,0.46399999999999997,0.29600000000000004
+1,Internal-Real,2007,Region,Northeast,59600.0,116300.0,0.535,0.183
+1,Internal-Real,2007,Region,Midwest,51200.0,86800.0,0.5820000000000001,0.22899999999999998
+1,Internal-Real,2007,Region,South,49700.0,91900.0,0.569,0.36700000000000005
+1,Internal-Real,2007,Region,West,60100.0,102700.0,0.563,0.221
+1,Internal-Real,2007,Urbanicity,Metropolitan statistical area (MSA),58400.0,105700.0,0.57,0.8290000000000001
+1,Internal-Real,2007,Urbanicity,Non-MSA,41700.0,58100.0,0.54,0.171
+1,Internal-Real,2007,Housing status,Owner,71500.0,122300.0,0.609,0.6859999999999999
+1,Internal-Real,2007,Housing status,Renter or other,32200.000000000004,43500.0,0.467,0.314
+1,Internal-Real,2007,Percentile of net worth,Less than 25,27100.0,33800.0,0.405,0.25
+1,Internal-Real,2007,Percentile of net worth,25–49.9,47600.0,53800.0,0.528,0.25
+1,Internal-Real,2007,Percentile of net worth,50–74.9,65700.0,77100.0,0.591,0.25
+1,Internal-Real,2007,Percentile of net worth,75–89.9,95300.0,107600.0,0.6890000000000001,0.15
+1,Internal-Real,2007,Percentile of net worth,90–100,182900.0,402600.0,0.804,0.1
+1,Internal-Real,2010,,All families,50600.0,86700.0,0.52,1.0
+1,Internal-Real,2010,Percentile of income,Less than 20,14800.0,14200.0,0.32299999999999995,0.2
+1,Internal-Real,2010,Percentile of income,20–39.9,31000.0,30800.0,0.434,0.2
+1,Internal-Real,2010,Percentile of income,40–59.9,50600.0,51100.0,0.498,0.2
+1,Internal-Real,2010,Percentile of income,60–79.9,79200.0,81300.0,0.601,0.2
+1,Internal-Real,2010,Percentile of income,80–89.9,124700.0,126600.0,0.677,0.1
+1,Internal-Real,2010,Percentile of income,90–100,226900.0,385700.0,0.809,0.1
+1,Internal-Real,2010,Age of head (years),Less than 35,38800.0,52700.0,0.546,0.21
+1,Internal-Real,2010,Age of head (years),35–44,59500.0,89500.0,0.47600000000000003,0.182
+1,Internal-Real,2010,Age of head (years),45–54,67400.0,112900.0,0.518,0.21100000000000002
+1,Internal-Real,2010,Age of head (years),55–64,60900.0,116900.0,0.514,0.175
+1,Internal-Real,2010,Age of head (years),65–74,47200.0,83700.0,0.536,0.115
+1,Internal-Real,2010,Age of head (years),75 or more,32200.000000000004,50900.0,0.541,0.107
+1,Internal-Real,2010,Family structure,Single with child(ren),32600.0,43500.0,0.382,0.12
+1,Internal-Real,2010,Family structure,"Single, no child, age less than 55",33700.0,46900.0,0.498,0.147
+1,Internal-Real,2010,Family structure,"Single, no child, age 55 or more",26800.0,43700.0,0.45399999999999996,0.152
+1,Internal-Real,2010,Family structure,Couple with child(ren),74800.0,120900.0,0.528,0.316
+1,Internal-Real,2010,Family structure,"Couple, no child",68300.0,112400.0,0.622,0.265
+1,Internal-Real,2010,Education of head,No high school diploma,25400.0,37300.0,0.369,0.12
+1,Internal-Real,2010,Education of head,High school diploma,40400.0,53200.0,0.474,0.322
+1,Internal-Real,2010,Education of head,Some college,50500.0,66900.0,0.516,0.251
+1,Internal-Real,2010,Education of head,College degree,88600.0,157200.0,0.629,0.308
+1,Internal-Real,2010,Race or ethnicity of respondent,White non-Hispanic,58400.0,99600.0,0.5579999999999999,0.675
+1,Internal-Real,2010,Race or ethnicity of respondent,Black or African-American non-hispanic,33700.0,46900.0,0.39299999999999996,0.13
+1,Internal-Real,2010,Race or ethnicity of respondent,Hispanic or Latino,38800.0,56000.0,0.419,0.09699999999999999
+1,Internal-Real,2010,Race or ethnicity of respondent,Other or Multiple Race,46600.0,81600.0,0.522,0.099
+1,Internal-Real,2010,Current work status of head,Working for someone else,61800.0,93000.0,0.552,0.569
+1,Internal-Real,2010,Current work status of head,Self-employed,71200.0,165600.0,0.551,0.114
+1,Internal-Real,2010,Current work status of head,Retired,32100.0,49100.0,0.473,0.249
+1,Internal-Real,2010,Current work status of head,Other not working,26400.0,40100.0,0.37,0.068
+1,Internal-Real,2010,Current occupation of head,Managerial or professional,89900.0,164300.0,0.629,0.27699999999999997
+1,Internal-Real,2010,Current occupation of head,"Technical, sales, or services",46500.0,65700.0,0.49,0.218
+1,Internal-Real,2010,Current occupation of head,Other occupation,55300.0,63300.0,0.51,0.188
+1,Internal-Real,2010,Current occupation of head,Retired or other not working,30300.0,47100.0,0.451,0.317
+1,Internal-Real,2010,Region,Northeast,59300.0,109600.0,0.508,0.183
+1,Internal-Real,2010,Region,Midwest,51400.0,78300.0,0.5720000000000001,0.22399999999999998
+1,Internal-Real,2010,Region,South,44900.0,79100.0,0.498,0.371
+1,Internal-Real,2010,Region,West,53900.0,89300.0,0.514,0.222
+1,Internal-Real,2010,Urbanicity,Metropolitan statistical area (MSA),53900.0,93700.0,0.517,0.8270000000000001
+1,Internal-Real,2010,Urbanicity,Non-MSA,40400.0,53200.0,0.5329999999999999,0.17300000000000001
+1,Internal-Real,2010,Housing status,Owner,65800.0,108600.0,0.565,0.6729999999999999
+1,Internal-Real,2010,Housing status,Renter or other,28800.0,41800.0,0.42700000000000005,0.327
+1,Internal-Real,2010,Percentile of net worth,Less than 25,26200.0,36100.0,0.322,0.25
+1,Internal-Real,2010,Percentile of net worth,25–49.9,41800.0,50300.0,0.484,0.25
+1,Internal-Real,2010,Percentile of net worth,50–74.9,60700.0,69900.0,0.568,0.25
+1,Internal-Real,2010,Percentile of net worth,75–89.9,82300.0,98300.0,0.669,0.15
+1,Internal-Real,2010,Percentile of net worth,90–100,180300.0,329100.0,0.7609999999999999,0.1
+1,Internal-Real,2013,,All families,48100.0,89900.0,0.53,1.0
+1,Internal-Real,2013,Percentile of income,Less than 20,14200.0,13700.0,0.317,0.2
+1,Internal-Real,2013,Percentile of income,20–39.9,29300.0,29400.0,0.409,0.2
+1,Internal-Real,2013,Percentile of income,40–59.9,48100.0,48700.0,0.496,0.2
+1,Internal-Real,2013,Percentile of income,60–79.9,78800.0,81000.0,0.645,0.2
+1,Internal-Real,2013,Percentile of income,80–89.9,125500.0,128199.99999999999,0.733,0.1
+1,Internal-Real,2013,Percentile of income,90–100,236800.0,424800.0,0.8340000000000001,0.1
+1,Internal-Real,2013,Age of head (years),Less than 35,36400.0,50200.0,0.555,0.20800000000000002
+1,Internal-Real,2013,Age of head (years),35–44,62800.0,105200.0,0.535,0.17300000000000001
+1,Internal-Real,2013,Age of head (years),45–54,62800.0,107100.0,0.507,0.196
+1,Internal-Real,2013,Age of head (years),55–64,56800.0,113500.0,0.5539999999999999,0.187
+1,Internal-Real,2013,Age of head (years),65–74,47400.0,101900.0,0.512,0.129
+1,Internal-Real,2013,Age of head (years),75 or more,29400.0,54800.0,0.49700000000000005,0.107
+1,Internal-Real,2013,Family structure,Single with child(ren),28700.0,42800.0,0.36,0.121
+1,Internal-Real,2013,Family structure,"Single, no child, age less than 55",32600.0,47300.0,0.512,0.141
+1,Internal-Real,2013,Family structure,"Single, no child, age 55 or more",26200.0,42500.0,0.465,0.166
+1,Internal-Real,2013,Family structure,Couple with child(ren),77000.0,126600.0,0.57,0.306
+1,Internal-Real,2013,Family structure,"Couple, no child",68900.0,121300.0,0.612,0.266
+1,Internal-Real,2013,Education of head,No high school diploma,23100.0,31000.0,0.363,0.11
+1,Internal-Real,2013,Education of head,High school diploma,38100.0,52300.0,0.47100000000000003,0.313
+1,Internal-Real,2013,Education of head,Some college,45000.0,67200.0,0.495,0.257
+1,Internal-Real,2013,Education of head,College degree,90200.0,165100.0,0.674,0.32
+1,Internal-Real,2013,Race or ethnicity of respondent,White non-Hispanic,57500.0,107800.0,0.573,0.672
+1,Internal-Real,2013,Race or ethnicity of respondent,Black or African-American non-hispanic,32200.000000000004,44300.0,0.42100000000000004,0.133
+1,Internal-Real,2013,Race or ethnicity of respondent,Hispanic or Latino,33500.0,45400.0,0.413,0.096
+1,Internal-Real,2013,Race or ethnicity of respondent,Other or Multiple Race,42500.0,72700.0,0.499,0.099
+1,Internal-Real,2013,Current work status of head,Working for someone else,58600.0,89400.0,0.585,0.569
+1,Internal-Real,2013,Current work status of head,Self-employed,73000.0,219700.0,0.613,0.09699999999999999
+1,Internal-Real,2013,Current work status of head,Retired,30800.0,55000.0,0.442,0.27
+1,Internal-Real,2013,Current work status of head,Other not working,26200.0,44800.0,0.28800000000000003,0.064
+1,Internal-Real,2013,Current occupation of head,Managerial or professional,90400.0,166700.0,0.691,0.28600000000000003
+1,Internal-Real,2013,Current occupation of head,"Technical, sales, or services",41800.0,66200.0,0.489,0.203
+1,Internal-Real,2013,Current occupation of head,Other occupation,52300.0,62500.0,0.54,0.177
+1,Internal-Real,2013,Current occupation of head,Retired or other not working,29900.0,53000.0,0.413,0.33399999999999996
+1,Internal-Real,2013,Region,Northeast,60100.0,110500.0,0.51,0.18100000000000002
+1,Internal-Real,2013,Region,Midwest,45500.0,77500.0,0.526,0.221
+1,Internal-Real,2013,Region,South,43900.0,80300.0,0.529,0.375
+1,Internal-Real,2013,Region,West,52300.0,101400.0,0.552,0.223
+1,Internal-Real,2013,Urbanicity,Metropolitan statistical area (MSA),50200.0,95200.0,0.532,0.87
+1,Internal-Real,2013,Urbanicity,Non-MSA,37800.0,54300.0,0.515,0.13
+1,Internal-Real,2013,Housing status,Owner,65300.0,115900.0,0.589,0.652
+1,Internal-Real,2013,Housing status,Renter or other,28700.0,41300.0,0.42,0.348
+1,Internal-Real,2013,Percentile of net worth,Less than 25,24500.0,32400.0,0.336,0.25
+1,Internal-Real,2013,Percentile of net worth,25–49.9,39800.0,48300.0,0.45799999999999996,0.25
+1,Internal-Real,2013,Percentile of net worth,50–74.9,57500.0,67900.0,0.599,0.25
+1,Internal-Real,2013,Percentile of net worth,75–89.9,90200.0,103100.0,0.6940000000000001,0.15
+1,Internal-Real,2013,Percentile of net worth,90–100,189100.0,372400.0,0.779,0.1
+1,Internal-Real,2016,,All families,52700.0,102700.0,0.5539999999999999,1.0
+1,Internal-Real,2016,Percentile of income,Less than 20,15100.0,14400.0,0.321,0.2
+1,Internal-Real,2016,Percentile of income,20–39.9,31400.0,31800.0,0.452,0.2
+1,Internal-Real,2016,Percentile of income,40–59.9,52700.0,53400.0,0.5720000000000001,0.2
+1,Internal-Real,2016,Percentile of income,60–79.9,86100.0,87400.0,0.648,0.2
+1,Internal-Real,2016,Percentile of income,80–89.9,136000.0,138700.0,0.728,0.1
+1,Internal-Real,2016,Percentile of income,90–100,260200.0,514700.00000000006,0.823,0.1
+1,Internal-Real,2016,Age of head (years),Less than 35,40500.0,56400.0,0.5670000000000001,0.203
+1,Internal-Real,2016,Age of head (years),35–44,65800.0,97100.0,0.5670000000000001,0.168
+1,Internal-Real,2016,Age of head (years),45–54,69500.0,131400.0,0.551,0.183
+1,Internal-Real,2016,Age of head (years),55–64,61000.0,141300.0,0.55,0.192
+1,Internal-Real,2016,Age of head (years),65–74,50100.0,106600.0,0.5429999999999999,0.141
+1,Internal-Real,2016,Age of head (years),75 or more,40000.0,77100.0,0.535,0.11199999999999999
+1,Internal-Real,2016,Family structure,Single with child(ren),32600.0,53100.0,0.413,0.121
+1,Internal-Real,2016,Family structure,"Single, no child, age less than 55",33400.0,58100.0,0.541,0.142
+1,Internal-Real,2016,Family structure,"Single, no child, age 55 or more",28400.0,51300.0,0.47100000000000003,0.17
+1,Internal-Real,2016,Family structure,Couple with child(ren),81400.0,136000.0,0.586,0.28800000000000003
+1,Internal-Real,2016,Family structure,"Couple, no child",74300.0,143900.0,0.639,0.28
+1,Internal-Real,2016,Education of head,No high school diploma,26500.0,38800.0,0.39299999999999996,0.127
+1,Internal-Real,2016,Education of head,High school diploma,40500.0,57200.0,0.506,0.26
+1,Internal-Real,2016,Education of head,Some college,47700.0,67400.0,0.542,0.273
+1,Internal-Real,2016,Education of head,College degree,92100.0,189700.0,0.66,0.34
+1,Internal-Real,2016,Race or ethnicity of respondent,White non-Hispanic,61200.0,123400.0,0.594,0.647
+1,Internal-Real,2016,Race or ethnicity of respondent,Black or African-American non-hispanic,35400.0,54000.0,0.475,0.146
+1,Internal-Real,2016,Race or ethnicity of respondent,Hispanic or Latino,38500.0,57300.0,0.423,0.102
+1,Internal-Real,2016,Race or ethnicity of respondent,Other or Multiple Race,50600.0,86900.0,0.544,0.105
+1,Internal-Real,2016,Current work status of head,Working for someone else,62900.0,105200.0,0.594,0.562
+1,Internal-Real,2016,Current work status of head,Self-employed,70900.0,210800.0,0.622,0.106
+1,Internal-Real,2016,Current work status of head,Retired,36500.0,68300.0,0.48200000000000004,0.28
+1,Internal-Real,2016,Current work status of head,Other not working,19700.0,38900.0,0.365,0.051
+1,Internal-Real,2016,Current occupation of head,Managerial or professional,91100.0,190400.0,0.6759999999999999,0.284
+1,Internal-Real,2016,Current occupation of head,"Technical, sales, or services",46800.0,75200.0,0.544,0.215
+1,Internal-Real,2016,Current occupation of head,Other occupation,54200.0,67300.0,0.5379999999999999,0.17
+1,Internal-Real,2016,Current occupation of head,Retired or other not working,33500.0,63800.0,0.46399999999999997,0.331
+1,Internal-Real,2016,Region,Northeast,60800.0,128900.0,0.541,0.177
+1,Internal-Real,2016,Region,Midwest,51600.0,96300.0,0.5720000000000001,0.218
+1,Internal-Real,2016,Region,South,48600.0,94400.0,0.551,0.38
+1,Internal-Real,2016,Region,West,54300.0,102400.0,0.552,0.225
+1,Internal-Real,2016,Urbanicity,Metropolitan statistical area (MSA),55200.0,109700.0,0.557,0.875
+1,Internal-Real,2016,Urbanicity,Non-MSA,38700.0,54100.0,0.532,0.125
+1,Internal-Real,2016,Housing status,Owner,71200.0,134000.0,0.623,0.637
+1,Internal-Real,2016,Housing status,Renter or other,31600.0,47800.0,0.433,0.363
+1,Internal-Real,2016,Percentile of net worth,Less than 25,25300.0,34300.0,0.369,0.25
+1,Internal-Real,2016,Percentile of net worth,25–49.9,42000.0,50900.0,0.483,0.25
+1,Internal-Real,2016,Percentile of net worth,50–74.9,64800.0,74900.0,0.638,0.25
+1,Internal-Real,2016,Percentile of net worth,75–89.9,90800.0,113400.0,0.684,0.15
+1,Internal-Real,2016,Percentile of net worth,90–100,215900.0,456900.0,0.7879999999999999,0.1

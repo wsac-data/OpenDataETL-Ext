@@ -1,941 +1,471 @@
-SCF Table,!Calculation,Year,Characteristic,Sub-Characteristic,"Net Worth, Mean","Net Worth, Median"
-4,Internal-Nominal,1989,Age of head (years),35–44,147600,56400
-4,Internal-Nominal,1989,Age of head (years),45–54,276400,98700
-4,Internal-Nominal,1989,Age of head (years),55–64,307800,97900
-4,Internal-Nominal,1989,Age of head (years),65–74,279800,76700
-4,Internal-Nominal,1989,Age of head (years),75 or more,241600,72400
-4,Internal-Nominal,1989,Age of head (years),Less than 35,46800,7800
-4,Internal-Nominal,1989,Current occupation of head,Managerial or professional,379500,108600
-4,Internal-Nominal,1989,Current occupation of head,Other occupation,107600,37000
-4,Internal-Nominal,1989,Current occupation of head,Retired or other not working,152800,44100
-4,Internal-Nominal,1989,Current occupation of head,"Technical, sales, or services",130700,27200
-4,Internal-Nominal,1989,Current work status of head,Other not working,39300,800
-4,Internal-Nominal,1989,Current work status of head,Retired,182700,66100
-4,Internal-Nominal,1989,Current work status of head,Self-employed,651600,169700
-4,Internal-Nominal,1989,Current work status of head,Working for someone else,113700,38000
-4,Internal-Nominal,1989,Education of head,College degree,399100,125400
-4,Internal-Nominal,1989,Education of head,High school diploma,111400,36800
-4,Internal-Nominal,1989,Education of head,No high school diploma,83100,24100
-4,Internal-Nominal,1989,Education of head,Some college,184700,46100
-4,Internal-Nominal,1989,Family structure,Couple with child(ren),201000,62000
-4,Internal-Nominal,1989,Family structure,"Couple, no child",347200,111000
-4,Internal-Nominal,1989,Family structure,Single with child(ren),63300,7200
-4,Internal-Nominal,1989,Family structure,"Single, no child, age 55 or more",122600,40900
-4,Internal-Nominal,1989,Family structure,"Single, no child, age less than 55",72600,8100
-4,Internal-Nominal,1989,Housing status,Owner,269300,100300
-4,Internal-Nominal,1989,Housing status,Renter or other,38400,2000
-4,Internal-Nominal,1989,Percentile of income,20–39.9,65700,24100
-4,Internal-Nominal,1989,Percentile of income,40–59.9,101300,41600
-4,Internal-Nominal,1989,Percentile of income,60–79.9,136000,66500
-4,Internal-Nominal,1989,Percentile of income,80–89.9,222400,132000
-4,Internal-Nominal,1989,Percentile of income,90–100,981200,388500
-4,Internal-Nominal,1989,Percentile of income,Less than 20,24700,1800
-4,Internal-Nominal,1989,Percentile of net worth,25–49.9,23000,21100
-4,Internal-Nominal,1989,Percentile of net worth,50–74.9,89000,86600
-4,Internal-Nominal,1989,Percentile of net worth,75–89.9,226000,210200
-4,Internal-Nominal,1989,Percentile of net worth,90–100,1241900,688600
-4,Internal-Nominal,1989,Percentile of net worth,Less than 25,-600,200
-4,Internal-Nominal,1989,Race or ethnicity of respondent,Black or African-American non-hispanic,41400,4000
-4,Internal-Nominal,1989,Race or ethnicity of respondent,Hispanic or Latino,45300,5200
-4,Internal-Nominal,1989,Race or ethnicity of respondent,Other or Multiple Race,153800,35000
-4,Internal-Nominal,1989,Race or ethnicity of respondent,White non-Hispanic,227500,71100
-4,Internal-Nominal,1989,Region,Midwest,187400,52500
-4,Internal-Nominal,1989,Region,Northeast,215600,87400
-4,Internal-Nominal,1989,Region,South,131500,35300
-4,Internal-Nominal,1989,Region,West,245600,45800
-4,Internal-Nominal,1989,Urbanicity,Metropolitan statistical area (MSA),198600,46400
-4,Internal-Nominal,1989,Urbanicity,Non-MSA,132200,49400
-4,Internal-Nominal,1989,(blank),All families,185900,46900
-4,Internal-Nominal,1992,Age of head (years),35–44,133300,44600
-4,Internal-Nominal,1992,Age of head (years),45–54,268900,78300
-4,Internal-Nominal,1992,Age of head (years),55–64,338000,114000
-4,Internal-Nominal,1992,Age of head (years),65–74,286500,98700
-4,Internal-Nominal,1992,Age of head (years),75 or more,214200,86900
-4,Internal-Nominal,1992,Age of head (years),Less than 35,45400,9200
-4,Internal-Nominal,1992,Current occupation of head,Managerial or professional,375900,101300
-4,Internal-Nominal,1992,Current occupation of head,Other occupation,87500,32800
-4,Internal-Nominal,1992,Current occupation of head,Retired or other not working,157400,50000
-4,Internal-Nominal,1992,Current occupation of head,"Technical, sales, or services",137000,36500
-4,Internal-Nominal,1992,Current work status of head,Other not working,53100,3300
-4,Internal-Nominal,1992,Current work status of head,Retired,189700,70500
-4,Internal-Nominal,1992,Current work status of head,Self-employed,599900,144300
-4,Internal-Nominal,1992,Current work status of head,Working for someone else,122400,39500
-4,Internal-Nominal,1992,Education of head,College degree,369800,109700
-4,Internal-Nominal,1992,Education of head,High school diploma,111700,38400
-4,Internal-Nominal,1992,Education of head,No high school diploma,70100,18700
-4,Internal-Nominal,1992,Education of head,Some college,167900,57200
-4,Internal-Nominal,1992,Family structure,Couple with child(ren),205800,60500
-4,Internal-Nominal,1992,Family structure,"Couple, no child",317300,104100
-4,Internal-Nominal,1992,Family structure,Single with child(ren),54200,8500
-4,Internal-Nominal,1992,Family structure,"Single, no child, age 55 or more",156000,58200
-4,Internal-Nominal,1992,Family structure,"Single, no child, age less than 55",70900,14900
-4,Internal-Nominal,1992,Housing status,Owner,270100,98900
-4,Internal-Nominal,1992,Housing status,Renter or other,38700,3200
-4,Internal-Nominal,1992,Percentile of income,20–39.9,64200,27800
-4,Internal-Nominal,1992,Percentile of income,40–59.9,101200,39600
-4,Internal-Nominal,1992,Percentile of income,60–79.9,140800,75700
-4,Internal-Nominal,1992,Percentile of income,80–89.9,226400,115700
-4,Internal-Nominal,1992,Percentile of income,90–100,960900,363700
-4,Internal-Nominal,1992,Percentile of income,Less than 20,32900,4000
-4,Internal-Nominal,1992,Percentile of net worth,25–49.9,25400,23600
-4,Internal-Nominal,1992,Percentile of net worth,50–74.9,90600,87600
-4,Internal-Nominal,1992,Percentile of net worth,75–89.9,218600,204100
-4,Internal-Nominal,1992,Percentile of net worth,90–100,1249400,664800
-4,Internal-Nominal,1992,Percentile of net worth,Less than 25,-600,500
-4,Internal-Nominal,1992,Race or ethnicity of respondent,Black or African-American non-hispanic,48100,9900
-4,Internal-Nominal,1992,Race or ethnicity of respondent,Hispanic or Latino,54100,6800
-4,Internal-Nominal,1992,Race or ethnicity of respondent,Other or Multiple Race,197900,37200
-4,Internal-Nominal,1992,Race or ethnicity of respondent,White non-Hispanic,222400,69700
-4,Internal-Nominal,1992,Region,Midwest,173200,57000
-4,Internal-Nominal,1992,Region,Northeast,210800,64100
-4,Internal-Nominal,1992,Region,South,140900,34500
-4,Internal-Nominal,1992,Region,West,254500,71500
-4,Internal-Nominal,1992,Urbanicity,Metropolitan statistical area (MSA),208800,53000
-4,Internal-Nominal,1992,Urbanicity,Non-MSA,88900,38800
-4,Internal-Nominal,1992,(blank),All families,186600,49500
-4,Internal-Nominal,1995,Age of head (years),35–44,143700,52300
-4,Internal-Nominal,1995,Age of head (years),45–54,296700,94900
-4,Internal-Nominal,1995,Age of head (years),55–64,383500,115500
-4,Internal-Nominal,1995,Age of head (years),65–74,348700,111000
-4,Internal-Nominal,1995,Age of head (years),75 or more,258300,93000
-4,Internal-Nominal,1995,Age of head (years),Less than 35,43200,12000
-4,Internal-Nominal,1995,Current occupation of head,Managerial or professional,430800,110600
-4,Internal-Nominal,1995,Current occupation of head,Other occupation,111800,45100
-4,Internal-Nominal,1995,Current occupation of head,Retired or other not working,191000,62300
-4,Internal-Nominal,1995,Current occupation of head,"Technical, sales, or services",162200,37300
-4,Internal-Nominal,1995,Current work status of head,Other not working,57000,3600
-4,Internal-Nominal,1995,Current work status of head,Retired,225200,81200
-4,Internal-Nominal,1995,Current work status of head,Self-employed,701100,155800
-4,Internal-Nominal,1995,Current work status of head,Working for someone else,137100,49200
-4,Internal-Nominal,1995,Education of head,College degree,437600,121100
-4,Internal-Nominal,1995,Education of head,High school diploma,133000,51900
-4,Internal-Nominal,1995,Education of head,No high school diploma,84200,22700
-4,Internal-Nominal,1995,Education of head,Some college,182500,50000
-4,Internal-Nominal,1995,Family structure,Couple with child(ren),215100,65900
-4,Internal-Nominal,1995,Family structure,"Couple, no child",361300,115400
-4,Internal-Nominal,1995,Family structure,Single with child(ren),72700,12000
-4,Internal-Nominal,1995,Family structure,"Single, no child, age 55 or more",197900,70800
-4,Internal-Nominal,1995,Family structure,"Single, no child, age less than 55",72600,17500
-4,Internal-Nominal,1995,Housing status,Owner,303900,104100
-4,Internal-Nominal,1995,Housing status,Renter or other,43800,4900
-4,Internal-Nominal,1995,Percentile of income,20–39.9,79100,33500
-4,Internal-Nominal,1995,Percentile of income,40–59.9,102300,46400
-4,Internal-Nominal,1995,Percentile of income,60–79.9,161300,76100
-4,Internal-Nominal,1995,Percentile of income,80–89.9,257500,128100
-4,Internal-Nominal,1995,Percentile of income,90–100,1088600,355600
-4,Internal-Nominal,1995,Percentile of income,Less than 20,44400,6000
-4,Internal-Nominal,1995,Percentile of net worth,25–49.9,30600,28200
-4,Internal-Nominal,1995,Percentile of net worth,50–74.9,99600,95100
-4,Internal-Nominal,1995,Percentile of net worth,75–89.9,238700,221200
-4,Internal-Nominal,1995,Percentile of net worth,90–100,1437400,683300
-4,Internal-Nominal,1995,Percentile of net worth,Less than 25,-200,1000
-4,Internal-Nominal,1995,Race or ethnicity of respondent,Black or African-American non-hispanic,44100,10900
-4,Internal-Nominal,1995,Race or ethnicity of respondent,Hispanic or Latino,61500,12200
-4,Internal-Nominal,1995,Race or ethnicity of respondent,Other or Multiple Race,207000,31200
-4,Internal-Nominal,1995,Race or ethnicity of respondent,White non-Hispanic,251000,76600
-4,Internal-Nominal,1995,Region,Midwest,199200,65600
-4,Internal-Nominal,1995,Region,Northeast,251000,82900
-4,Internal-Nominal,1995,Region,South,186600,44100
-4,Internal-Nominal,1995,Region,West,232500,54700
-4,Internal-Nominal,1995,Urbanicity,Metropolitan statistical area (MSA),226200,59300
-4,Internal-Nominal,1995,Urbanicity,Non-MSA,130000,51100
-4,Internal-Nominal,1995,(blank),All families,212100,57800
-4,Internal-Nominal,1998,Age of head (years),35–44,196500,63400
-4,Internal-Nominal,1998,Age of head (years),45–54,363800,105600
-4,Internal-Nominal,1998,Age of head (years),55–64,532700,127900
-4,Internal-Nominal,1998,Age of head (years),65–74,466700,146500
-4,Internal-Nominal,1998,Age of head (years),75 or more,310800,125600
-4,Internal-Nominal,1998,Age of head (years),Less than 35,63900,9100
-4,Internal-Nominal,1998,Current occupation of head,Managerial or professional,541900,132300
-4,Internal-Nominal,1998,Current occupation of head,Other occupation,126500,50000
-4,Internal-Nominal,1998,Current occupation of head,Retired or other not working,268300,81900
-4,Internal-Nominal,1998,Current occupation of head,"Technical, sales, or services",193200,40800
-4,Internal-Nominal,1998,Current work status of head,Other not working,74000,3600
-4,Internal-Nominal,1998,Current work status of head,Retired,307500,113000
-4,Internal-Nominal,1998,Current work status of head,Self-employed,926000,248400
-4,Internal-Nominal,1998,Current work status of head,Working for someone else,168300,52800
-4,Internal-Nominal,1998,Education of head,College degree,612600,170200
-4,Internal-Nominal,1998,Education of head,High school diploma,157800,54100
-4,Internal-Nominal,1998,Education of head,No high school diploma,78900,21100
-4,Internal-Nominal,1998,Education of head,Some college,224700,76700
-4,Internal-Nominal,1998,Family structure,Couple with child(ren),298800,87100
-4,Internal-Nominal,1998,Family structure,"Couple, no child",482400,148500
-4,Internal-Nominal,1998,Family structure,Single with child(ren),102400,16100
-4,Internal-Nominal,1998,Family structure,"Single, no child, age 55 or more",246000,87300
-4,Internal-Nominal,1998,Family structure,"Single, no child, age less than 55",92200,15500
-4,Internal-Nominal,1998,Housing status,Owner,404900,132100
-4,Internal-Nominal,1998,Housing status,Renter or other,43400,4200
-4,Internal-Nominal,1998,Percentile of income,20–39.9,96100,33100
-4,Internal-Nominal,1998,Percentile of income,40–59.9,126500,53400
-4,Internal-Nominal,1998,Percentile of income,60–79.9,206400,112300
-4,Internal-Nominal,1998,Percentile of income,80–89.9,326000,188500
-4,Internal-Nominal,1998,Percentile of income,90–100,1548800,452400
-4,Internal-Nominal,1998,Percentile of income,Less than 20,47800,5800
-4,Internal-Nominal,1998,Percentile of net worth,25–49.9,35900,32700
-4,Internal-Nominal,1998,Percentile of net worth,50–74.9,128600,120500
-4,Internal-Nominal,1998,Percentile of net worth,75–89.9,322100,310100
-4,Internal-Nominal,1998,Percentile of net worth,90–100,1938700,896300
-4,Internal-Nominal,1998,Percentile of net worth,Less than 25,-1800,500
-4,Internal-Nominal,1998,Race or ethnicity of respondent,Black or African-American non-hispanic,64100,15500
-4,Internal-Nominal,1998,Race or ethnicity of respondent,Hispanic or Latino,87100,9800
-4,Internal-Nominal,1998,Race or ethnicity of respondent,Other or Multiple Race,219100,38400
-4,Internal-Nominal,1998,Race or ethnicity of respondent,White non-Hispanic,337800,95800
-4,Internal-Nominal,1998,Region,Midwest,249100,80300
-4,Internal-Nominal,1998,Region,Northeast,303500,94300
-4,Internal-Nominal,1998,Region,South,267200,61300
-4,Internal-Nominal,1998,Region,West,327800,61300
-4,Internal-Nominal,1998,Urbanicity,Metropolitan statistical area (MSA),306600,72500
-4,Internal-Nominal,1998,Urbanicity,Non-MSA,144800,69100
-4,Internal-Nominal,1998,(blank),All families,282900,71700
-4,Internal-Nominal,2001,Age of head (years),35–44,260000,77600
-4,Internal-Nominal,2001,Age of head (years),45–54,486300,134600
-4,Internal-Nominal,2001,Age of head (years),55–64,733300,185400
-4,Internal-Nominal,2001,Age of head (years),65–74,678500,177800
-4,Internal-Nominal,2001,Age of head (years),75 or more,469100,155300
-4,Internal-Nominal,2001,Age of head (years),Less than 35,90700,11700
-4,Internal-Nominal,2001,Current occupation of head,Managerial or professional,769000,197600
-4,Internal-Nominal,2001,Current occupation of head,Other occupation,136400,48100
-4,Internal-Nominal,2001,Current occupation of head,Retired or other not working,409200,96500
-4,Internal-Nominal,2001,Current occupation of head,"Technical, sales, or services",199700,46700
-4,Internal-Nominal,2001,Current work status of head,Other not working,178200,7700
-4,Internal-Nominal,2001,Current work status of head,Retired,454000,115100
-4,Internal-Nominal,2001,Current work status of head,Self-employed,1262100,352300
-4,Internal-Nominal,2001,Current work status of head,Working for someone else,226000,65100
-4,Internal-Nominal,2001,Education of head,College degree,904700,243000
-4,Internal-Nominal,2001,Education of head,High school diploma,181200,58100
-4,Internal-Nominal,2001,Education of head,No high school diploma,104000,25500
-4,Internal-Nominal,2001,Education of head,Some college,278400,82900
-4,Internal-Nominal,2001,Family structure,Couple with child(ren),440700,113600
-4,Internal-Nominal,2001,Family structure,"Couple, no child",644800,177100
-4,Internal-Nominal,2001,Family structure,Single with child(ren),95800,13200
-4,Internal-Nominal,2001,Family structure,"Single, no child, age 55 or more",290400,91400
-4,Internal-Nominal,2001,Family structure,"Single, no child, age less than 55",151400,19600
-4,Internal-Nominal,2001,Housing status,Owner,560800,172600
-4,Internal-Nominal,2001,Housing status,Renter or other,55200,4800
-4,Internal-Nominal,2001,Percentile of income,20–39.9,115200,37400
-4,Internal-Nominal,2001,Percentile of income,40–59.9,162700,63700
-4,Internal-Nominal,2001,Percentile of income,60–79.9,294300,144300
-4,Internal-Nominal,2001,Percentile of income,80–89.9,457300,263100
-4,Internal-Nominal,2001,Percentile of income,90–100,2266300,833600
-4,Internal-Nominal,2001,Percentile of income,Less than 20,52800,7900
-4,Internal-Nominal,2001,Percentile of net worth,25–49.9,44400,40900
-4,Internal-Nominal,2001,Percentile of net worth,50–74.9,167200,158000
-4,Internal-Nominal,2001,Percentile of net worth,75–89.9,451700,430900
-4,Internal-Nominal,2001,Percentile of net worth,90–100,2766500,1307800
-4,Internal-Nominal,2001,Percentile of net worth,Less than 25,100,1200
-4,Internal-Nominal,2001,Race or ethnicity of respondent,Black or African-American non-hispanic,71600,19400
-4,Internal-Nominal,2001,Race or ethnicity of respondent,Hispanic or Latino,88500,11400
-4,Internal-Nominal,2001,Race or ethnicity of respondent,Other or Multiple Race,309500,52600
-4,Internal-Nominal,2001,Race or ethnicity of respondent,White non-Hispanic,488800,122800
-4,Internal-Nominal,2001,Region,Midwest,341400,106300
-4,Internal-Nominal,2001,Region,Northeast,454000,93300
-4,Internal-Nominal,2001,Region,South,376500,73800
-4,Internal-Nominal,2001,Region,West,442200,89000
-4,Internal-Nominal,2001,Urbanicity,Metropolitan statistical area (MSA),428400,88200
-4,Internal-Nominal,2001,Urbanicity,Non-MSA,204100,80000
-4,Internal-Nominal,2001,(blank),All families,397400,86600
-4,Internal-Nominal,2004,Age of head (years),35–44,300000,69400
-4,Internal-Nominal,2004,Age of head (years),45–54,543900,145200
-4,Internal-Nominal,2004,Age of head (years),55–64,848600,252100
-4,Internal-Nominal,2004,Age of head (years),65–74,691000,190100
-4,Internal-Nominal,2004,Age of head (years),75 or more,528100,163100
-4,Internal-Nominal,2004,Age of head (years),Less than 35,73500,14200
-4,Internal-Nominal,2004,Current occupation of head,Managerial or professional,865300,197500
-4,Internal-Nominal,2004,Current occupation of head,Other occupation,147500,56500
-4,Internal-Nominal,2004,Current occupation of head,Retired or other not working,421500,111100
-4,Internal-Nominal,2004,Current occupation of head,"Technical, sales, or services",247600,45000
-4,Internal-Nominal,2004,Current work status of head,Other not working,162300,11800
-4,Internal-Nominal,2004,Current work status of head,Retired,469100,139800
-4,Internal-Nominal,2004,Current work status of head,Self-employed,1425200,349500
-4,Internal-Nominal,2004,Current work status of head,Working for someone else,270000,67200
-4,Internal-Nominal,2004,Education of head,College degree,967400,270600
-4,Internal-Nominal,2004,Education of head,High school diploma,197400,68700
-4,Internal-Nominal,2004,Education of head,No high school diploma,136500,20600
-4,Internal-Nominal,2004,Education of head,Some college,302500,78600
-4,Internal-Nominal,2004,Family structure,Couple with child(ren),504500,122200
-4,Internal-Nominal,2004,Family structure,"Couple, no child",754500,208800
-4,Internal-Nominal,2004,Family structure,Single with child(ren),130300,20900
-4,Internal-Nominal,2004,Family structure,"Single, no child, age 55 or more",352700,116500
-4,Internal-Nominal,2004,Family structure,"Single, no child, age less than 55",156300,21100
-4,Internal-Nominal,2004,Housing status,Owner,626500,184700
-4,Internal-Nominal,2004,Housing status,Renter or other,54100,4000
-4,Internal-Nominal,2004,Percentile of income,20–39.9,121500,33700
-4,Internal-Nominal,2004,Percentile of income,40–59.9,194700,72000
-4,Internal-Nominal,2004,Percentile of income,60–79.9,341500,160000
-4,Internal-Nominal,2004,Percentile of income,80–89.9,489900,313700
-4,Internal-Nominal,2004,Percentile of income,90–100,2542200,929600
-4,Internal-Nominal,2004,Percentile of income,Less than 20,72700,7500
-4,Internal-Nominal,2004,Percentile of net worth,25–49.9,47100,43600
-4,Internal-Nominal,2004,Percentile of net worth,50–74.9,185700,171000
-4,Internal-Nominal,2004,Percentile of net worth,75–89.9,528800,509900
-4,Internal-Nominal,2004,Percentile of net worth,90–100,3120900,1430100
-4,Internal-Nominal,2004,Percentile of net worth,Less than 25,-1400,1700
-4,Internal-Nominal,2004,Race or ethnicity of respondent,Black or African-American non-hispanic,112300,20400
-4,Internal-Nominal,2004,Race or ethnicity of respondent,Hispanic or Latino,124300,15300
-4,Internal-Nominal,2004,Race or ethnicity of respondent,Other or Multiple Race,290200,70900
-4,Internal-Nominal,2004,Race or ethnicity of respondent,White non-Hispanic,563400,141000
-4,Internal-Nominal,2004,Region,Midwest,437900,115000
-4,Internal-Nominal,2004,Region,Northeast,569300,161700
-4,Internal-Nominal,2004,Region,South,348500,63800
-4,Internal-Nominal,2004,Region,West,526100,95000
-4,Internal-Nominal,2004,Urbanicity,Metropolitan statistical area (MSA),505800,104400
-4,Internal-Nominal,2004,Urbanicity,Non-MSA,176900,59300
-4,Internal-Nominal,2004,(blank),All families,449400,93100
-4,Internal-Nominal,2007,Age of head (years),35–44,326300,88200
-4,Internal-Nominal,2007,Age of head (years),45–54,662200,184900
-4,Internal-Nominal,2007,Age of head (years),55–64,941800,254100
-4,Internal-Nominal,2007,Age of head (years),65–74,1015700,239400
-4,Internal-Nominal,2007,Age of head (years),75 or more,638300,213500
-4,Internal-Nominal,2007,Age of head (years),Less than 35,106000,11800
-4,Internal-Nominal,2007,Current occupation of head,Managerial or professional,1121300,247100
-4,Internal-Nominal,2007,Current occupation of head,Other occupation,192100,65200
-4,Internal-Nominal,2007,Current occupation of head,Retired or other not working,477800,129400
-4,Internal-Nominal,2007,Current occupation of head,"Technical, sales, or services",310300,73500
-4,Internal-Nominal,2007,Current work status of head,Other not working,124200,5700
-4,Internal-Nominal,2007,Current work status of head,Retired,543200,162100
-4,Internal-Nominal,2007,Current work status of head,Self-employed,1963800,388700
-4,Internal-Nominal,2007,Current work status of head,Working for someone else,352000,94000
-4,Internal-Nominal,2007,Education of head,College degree,1260800,322800
-4,Internal-Nominal,2007,Education of head,High school diploma,251800,80500
-4,Internal-Nominal,2007,Education of head,No high school diploma,142900,33200
-4,Internal-Nominal,2007,Education of head,Some college,361700,98100
-4,Internal-Nominal,2007,Family structure,Couple with child(ren),600400,140800
-4,Internal-Nominal,2007,Family structure,"Couple, no child",952500,225500
-4,Internal-Nominal,2007,Family structure,Single with child(ren),178900,23300
-4,Internal-Nominal,2007,Family structure,"Single, no child, age 55 or more",390300,143900
-4,Internal-Nominal,2007,Family structure,"Single, no child, age less than 55",207300,25100
-4,Internal-Nominal,2007,Housing status,Owner,780100,234800
-4,Internal-Nominal,2007,Housing status,Renter or other,71300,5100
-4,Internal-Nominal,2007,Percentile of income,20–39.9,134900,37800
-4,Internal-Nominal,2007,Percentile of income,40–59.9,210500,88100
-4,Internal-Nominal,2007,Percentile of income,60–79.9,375100,205800
-4,Internal-Nominal,2007,Percentile of income,80–89.9,609000,356200
-4,Internal-Nominal,2007,Percentile of income,90–100,3316500,1119000
-4,Internal-Nominal,2007,Percentile of income,Less than 20,105300,8100
-4,Internal-Nominal,2007,Percentile of net worth,25–49.9,58100,54300
-4,Internal-Nominal,2007,Percentile of net worth,50–74.9,227700,220300
-4,Internal-Nominal,2007,Percentile of net worth,75–89.9,588000,573400
-4,Internal-Nominal,2007,Percentile of net worth,90–100,3985700,1898700
-4,Internal-Nominal,2007,Percentile of net worth,Less than 25,-2200,1200
-4,Internal-Nominal,2007,Race or ethnicity of respondent,Black or African-American non-hispanic,134500,21100
-4,Internal-Nominal,2007,Race or ethnicity of respondent,Hispanic or Latino,186100,21100
-4,Internal-Nominal,2007,Race or ethnicity of respondent,Other or Multiple Race,394700,60700
-4,Internal-Nominal,2007,Race or ethnicity of respondent,White non-Hispanic,694000,171300
-4,Internal-Nominal,2007,Region,Midwest,468800,107500
-4,Internal-Nominal,2007,Region,Northeast,652600,159500
-4,Internal-Nominal,2007,Region,South,502000,97400
-4,Internal-Nominal,2007,Region,West,663700,156600
-4,Internal-Nominal,2007,Urbanicity,Metropolitan statistical area (MSA),622700,132500
-4,Internal-Nominal,2007,Urbanicity,Non-MSA,242400,78200
-4,Internal-Nominal,2007,(blank),All families,557800,120600
-4,Internal-Nominal,2010,Age of head (years),35–44,217400,42100
-4,Internal-Nominal,2010,Age of head (years),45–54,573000,117900
-4,Internal-Nominal,2010,Age of head (years),55–64,880500,179400
-4,Internal-Nominal,2010,Age of head (years),65–74,848400,206700
-4,Internal-Nominal,2010,Age of head (years),75 or more,677900,216800
-4,Internal-Nominal,2010,Age of head (years),Less than 35,65300,9300
-4,Internal-Nominal,2010,Current occupation of head,Managerial or professional,1047000,167300
-4,Internal-Nominal,2010,Current occupation of head,Other occupation,162800,46600
-4,Internal-Nominal,2010,Current occupation of head,Retired or other not working,410400,93500
-4,Internal-Nominal,2010,Current occupation of head,"Technical, sales, or services",219100,32600
-4,Internal-Nominal,2010,Current work status of head,Other not working,137500,11900
-4,Internal-Nominal,2010,Current work status of head,Retired,485300,151100
-4,Internal-Nominal,2010,Current work status of head,Self-employed,1743700,285600
-4,Internal-Nominal,2010,Current work status of head,Working for someone else,298800,55200
-4,Internal-Nominal,2010,Education of head,College degree,1125900,249600
-4,Internal-Nominal,2010,Education of head,High school diploma,218100,56700
-4,Internal-Nominal,2010,Education of head,No high school diploma,110700,16100
-4,Internal-Nominal,2010,Education of head,Some college,273400,57200
-4,Internal-Nominal,2010,Family structure,Couple with child(ren),555700,86700
-4,Internal-Nominal,2010,Family structure,"Couple, no child",864800,205700
-4,Internal-Nominal,2010,Family structure,Single with child(ren),143700,15500
-4,Internal-Nominal,2010,Family structure,"Single, no child, age 55 or more",391600,102000
-4,Internal-Nominal,2010,Family structure,"Single, no child, age less than 55",117500,14600
-4,Internal-Nominal,2010,Housing status,Owner,713400,174500
-4,Internal-Nominal,2010,Housing status,Renter or other,57200,5100
-4,Internal-Nominal,2010,Percentile of income,20–39.9,127900,25600
-4,Internal-Nominal,2010,Percentile of income,40–59.9,199000,65900
-4,Internal-Nominal,2010,Percentile of income,60–79.9,294000,128600
-4,Internal-Nominal,2010,Percentile of income,80–89.9,567300,286600
-4,Internal-Nominal,2010,Percentile of income,90–100,2944300,1194300
-4,Internal-Nominal,2010,Percentile of income,Less than 20,116800,6200
-4,Internal-Nominal,2010,Percentile of net worth,25–49.9,35600,32200
-4,Internal-Nominal,2010,Percentile of net worth,50–74.9,168900,157200
-4,Internal-Nominal,2010,Percentile of net worth,75–89.9,527900,482700
-4,Internal-Nominal,2010,Percentile of net worth,90–100,3716400,1864100
-4,Internal-Nominal,2010,Percentile of net worth,Less than 25,-12800,0
-4,Internal-Nominal,2010,Race or ethnicity of respondent,Black or African-American non-hispanic,99300,16000
-4,Internal-Nominal,2010,Race or ethnicity of respondent,Hispanic or Latino,115600,16200
-4,Internal-Nominal,2010,Race or ethnicity of respondent,Other or Multiple Race,335400,42600
-4,Internal-Nominal,2010,Race or ethnicity of respondent,White non-Hispanic,654500,130500
-4,Internal-Nominal,2010,Region,Midwest,399800,68400
-4,Internal-Nominal,2010,Region,Northeast,615200,119900
-4,Internal-Nominal,2010,Region,South,440800,68200
-4,Internal-Nominal,2010,Region,West,599900,73400
-4,Internal-Nominal,2010,Urbanicity,Metropolitan statistical area (MSA),553600,78400
-4,Internal-Nominal,2010,Urbanicity,Non-MSA,236100,74500
-4,Internal-Nominal,2010,(blank),All families,498800,77300
-4,Internal-Nominal,2013,Age of head (years),35–44,347200,46700
-4,Internal-Nominal,2013,Age of head (years),45–54,530100,105300
-4,Internal-Nominal,2013,Age of head (years),55–64,798400,165900
-4,Internal-Nominal,2013,Age of head (years),65–74,1057000,232100
-4,Internal-Nominal,2013,Age of head (years),75 or more,645200,194800
-4,Internal-Nominal,2013,Age of head (years),Less than 35,75500,10400
-4,Internal-Nominal,2013,Current occupation of head,Managerial or professional,1062700,192300
-4,Internal-Nominal,2013,Current occupation of head,Other occupation,172100,49500
-4,Internal-Nominal,2013,Current occupation of head,Retired or other not working,436600,91100
-4,Internal-Nominal,2013,Current occupation of head,"Technical, sales, or services",268700,31800
-4,Internal-Nominal,2013,Current work status of head,Other not working,135300,9000
-4,Internal-Nominal,2013,Current work status of head,Retired,507500,128000
-4,Internal-Nominal,2013,Current work status of head,Self-employed,2167500,358900
-4,Internal-Nominal,2013,Current work status of head,Working for someone else,314700,62000
-4,Internal-Nominal,2013,Education of head,College degree,1182900,277000
-4,Internal-Nominal,2013,Education of head,High school diploma,199600,52500
-4,Internal-Nominal,2013,Education of head,No high school diploma,108800,17200
-4,Internal-Nominal,2013,Education of head,Some college,318400,50700
-4,Internal-Nominal,2013,Family structure,Couple with child(ren),589200,92400
-4,Internal-Nominal,2013,Family structure,"Couple, no child",962800,213800
-4,Internal-Nominal,2013,Family structure,Single with child(ren),129100,14000
-4,Internal-Nominal,2013,Family structure,"Single, no child, age 55 or more",372900,108100
-4,Internal-Nominal,2013,Family structure,"Single, no child, age less than 55",148100,14100
-4,Internal-Nominal,2013,Housing status,Owner,783000,195400
-4,Internal-Nominal,2013,Housing status,Renter or other,70300,5400
-4,Internal-Nominal,2013,Percentile of income,20–39.9,112700,22400
-4,Internal-Nominal,2013,Percentile of income,40–59.9,168600,61700
-4,Internal-Nominal,2013,Percentile of income,60–79.9,333600,159200
-4,Internal-Nominal,2013,Percentile of income,80–89.9,635800,300500
-4,Internal-Nominal,2013,Percentile of income,90–100,3307900,1130700
-4,Internal-Nominal,2013,Percentile of income,Less than 20,86100,6100
-4,Internal-Nominal,2013,Percentile of net worth,25–49.9,35900,31300
-4,Internal-Nominal,2013,Percentile of net worth,50–74.9,177700,168100
-4,Internal-Nominal,2013,Percentile of net worth,75–89.9,546200,505800
-4,Internal-Nominal,2013,Percentile of net worth,90–100,4024800,1871800
-4,Internal-Nominal,2013,Percentile of net worth,Less than 25,-13400,0
-4,Internal-Nominal,2013,Race or ethnicity of respondent,Black or African-American non-hispanic,99000,13200
-4,Internal-Nominal,2013,Race or ethnicity of respondent,Hispanic or Latino,107700,13800
-4,Internal-Nominal,2013,Race or ethnicity of respondent,Other or Multiple Race,372100,41200
-4,Internal-Nominal,2013,Race or ethnicity of respondent,White non-Hispanic,705900,142000
-4,Internal-Nominal,2013,Region,Midwest,448100,75900
-4,Internal-Nominal,2013,Region,Northeast,630200,129800
-4,Internal-Nominal,2013,Region,South,451500,69500
-4,Internal-Nominal,2013,Region,West,682900,86600
-4,Internal-Nominal,2013,Urbanicity,Metropolitan statistical area (MSA),575300,84700
-4,Internal-Nominal,2013,Urbanicity,Non-MSA,261300,68000
-4,Internal-Nominal,2013,(blank),All families,534600,81200
-4,Internal-Nominal,2016,Age of head (years),35–44,288600,59800
-4,Internal-Nominal,2016,Age of head (years),45–54,727500,124200
-4,Internal-Nominal,2016,Age of head (years),55–64,1167400,187300
-4,Internal-Nominal,2016,Age of head (years),65–74,1066000,223400
-4,Internal-Nominal,2016,Age of head (years),75 or more,1066900,264800
-4,Internal-Nominal,2016,Age of head (years),Less than 35,76100,11000
-4,Internal-Nominal,2016,Current occupation of head,Managerial or professional,1349300,205000
-4,Internal-Nominal,2016,Current occupation of head,Other occupation,203900,51300
-4,Internal-Nominal,2016,Current occupation of head,Retired or other not working,616500,117600
-4,Internal-Nominal,2016,Current occupation of head,"Technical, sales, or services",327700,43200
-4,Internal-Nominal,2016,Current work status of head,Other not working,102000,8200
-4,Internal-Nominal,2016,Current work status of head,Retired,711200,158600
-4,Internal-Nominal,2016,Current work status of head,Self-employed,2398100,312000
-4,Internal-Nominal,2016,Current work status of head,Working for someone else,413400,70500
-4,Internal-Nominal,2016,Education of head,College degree,1511100,292100
-4,Internal-Nominal,2016,Education of head,High school diploma,249500,67100
-4,Internal-Nominal,2016,Education of head,No high school diploma,157100,22800
-4,Internal-Nominal,2016,Education of head,Some college,340500,66000
-4,Internal-Nominal,2016,Family structure,Couple with child(ren),721500,116700
-4,Internal-Nominal,2016,Family structure,"Couple, no child",1257600,226300
-4,Internal-Nominal,2016,Family structure,Single with child(ren),169700,21700
-4,Internal-Nominal,2016,Family structure,"Single, no child, age 55 or more",508100,114800
-4,Internal-Nominal,2016,Family structure,"Single, no child, age less than 55",182300,13800
-4,Internal-Nominal,2016,Housing status,Owner,1034200,231400
-4,Internal-Nominal,2016,Housing status,Renter or other,91000,5000
-4,Internal-Nominal,2016,Percentile of income,20–39.9,128700,32300
-4,Internal-Nominal,2016,Percentile of income,40–59.9,207300,81500
-4,Internal-Nominal,2016,Percentile of income,60–79.9,373500,168300
-4,Internal-Nominal,2016,Percentile of income,80–89.9,771000,390600
-4,Internal-Nominal,2016,Percentile of income,90–100,4550200,1640100
-4,Internal-Nominal,2016,Percentile of income,Less than 20,89500,6500
-4,Internal-Nominal,2016,Percentile of net worth,25–49.9,44700,39700
-4,Internal-Nominal,2016,Percentile of net worth,50–74.9,204100,191800
-4,Internal-Nominal,2016,Percentile of net worth,75–89.9,659300,604900
-4,Internal-Nominal,2016,Percentile of net worth,90–100,5336000,2387500
-4,Internal-Nominal,2016,Percentile of net worth,Less than 25,-12200,100
-4,Internal-Nominal,2016,Race or ethnicity of respondent,Black or African-American non-hispanic,138000,17100
-4,Internal-Nominal,2016,Race or ethnicity of respondent,Hispanic or Latino,191200,20600
-4,Internal-Nominal,2016,Race or ethnicity of respondent,Other or Multiple Race,457700,64700
-4,Internal-Nominal,2016,Race or ethnicity of respondent,White non-Hispanic,933700,171000
-4,Internal-Nominal,2016,Region,Midwest,622000,97400
-4,Internal-Nominal,2016,Region,Northeast,803800,145900
-4,Internal-Nominal,2016,Region,South,601300,82100
-4,Internal-Nominal,2016,Region,West,824900,107900
-4,Internal-Nominal,2016,Urbanicity,Metropolitan statistical area (MSA),751200,99000
-4,Internal-Nominal,2016,Urbanicity,Non-MSA,276200,87700
-4,Internal-Nominal,2016,(blank),All families,692000,97300
-4,Internal-Nominal,2004,Median,Race or ethnicity of respondent,Black or African-American non-hispanic,20400
-4,Internal-Nominal,2004,Mean,Race or ethnicity of respondent,Black or African-American non-hispanic,112300
-4,Internal-Nominal,2007,Median,Race or ethnicity of respondent,Black or African-American non-hispanic,21100
-4,Internal-Nominal,2007,Mean,Race or ethnicity of respondent,Black or African-American non-hispanic,134500
-4,Internal-Nominal,2010,Median,Race or ethnicity of respondent,Black or African-American non-hispanic,16000
-4,Internal-Nominal,2010,Mean,Race or ethnicity of respondent,Black or African-American non-hispanic,99300
-4,Internal-Nominal,2013,Median,Race or ethnicity of respondent,Black or African-American non-hispanic,13200
-4,Internal-Nominal,2013,Mean,Race or ethnicity of respondent,Black or African-American non-hispanic,99000
-4,Internal-Nominal,2016,Median,Race or ethnicity of respondent,Black or African-American non-hispanic,17100
-4,Internal-Nominal,2016,Mean,Race or ethnicity of respondent,Black or African-American non-hispanic,138000
-4,Internal-Nominal,1989,Median,Race or ethnicity of respondent,Hispanic or Latino,5200
-4,Internal-Nominal,1989,Mean,Race or ethnicity of respondent,Hispanic or Latino,45300
-4,Internal-Nominal,1992,Median,Race or ethnicity of respondent,Hispanic or Latino,6800
-4,Internal-Nominal,1992,Mean,Race or ethnicity of respondent,Hispanic or Latino,54100
-4,Internal-Nominal,1995,Median,Race or ethnicity of respondent,Hispanic or Latino,12200
-4,Internal-Nominal,1995,Mean,Race or ethnicity of respondent,Hispanic or Latino,61500
-4,Internal-Nominal,1998,Median,Race or ethnicity of respondent,Hispanic or Latino,9800
-4,Internal-Nominal,1998,Mean,Race or ethnicity of respondent,Hispanic or Latino,87100
-4,Internal-Nominal,2001,Median,Race or ethnicity of respondent,Hispanic or Latino,11400
-4,Internal-Nominal,2001,Mean,Race or ethnicity of respondent,Hispanic or Latino,88500
-4,Internal-Nominal,2004,Median,Race or ethnicity of respondent,Hispanic or Latino,15300
-4,Internal-Nominal,2004,Mean,Race or ethnicity of respondent,Hispanic or Latino,124300
-4,Internal-Nominal,2007,Median,Race or ethnicity of respondent,Hispanic or Latino,21100
-4,Internal-Nominal,2007,Mean,Race or ethnicity of respondent,Hispanic or Latino,186100
-4,Internal-Nominal,2010,Median,Race or ethnicity of respondent,Hispanic or Latino,16200
-4,Internal-Nominal,2010,Mean,Race or ethnicity of respondent,Hispanic or Latino,115600
-4,Internal-Nominal,2013,Median,Race or ethnicity of respondent,Hispanic or Latino,13800
-4,Internal-Nominal,2013,Mean,Race or ethnicity of respondent,Hispanic or Latino,107700
-4,Internal-Nominal,2016,Median,Race or ethnicity of respondent,Hispanic or Latino,20600
-4,Internal-Nominal,2016,Mean,Race or ethnicity of respondent,Hispanic or Latino,191200
-4,Internal-Nominal,1989,Median,Race or ethnicity of respondent,Other or Multiple Race,35000
-4,Internal-Nominal,1989,Mean,Race or ethnicity of respondent,Other or Multiple Race,153800
-4,Internal-Nominal,1992,Median,Race or ethnicity of respondent,Other or Multiple Race,37200
-4,Internal-Nominal,1992,Mean,Race or ethnicity of respondent,Other or Multiple Race,197900
-4,Internal-Nominal,1995,Median,Race or ethnicity of respondent,Other or Multiple Race,31200
-4,Internal-Nominal,1995,Mean,Race or ethnicity of respondent,Other or Multiple Race,207000
-4,Internal-Nominal,1998,Median,Race or ethnicity of respondent,Other or Multiple Race,38400
-4,Internal-Nominal,1998,Mean,Race or ethnicity of respondent,Other or Multiple Race,219100
-4,Internal-Nominal,2001,Median,Race or ethnicity of respondent,Other or Multiple Race,52600
-4,Internal-Nominal,2001,Mean,Race or ethnicity of respondent,Other or Multiple Race,309500
-4,Internal-Nominal,2004,Median,Race or ethnicity of respondent,Other or Multiple Race,70900
-4,Internal-Nominal,2004,Mean,Race or ethnicity of respondent,Other or Multiple Race,290200
-4,Internal-Nominal,2007,Median,Race or ethnicity of respondent,Other or Multiple Race,60700
-4,Internal-Nominal,2007,Mean,Race or ethnicity of respondent,Other or Multiple Race,394700
-4,Internal-Nominal,2010,Median,Race or ethnicity of respondent,Other or Multiple Race,42600
-4,Internal-Nominal,2010,Mean,Race or ethnicity of respondent,Other or Multiple Race,335400
-4,Internal-Nominal,2013,Median,Race or ethnicity of respondent,Other or Multiple Race,41200
-4,Internal-Nominal,2013,Mean,Race or ethnicity of respondent,Other or Multiple Race,372100
-4,Internal-Nominal,2016,Median,Race or ethnicity of respondent,Other or Multiple Race,64700
-4,Internal-Nominal,2016,Mean,Race or ethnicity of respondent,Other or Multiple Race,457700
-4,Internal-Nominal,1989,Median,Current work status of head,Working for someone else,38000
-4,Internal-Nominal,1989,Mean,Current work status of head,Working for someone else,113700
-4,Internal-Nominal,1992,Median,Current work status of head,Working for someone else,39500
-4,Internal-Nominal,1992,Mean,Current work status of head,Working for someone else,122400
-4,Internal-Nominal,1995,Median,Current work status of head,Working for someone else,49200
-4,Internal-Nominal,1995,Mean,Current work status of head,Working for someone else,137100
-4,Internal-Nominal,1998,Median,Current work status of head,Working for someone else,52800
-4,Internal-Nominal,1998,Mean,Current work status of head,Working for someone else,168300
-4,Internal-Nominal,2001,Median,Current work status of head,Working for someone else,65100
-4,Internal-Nominal,2001,Mean,Current work status of head,Working for someone else,226000
-4,Internal-Nominal,2004,Median,Current work status of head,Working for someone else,67200
-4,Internal-Nominal,2004,Mean,Current work status of head,Working for someone else,270000
-4,Internal-Nominal,2007,Median,Current work status of head,Working for someone else,94000
-4,Internal-Nominal,2007,Mean,Current work status of head,Working for someone else,352000
-4,Internal-Nominal,2010,Median,Current work status of head,Working for someone else,55200
-4,Internal-Nominal,2010,Mean,Current work status of head,Working for someone else,298800
-4,Internal-Nominal,2013,Median,Current work status of head,Working for someone else,62000
-4,Internal-Nominal,2013,Mean,Current work status of head,Working for someone else,314700
-4,Internal-Nominal,2016,Median,Current work status of head,Working for someone else,70500
-4,Internal-Nominal,2016,Mean,Current work status of head,Working for someone else,413400
-4,Internal-Nominal,1989,Median,Current work status of head,Self-employed,169700
-4,Internal-Nominal,1989,Mean,Current work status of head,Self-employed,651600
-4,Internal-Nominal,1992,Median,Current work status of head,Self-employed,144300
-4,Internal-Nominal,1992,Mean,Current work status of head,Self-employed,599900
-4,Internal-Nominal,1995,Median,Current work status of head,Self-employed,155800
-4,Internal-Nominal,1995,Mean,Current work status of head,Self-employed,701100
-4,Internal-Nominal,1998,Median,Current work status of head,Self-employed,248400
-4,Internal-Nominal,1998,Mean,Current work status of head,Self-employed,926000
-4,Internal-Nominal,2001,Median,Current work status of head,Self-employed,352300
-4,Internal-Nominal,2001,Mean,Current work status of head,Self-employed,1262100
-4,Internal-Nominal,2004,Median,Current work status of head,Self-employed,349500
-4,Internal-Nominal,2004,Mean,Current work status of head,Self-employed,1425200
-4,Internal-Nominal,2007,Median,Current work status of head,Self-employed,388700
-4,Internal-Nominal,2007,Mean,Current work status of head,Self-employed,1963800
-4,Internal-Nominal,2010,Median,Current work status of head,Self-employed,285600
-4,Internal-Nominal,2010,Mean,Current work status of head,Self-employed,1743700
-4,Internal-Nominal,2013,Median,Current work status of head,Self-employed,358900
-4,Internal-Nominal,2013,Mean,Current work status of head,Self-employed,2167500
-4,Internal-Nominal,2016,Median,Current work status of head,Self-employed,312000
-4,Internal-Nominal,2016,Mean,Current work status of head,Self-employed,2398100
-4,Internal-Nominal,1989,Median,Current work status of head,Retired,66100
-4,Internal-Nominal,1989,Mean,Current work status of head,Retired,182700
-4,Internal-Nominal,1992,Median,Current work status of head,Retired,70500
-4,Internal-Nominal,1992,Mean,Current work status of head,Retired,189700
-4,Internal-Nominal,1995,Median,Current work status of head,Retired,81200
-4,Internal-Nominal,1995,Mean,Current work status of head,Retired,225200
-4,Internal-Nominal,1998,Median,Current work status of head,Retired,113000
-4,Internal-Nominal,1998,Mean,Current work status of head,Retired,307500
-4,Internal-Nominal,2001,Median,Current work status of head,Retired,115100
-4,Internal-Nominal,2001,Mean,Current work status of head,Retired,454000
-4,Internal-Nominal,2004,Median,Current work status of head,Retired,139800
-4,Internal-Nominal,2004,Mean,Current work status of head,Retired,469100
-4,Internal-Nominal,2007,Median,Current work status of head,Retired,162100
-4,Internal-Nominal,2007,Mean,Current work status of head,Retired,543200
-4,Internal-Nominal,2010,Median,Current work status of head,Retired,151100
-4,Internal-Nominal,2010,Mean,Current work status of head,Retired,485300
-4,Internal-Nominal,2013,Median,Current work status of head,Retired,128000
-4,Internal-Nominal,2013,Mean,Current work status of head,Retired,507500
-4,Internal-Nominal,2016,Median,Current work status of head,Retired,158600
-4,Internal-Nominal,2016,Mean,Current work status of head,Retired,711200
-4,Internal-Nominal,1989,Median,Current work status of head,Other not working,800
-4,Internal-Nominal,1989,Mean,Current work status of head,Other not working,39300
-4,Internal-Nominal,1992,Median,Current work status of head,Other not working,3300
-4,Internal-Nominal,1992,Mean,Current work status of head,Other not working,53100
-4,Internal-Nominal,1995,Median,Current work status of head,Other not working,3600
-4,Internal-Nominal,1995,Mean,Current work status of head,Other not working,57000
-4,Internal-Nominal,1998,Median,Current work status of head,Other not working,3600
-4,Internal-Nominal,1998,Mean,Current work status of head,Other not working,74000
-4,Internal-Nominal,2001,Median,Current work status of head,Other not working,7700
-4,Internal-Nominal,2001,Mean,Current work status of head,Other not working,178200
-4,Internal-Nominal,2004,Median,Current work status of head,Other not working,11800
-4,Internal-Nominal,2004,Mean,Current work status of head,Other not working,162300
-4,Internal-Nominal,2007,Median,Current work status of head,Other not working,5700
-4,Internal-Nominal,2007,Mean,Current work status of head,Other not working,124200
-4,Internal-Nominal,2010,Median,Current work status of head,Other not working,11900
-4,Internal-Nominal,2010,Mean,Current work status of head,Other not working,137500
-4,Internal-Nominal,2013,Median,Current work status of head,Other not working,9000
-4,Internal-Nominal,2013,Mean,Current work status of head,Other not working,135300
-4,Internal-Nominal,2016,Median,Current work status of head,Other not working,8200
-4,Internal-Nominal,2016,Mean,Current work status of head,Other not working,102000
-4,Internal-Nominal,1989,Median,Current occupation of head,Managerial or professional,108600
-4,Internal-Nominal,1989,Mean,Current occupation of head,Managerial or professional,379500
-4,Internal-Nominal,1992,Median,Current occupation of head,Managerial or professional,101300
-4,Internal-Nominal,1992,Mean,Current occupation of head,Managerial or professional,375900
-4,Internal-Nominal,1995,Median,Current occupation of head,Managerial or professional,110600
-4,Internal-Nominal,1995,Mean,Current occupation of head,Managerial or professional,430800
-4,Internal-Nominal,1998,Median,Current occupation of head,Managerial or professional,132300
-4,Internal-Nominal,1998,Mean,Current occupation of head,Managerial or professional,541900
-4,Internal-Nominal,2001,Median,Current occupation of head,Managerial or professional,197600
-4,Internal-Nominal,2001,Mean,Current occupation of head,Managerial or professional,769000
-4,Internal-Nominal,2004,Median,Current occupation of head,Managerial or professional,197500
-4,Internal-Nominal,2004,Mean,Current occupation of head,Managerial or professional,865300
-4,Internal-Nominal,2007,Median,Current occupation of head,Managerial or professional,247100
-4,Internal-Nominal,2007,Mean,Current occupation of head,Managerial or professional,1121300
-4,Internal-Nominal,2010,Median,Current occupation of head,Managerial or professional,167300
-4,Internal-Nominal,2010,Mean,Current occupation of head,Managerial or professional,1047000
-4,Internal-Nominal,2013,Median,Current occupation of head,Managerial or professional,192300
-4,Internal-Nominal,2013,Mean,Current occupation of head,Managerial or professional,1062700
-4,Internal-Nominal,2016,Median,Current occupation of head,Managerial or professional,205000
-4,Internal-Nominal,2016,Mean,Current occupation of head,Managerial or professional,1349300
-4,Internal-Nominal,1989,Median,Current occupation of head,"Technical, sales, or services",27200
-4,Internal-Nominal,1989,Mean,Current occupation of head,"Technical, sales, or services",130700
-4,Internal-Nominal,1992,Median,Current occupation of head,"Technical, sales, or services",36500
-4,Internal-Nominal,1992,Mean,Current occupation of head,"Technical, sales, or services",137000
-4,Internal-Nominal,1995,Median,Current occupation of head,"Technical, sales, or services",37300
-4,Internal-Nominal,1995,Mean,Current occupation of head,"Technical, sales, or services",162200
-4,Internal-Nominal,1998,Median,Current occupation of head,"Technical, sales, or services",40800
-4,Internal-Nominal,1998,Mean,Current occupation of head,"Technical, sales, or services",193200
-4,Internal-Nominal,2001,Median,Current occupation of head,"Technical, sales, or services",46700
-4,Internal-Nominal,2001,Mean,Current occupation of head,"Technical, sales, or services",199700
-4,Internal-Nominal,2004,Median,Current occupation of head,"Technical, sales, or services",45000
-4,Internal-Nominal,2004,Mean,Current occupation of head,"Technical, sales, or services",247600
-4,Internal-Nominal,2007,Median,Current occupation of head,"Technical, sales, or services",73500
-4,Internal-Nominal,2007,Mean,Current occupation of head,"Technical, sales, or services",310300
-4,Internal-Nominal,2010,Median,Current occupation of head,"Technical, sales, or services",32600
-4,Internal-Nominal,2010,Mean,Current occupation of head,"Technical, sales, or services",219100
-4,Internal-Nominal,2013,Median,Current occupation of head,"Technical, sales, or services",31800
-4,Internal-Nominal,2013,Mean,Current occupation of head,"Technical, sales, or services",268700
-4,Internal-Nominal,2016,Median,Current occupation of head,"Technical, sales, or services",43200
-4,Internal-Nominal,2016,Mean,Current occupation of head,"Technical, sales, or services",327700
-4,Internal-Nominal,1989,Median,Current occupation of head,Other occupation,37000
-4,Internal-Nominal,1989,Mean,Current occupation of head,Other occupation,107600
-4,Internal-Nominal,1992,Median,Current occupation of head,Other occupation,32800
-4,Internal-Nominal,1992,Mean,Current occupation of head,Other occupation,87500
-4,Internal-Nominal,1995,Median,Current occupation of head,Other occupation,45100
-4,Internal-Nominal,1995,Mean,Current occupation of head,Other occupation,111800
-4,Internal-Nominal,1998,Median,Current occupation of head,Other occupation,50000
-4,Internal-Nominal,1998,Mean,Current occupation of head,Other occupation,126500
-4,Internal-Nominal,2001,Median,Current occupation of head,Other occupation,48100
-4,Internal-Nominal,2001,Mean,Current occupation of head,Other occupation,136400
-4,Internal-Nominal,2004,Median,Current occupation of head,Other occupation,56500
-4,Internal-Nominal,2004,Mean,Current occupation of head,Other occupation,147500
-4,Internal-Nominal,2007,Median,Current occupation of head,Other occupation,65200
-4,Internal-Nominal,2007,Mean,Current occupation of head,Other occupation,192100
-4,Internal-Nominal,2010,Median,Current occupation of head,Other occupation,46600
-4,Internal-Nominal,2010,Mean,Current occupation of head,Other occupation,162800
-4,Internal-Nominal,2013,Median,Current occupation of head,Other occupation,49500
-4,Internal-Nominal,2013,Mean,Current occupation of head,Other occupation,172100
-4,Internal-Nominal,2016,Median,Current occupation of head,Other occupation,51300
-4,Internal-Nominal,2016,Mean,Current occupation of head,Other occupation,203900
-4,Internal-Nominal,1989,Median,Current occupation of head,Retired or other not working,44100
-4,Internal-Nominal,1989,Mean,Current occupation of head,Retired or other not working,152800
-4,Internal-Nominal,1992,Median,Current occupation of head,Retired or other not working,50000
-4,Internal-Nominal,1992,Mean,Current occupation of head,Retired or other not working,157400
-4,Internal-Nominal,1995,Median,Current occupation of head,Retired or other not working,62300
-4,Internal-Nominal,1995,Mean,Current occupation of head,Retired or other not working,191000
-4,Internal-Nominal,1998,Median,Current occupation of head,Retired or other not working,81900
-4,Internal-Nominal,1998,Mean,Current occupation of head,Retired or other not working,268300
-4,Internal-Nominal,2001,Median,Current occupation of head,Retired or other not working,96500
-4,Internal-Nominal,2001,Mean,Current occupation of head,Retired or other not working,409200
-4,Internal-Nominal,2004,Median,Current occupation of head,Retired or other not working,111100
-4,Internal-Nominal,2004,Mean,Current occupation of head,Retired or other not working,421500
-4,Internal-Nominal,2007,Median,Current occupation of head,Retired or other not working,129400
-4,Internal-Nominal,2007,Mean,Current occupation of head,Retired or other not working,477800
-4,Internal-Nominal,2010,Median,Current occupation of head,Retired or other not working,93500
-4,Internal-Nominal,2010,Mean,Current occupation of head,Retired or other not working,410400
-4,Internal-Nominal,2013,Median,Current occupation of head,Retired or other not working,91100
-4,Internal-Nominal,2013,Mean,Current occupation of head,Retired or other not working,436600
-4,Internal-Nominal,2016,Median,Current occupation of head,Retired or other not working,117600
-4,Internal-Nominal,2016,Mean,Current occupation of head,Retired or other not working,616500
-4,Internal-Nominal,1989,Median,Region,Northeast,87400
-4,Internal-Nominal,1989,Mean,Region,Northeast,215600
-4,Internal-Nominal,1992,Median,Region,Northeast,64100
-4,Internal-Nominal,1992,Mean,Region,Northeast,210800
-4,Internal-Nominal,1995,Median,Region,Northeast,82900
-4,Internal-Nominal,1995,Mean,Region,Northeast,251000
-4,Internal-Nominal,1998,Median,Region,Northeast,94300
-4,Internal-Nominal,1998,Mean,Region,Northeast,303500
-4,Internal-Nominal,2001,Median,Region,Northeast,93300
-4,Internal-Nominal,2001,Mean,Region,Northeast,454000
-4,Internal-Nominal,2004,Median,Region,Northeast,161700
-4,Internal-Nominal,2004,Mean,Region,Northeast,569300
-4,Internal-Nominal,2007,Median,Region,Northeast,159500
-4,Internal-Nominal,2007,Mean,Region,Northeast,652600
-4,Internal-Nominal,2010,Median,Region,Northeast,119900
-4,Internal-Nominal,2010,Mean,Region,Northeast,615200
-4,Internal-Nominal,2013,Median,Region,Northeast,129800
-4,Internal-Nominal,2013,Mean,Region,Northeast,630200
-4,Internal-Nominal,2016,Median,Region,Northeast,145900
-4,Internal-Nominal,2016,Mean,Region,Northeast,803800
-4,Internal-Nominal,1989,Median,Region,Midwest,52500
-4,Internal-Nominal,1989,Mean,Region,Midwest,187400
-4,Internal-Nominal,1992,Median,Region,Midwest,57000
-4,Internal-Nominal,1992,Mean,Region,Midwest,173200
-4,Internal-Nominal,1995,Median,Region,Midwest,65600
-4,Internal-Nominal,1995,Mean,Region,Midwest,199200
-4,Internal-Nominal,1998,Median,Region,Midwest,80300
-4,Internal-Nominal,1998,Mean,Region,Midwest,249100
-4,Internal-Nominal,2001,Median,Region,Midwest,106300
-4,Internal-Nominal,2001,Mean,Region,Midwest,341400
-4,Internal-Nominal,2004,Median,Region,Midwest,115000
-4,Internal-Nominal,2004,Mean,Region,Midwest,437900
-4,Internal-Nominal,2007,Median,Region,Midwest,107500
-4,Internal-Nominal,2007,Mean,Region,Midwest,468800
-4,Internal-Nominal,2010,Median,Region,Midwest,68400
-4,Internal-Nominal,2010,Mean,Region,Midwest,399800
-4,Internal-Nominal,2013,Median,Region,Midwest,75900
-4,Internal-Nominal,2013,Mean,Region,Midwest,448100
-4,Internal-Nominal,2016,Median,Region,Midwest,97400
-4,Internal-Nominal,2016,Mean,Region,Midwest,622000
-4,Internal-Nominal,1989,Median,Region,South,35300
-4,Internal-Nominal,1989,Mean,Region,South,131500
-4,Internal-Nominal,1992,Median,Region,South,34500
-4,Internal-Nominal,1992,Mean,Region,South,140900
-4,Internal-Nominal,1995,Median,Region,South,44100
-4,Internal-Nominal,1995,Mean,Region,South,186600
-4,Internal-Nominal,1998,Median,Region,South,61300
-4,Internal-Nominal,1998,Mean,Region,South,267200
-4,Internal-Nominal,2001,Median,Region,South,73800
-4,Internal-Nominal,2001,Mean,Region,South,376500
-4,Internal-Nominal,2004,Median,Region,South,63800
-4,Internal-Nominal,2004,Mean,Region,South,348500
-4,Internal-Nominal,2007,Median,Region,South,97400
-4,Internal-Nominal,2007,Mean,Region,South,502000
-4,Internal-Nominal,2010,Median,Region,South,68200
-4,Internal-Nominal,2010,Mean,Region,South,440800
-4,Internal-Nominal,2013,Median,Region,South,69500
-4,Internal-Nominal,2013,Mean,Region,South,451500
-4,Internal-Nominal,2016,Median,Region,South,82100
-4,Internal-Nominal,2016,Mean,Region,South,601300
-4,Internal-Nominal,1989,Median,Region,West,45800
-4,Internal-Nominal,1989,Mean,Region,West,245600
-4,Internal-Nominal,1992,Median,Region,West,71500
-4,Internal-Nominal,1992,Mean,Region,West,254500
-4,Internal-Nominal,1995,Median,Region,West,54700
-4,Internal-Nominal,1995,Mean,Region,West,232500
-4,Internal-Nominal,1998,Median,Region,West,61300
-4,Internal-Nominal,1998,Mean,Region,West,327800
-4,Internal-Nominal,2001,Median,Region,West,89000
-4,Internal-Nominal,2001,Mean,Region,West,442200
-4,Internal-Nominal,2004,Median,Region,West,95000
-4,Internal-Nominal,2004,Mean,Region,West,526100
-4,Internal-Nominal,2007,Median,Region,West,156600
-4,Internal-Nominal,2007,Mean,Region,West,663700
-4,Internal-Nominal,2010,Median,Region,West,73400
-4,Internal-Nominal,2010,Mean,Region,West,599900
-4,Internal-Nominal,2013,Median,Region,West,86600
-4,Internal-Nominal,2013,Mean,Region,West,682900
-4,Internal-Nominal,2016,Median,Region,West,107900
-4,Internal-Nominal,2016,Mean,Region,West,824900
-4,Internal-Nominal,1989,Median,Urbanicity,Metropolitan statistical area (MSA),46400
-4,Internal-Nominal,1989,Mean,Urbanicity,Metropolitan statistical area (MSA),198600
-4,Internal-Nominal,1992,Median,Urbanicity,Metropolitan statistical area (MSA),53000
-4,Internal-Nominal,1992,Mean,Urbanicity,Metropolitan statistical area (MSA),208800
-4,Internal-Nominal,1995,Median,Urbanicity,Metropolitan statistical area (MSA),59300
-4,Internal-Nominal,1995,Mean,Urbanicity,Metropolitan statistical area (MSA),226200
-4,Internal-Nominal,1998,Median,Urbanicity,Metropolitan statistical area (MSA),72500
-4,Internal-Nominal,1998,Mean,Urbanicity,Metropolitan statistical area (MSA),306600
-4,Internal-Nominal,2001,Median,Urbanicity,Metropolitan statistical area (MSA),88200
-4,Internal-Nominal,2001,Mean,Urbanicity,Metropolitan statistical area (MSA),428400
-4,Internal-Nominal,2004,Median,Urbanicity,Metropolitan statistical area (MSA),104400
-4,Internal-Nominal,2004,Mean,Urbanicity,Metropolitan statistical area (MSA),505800
-4,Internal-Nominal,2007,Median,Urbanicity,Metropolitan statistical area (MSA),132500
-4,Internal-Nominal,2007,Mean,Urbanicity,Metropolitan statistical area (MSA),622700
-4,Internal-Nominal,2010,Median,Urbanicity,Metropolitan statistical area (MSA),78400
-4,Internal-Nominal,2010,Mean,Urbanicity,Metropolitan statistical area (MSA),553600
-4,Internal-Nominal,2013,Median,Urbanicity,Metropolitan statistical area (MSA),84700
-4,Internal-Nominal,2013,Mean,Urbanicity,Metropolitan statistical area (MSA),575300
-4,Internal-Nominal,2016,Median,Urbanicity,Metropolitan statistical area (MSA),99000
-4,Internal-Nominal,2016,Mean,Urbanicity,Metropolitan statistical area (MSA),751200
-4,Internal-Nominal,1989,Median,Urbanicity,Non-MSA,49400
-4,Internal-Nominal,1989,Mean,Urbanicity,Non-MSA,132200
-4,Internal-Nominal,1992,Median,Urbanicity,Non-MSA,38800
-4,Internal-Nominal,1992,Mean,Urbanicity,Non-MSA,88900
-4,Internal-Nominal,1995,Median,Urbanicity,Non-MSA,51100
-4,Internal-Nominal,1995,Mean,Urbanicity,Non-MSA,130000
-4,Internal-Nominal,1998,Median,Urbanicity,Non-MSA,69100
-4,Internal-Nominal,1998,Mean,Urbanicity,Non-MSA,144800
-4,Internal-Nominal,2001,Median,Urbanicity,Non-MSA,80000
-4,Internal-Nominal,2001,Mean,Urbanicity,Non-MSA,204100
-4,Internal-Nominal,2004,Median,Urbanicity,Non-MSA,59300
-4,Internal-Nominal,2004,Mean,Urbanicity,Non-MSA,176900
-4,Internal-Nominal,2007,Median,Urbanicity,Non-MSA,78200
-4,Internal-Nominal,2007,Mean,Urbanicity,Non-MSA,242400
-4,Internal-Nominal,2010,Median,Urbanicity,Non-MSA,74500
-4,Internal-Nominal,2010,Mean,Urbanicity,Non-MSA,236100
-4,Internal-Nominal,2013,Median,Urbanicity,Non-MSA,68000
-4,Internal-Nominal,2013,Mean,Urbanicity,Non-MSA,261300
-4,Internal-Nominal,2016,Median,Urbanicity,Non-MSA,87700
-4,Internal-Nominal,2016,Mean,Urbanicity,Non-MSA,276200
-4,Internal-Nominal,1989,Median,Housing status,Owner,100300
-4,Internal-Nominal,1989,Mean,Housing status,Owner,269300
-4,Internal-Nominal,1992,Median,Housing status,Owner,98900
-4,Internal-Nominal,1992,Mean,Housing status,Owner,270100
-4,Internal-Nominal,1995,Median,Housing status,Owner,104100
-4,Internal-Nominal,1995,Mean,Housing status,Owner,303900
-4,Internal-Nominal,1998,Median,Housing status,Owner,132100
-4,Internal-Nominal,1998,Mean,Housing status,Owner,404900
-4,Internal-Nominal,2001,Median,Housing status,Owner,172600
-4,Internal-Nominal,2001,Mean,Housing status,Owner,560800
-4,Internal-Nominal,2004,Median,Housing status,Owner,184700
-4,Internal-Nominal,2004,Mean,Housing status,Owner,626500
-4,Internal-Nominal,2007,Median,Housing status,Owner,234800
-4,Internal-Nominal,2007,Mean,Housing status,Owner,780100
-4,Internal-Nominal,2010,Median,Housing status,Owner,174500
-4,Internal-Nominal,2010,Mean,Housing status,Owner,713400
-4,Internal-Nominal,2013,Median,Housing status,Owner,195400
-4,Internal-Nominal,2013,Mean,Housing status,Owner,783000
-4,Internal-Nominal,2016,Median,Housing status,Owner,231400
-4,Internal-Nominal,2016,Mean,Housing status,Owner,1034200
-4,Internal-Nominal,1989,Median,Housing status,Renter or other,2000
-4,Internal-Nominal,1989,Mean,Housing status,Renter or other,38400
-4,Internal-Nominal,1992,Median,Housing status,Renter or other,3200
-4,Internal-Nominal,1992,Mean,Housing status,Renter or other,38700
-4,Internal-Nominal,1995,Median,Housing status,Renter or other,4900
-4,Internal-Nominal,1995,Mean,Housing status,Renter or other,43800
-4,Internal-Nominal,1998,Median,Housing status,Renter or other,4200
-4,Internal-Nominal,1998,Mean,Housing status,Renter or other,43400
-4,Internal-Nominal,2001,Median,Housing status,Renter or other,4800
-4,Internal-Nominal,2001,Mean,Housing status,Renter or other,55200
-4,Internal-Nominal,2004,Median,Housing status,Renter or other,4000
-4,Internal-Nominal,2004,Mean,Housing status,Renter or other,54100
-4,Internal-Nominal,2007,Median,Housing status,Renter or other,5100
-4,Internal-Nominal,2007,Mean,Housing status,Renter or other,71300
-4,Internal-Nominal,2010,Median,Housing status,Renter or other,5100
-4,Internal-Nominal,2010,Mean,Housing status,Renter or other,57200
-4,Internal-Nominal,2013,Median,Housing status,Renter or other,5400
-4,Internal-Nominal,2013,Mean,Housing status,Renter or other,70300
-4,Internal-Nominal,2016,Median,Housing status,Renter or other,5000
-4,Internal-Nominal,2016,Mean,Housing status,Renter or other,91000
-4,Internal-Nominal,1989,Median,Percentile of net worth,Less than 25,200
-4,Internal-Nominal,1989,Mean,Percentile of net worth,Less than 25,-600
-4,Internal-Nominal,1992,Median,Percentile of net worth,Less than 25,500
-4,Internal-Nominal,1992,Mean,Percentile of net worth,Less than 25,-600
-4,Internal-Nominal,1995,Median,Percentile of net worth,Less than 25,1000
-4,Internal-Nominal,1995,Mean,Percentile of net worth,Less than 25,-200
-4,Internal-Nominal,1998,Median,Percentile of net worth,Less than 25,500
-4,Internal-Nominal,1998,Mean,Percentile of net worth,Less than 25,-1800
-4,Internal-Nominal,2001,Median,Percentile of net worth,Less than 25,1200
-4,Internal-Nominal,2001,Mean,Percentile of net worth,Less than 25,100
-4,Internal-Nominal,2004,Median,Percentile of net worth,Less than 25,1700
-4,Internal-Nominal,2004,Mean,Percentile of net worth,Less than 25,-1400
-4,Internal-Nominal,2007,Median,Percentile of net worth,Less than 25,1200
-4,Internal-Nominal,2007,Mean,Percentile of net worth,Less than 25,-2200
-4,Internal-Nominal,2010,Median,Percentile of net worth,Less than 25,0
-4,Internal-Nominal,2010,Mean,Percentile of net worth,Less than 25,-12800
-4,Internal-Nominal,2013,Median,Percentile of net worth,Less than 25,0
-4,Internal-Nominal,2013,Mean,Percentile of net worth,Less than 25,-13400
-4,Internal-Nominal,2016,Median,Percentile of net worth,Less than 25,100
-4,Internal-Nominal,2016,Mean,Percentile of net worth,Less than 25,-12200
-4,Internal-Nominal,1989,Median,Percentile of net worth,25–49.9,21100
-4,Internal-Nominal,1989,Mean,Percentile of net worth,25–49.9,23000
-4,Internal-Nominal,1992,Median,Percentile of net worth,25–49.9,23600
-4,Internal-Nominal,1992,Mean,Percentile of net worth,25–49.9,25400
-4,Internal-Nominal,1995,Median,Percentile of net worth,25–49.9,28200
-4,Internal-Nominal,1995,Mean,Percentile of net worth,25–49.9,30600
-4,Internal-Nominal,1998,Median,Percentile of net worth,25–49.9,32700
-4,Internal-Nominal,1998,Mean,Percentile of net worth,25–49.9,35900
-4,Internal-Nominal,2001,Median,Percentile of net worth,25–49.9,40900
-4,Internal-Nominal,2001,Mean,Percentile of net worth,25–49.9,44400
-4,Internal-Nominal,2004,Median,Percentile of net worth,25–49.9,43600
-4,Internal-Nominal,2004,Mean,Percentile of net worth,25–49.9,47100
-4,Internal-Nominal,2007,Median,Percentile of net worth,25–49.9,54300
-4,Internal-Nominal,2007,Mean,Percentile of net worth,25–49.9,58100
-4,Internal-Nominal,2010,Median,Percentile of net worth,25–49.9,32200
-4,Internal-Nominal,2010,Mean,Percentile of net worth,25–49.9,35600
-4,Internal-Nominal,2013,Median,Percentile of net worth,25–49.9,31300
-4,Internal-Nominal,2013,Mean,Percentile of net worth,25–49.9,35900
-4,Internal-Nominal,2016,Median,Percentile of net worth,25–49.9,39700
-4,Internal-Nominal,2016,Mean,Percentile of net worth,25–49.9,44700
-4,Internal-Nominal,1989,Median,Percentile of net worth,50–74.9,86600
-4,Internal-Nominal,1989,Mean,Percentile of net worth,50–74.9,89000
-4,Internal-Nominal,1992,Median,Percentile of net worth,50–74.9,87600
-4,Internal-Nominal,1992,Mean,Percentile of net worth,50–74.9,90600
-4,Internal-Nominal,1995,Median,Percentile of net worth,50–74.9,95100
-4,Internal-Nominal,1995,Mean,Percentile of net worth,50–74.9,99600
-4,Internal-Nominal,1998,Median,Percentile of net worth,50–74.9,120500
-4,Internal-Nominal,1998,Mean,Percentile of net worth,50–74.9,128600
-4,Internal-Nominal,2001,Median,Percentile of net worth,50–74.9,158000
-4,Internal-Nominal,2001,Mean,Percentile of net worth,50–74.9,167200
-4,Internal-Nominal,2004,Median,Percentile of net worth,50–74.9,171000
-4,Internal-Nominal,2004,Mean,Percentile of net worth,50–74.9,185700
-4,Internal-Nominal,2007,Median,Percentile of net worth,50–74.9,220300
-4,Internal-Nominal,2007,Mean,Percentile of net worth,50–74.9,227700
-4,Internal-Nominal,2010,Median,Percentile of net worth,50–74.9,157200
-4,Internal-Nominal,2010,Mean,Percentile of net worth,50–74.9,168900
-4,Internal-Nominal,2013,Median,Percentile of net worth,50–74.9,168100
-4,Internal-Nominal,2013,Mean,Percentile of net worth,50–74.9,177700
-4,Internal-Nominal,2016,Median,Percentile of net worth,50–74.9,191800
-4,Internal-Nominal,2016,Mean,Percentile of net worth,50–74.9,204100
-4,Internal-Nominal,1989,Median,Percentile of net worth,75–89.9,210200
-4,Internal-Nominal,1989,Mean,Percentile of net worth,75–89.9,226000
-4,Internal-Nominal,1992,Median,Percentile of net worth,75–89.9,204100
-4,Internal-Nominal,1992,Mean,Percentile of net worth,75–89.9,218600
-4,Internal-Nominal,1995,Median,Percentile of net worth,75–89.9,221200
-4,Internal-Nominal,1995,Mean,Percentile of net worth,75–89.9,238700
-4,Internal-Nominal,1998,Median,Percentile of net worth,75–89.9,310100
-4,Internal-Nominal,1998,Mean,Percentile of net worth,75–89.9,322100
-4,Internal-Nominal,2001,Median,Percentile of net worth,75–89.9,430900
-4,Internal-Nominal,2001,Mean,Percentile of net worth,75–89.9,451700
-4,Internal-Nominal,2004,Median,Percentile of net worth,75–89.9,509900
-4,Internal-Nominal,2004,Mean,Percentile of net worth,75–89.9,528800
-4,Internal-Nominal,2007,Median,Percentile of net worth,75–89.9,573400
-4,Internal-Nominal,2007,Mean,Percentile of net worth,75–89.9,588000
-4,Internal-Nominal,2010,Median,Percentile of net worth,75–89.9,482700
-4,Internal-Nominal,2010,Mean,Percentile of net worth,75–89.9,527900
-4,Internal-Nominal,2013,Median,Percentile of net worth,75–89.9,505800
-4,Internal-Nominal,2013,Mean,Percentile of net worth,75–89.9,546200
-4,Internal-Nominal,2016,Median,Percentile of net worth,75–89.9,604900
-4,Internal-Nominal,2016,Mean,Percentile of net worth,75–89.9,659300
-4,Internal-Nominal,1989,Median,Percentile of net worth,90–100,688600
-4,Internal-Nominal,1989,Mean,Percentile of net worth,90–100,1241900
-4,Internal-Nominal,1992,Median,Percentile of net worth,90–100,664800
-4,Internal-Nominal,1992,Mean,Percentile of net worth,90–100,1249400
-4,Internal-Nominal,1995,Median,Percentile of net worth,90–100,683300
-4,Internal-Nominal,1995,Mean,Percentile of net worth,90–100,1437400
-4,Internal-Nominal,1998,Median,Percentile of net worth,90–100,896300
-4,Internal-Nominal,1998,Mean,Percentile of net worth,90–100,1938700
-4,Internal-Nominal,2001,Median,Percentile of net worth,90–100,1307800
-4,Internal-Nominal,2001,Mean,Percentile of net worth,90–100,2766500
-4,Internal-Nominal,2004,Median,Percentile of net worth,90–100,1430100
-4,Internal-Nominal,2004,Mean,Percentile of net worth,90–100,3120900
-4,Internal-Nominal,2007,Median,Percentile of net worth,90–100,1898700
-4,Internal-Nominal,2007,Mean,Percentile of net worth,90–100,3985700
-4,Internal-Nominal,2010,Median,Percentile of net worth,90–100,1864100
-4,Internal-Nominal,2010,Mean,Percentile of net worth,90–100,3716400
-4,Internal-Nominal,2013,Median,Percentile of net worth,90–100,1871800
-4,Internal-Nominal,2013,Mean,Percentile of net worth,90–100,4024800
-4,Internal-Nominal,2016,Median,Percentile of net worth,90–100,2387500
-4,Internal-Nominal,2016,Mean,Percentile of net worth,90–100,5336000
+SCF Table,!Calculation,Year,Characteristic,Sub-Characteristic,Median,Mean
+4,Internal-Nominal,1989,,All families,46900.0,185900.0
+4,Internal-Nominal,1989,Percentile of income,Less than 20,1800.0,24700.0
+4,Internal-Nominal,1989,Percentile of income,20–39.9,24100.0,65700.0
+4,Internal-Nominal,1989,Percentile of income,40–59.9,41600.0,101300.0
+4,Internal-Nominal,1989,Percentile of income,60–79.9,66500.0,136000.0
+4,Internal-Nominal,1989,Percentile of income,80–89.9,132000.0,222400.0
+4,Internal-Nominal,1989,Percentile of income,90–100,388500.0,981200.0
+4,Internal-Nominal,1989,Age of head (years),Less than 35,7800.0,46800.0
+4,Internal-Nominal,1989,Age of head (years),35–44,56400.0,147600.0
+4,Internal-Nominal,1989,Age of head (years),45–54,98700.0,276400.0
+4,Internal-Nominal,1989,Age of head (years),55–64,97900.0,307800.0
+4,Internal-Nominal,1989,Age of head (years),65–74,76700.0,279800.0
+4,Internal-Nominal,1989,Age of head (years),75 or more,72400.0,241600.0
+4,Internal-Nominal,1989,Family structure,Single with child(ren),7200.0,63300.0
+4,Internal-Nominal,1989,Family structure,"Single, no child, age less than 55",8100.0,72600.0
+4,Internal-Nominal,1989,Family structure,"Single, no child, age 55 or more",40900.0,122600.0
+4,Internal-Nominal,1989,Family structure,Couple with child(ren),62000.0,201000.0
+4,Internal-Nominal,1989,Family structure,"Couple, no child",111000.0,347200.0
+4,Internal-Nominal,1989,Education of head,No high school diploma,24100.0,83100.0
+4,Internal-Nominal,1989,Education of head,High school diploma,36800.0,111400.0
+4,Internal-Nominal,1989,Education of head,Some college,46100.0,184700.0
+4,Internal-Nominal,1989,Education of head,College degree,125400.0,399100.0
+4,Internal-Nominal,1989,Race or ethnicity of respondent,White non-Hispanic,71100.0,227500.0
+4,Internal-Nominal,1989,Race or ethnicity of respondent,Black or African-American non-hispanic,4000.0,41400.0
+4,Internal-Nominal,1989,Race or ethnicity of respondent,Hispanic or Latino,5200.0,45300.0
+4,Internal-Nominal,1989,Race or ethnicity of respondent,Other or Multiple Race,35000.0,153800.0
+4,Internal-Nominal,1989,Current work status of head,Working for someone else,38000.0,113700.0
+4,Internal-Nominal,1989,Current work status of head,Self-employed,169700.0,651600.0
+4,Internal-Nominal,1989,Current work status of head,Retired,66100.0,182700.0
+4,Internal-Nominal,1989,Current work status of head,Other not working,800.0,39300.0
+4,Internal-Nominal,1989,Current occupation of head,Managerial or professional,108600.0,379500.0
+4,Internal-Nominal,1989,Current occupation of head,"Technical, sales, or services",27200.0,130699.99999999999
+4,Internal-Nominal,1989,Current occupation of head,Other occupation,37000.0,107600.0
+4,Internal-Nominal,1989,Current occupation of head,Retired or other not working,44100.0,152800.0
+4,Internal-Nominal,1989,Region,Northeast,87400.0,215600.0
+4,Internal-Nominal,1989,Region,Midwest,52500.0,187400.0
+4,Internal-Nominal,1989,Region,South,35300.0,131500.0
+4,Internal-Nominal,1989,Region,West,45800.0,245600.0
+4,Internal-Nominal,1989,Urbanicity,Metropolitan statistical area (MSA),46400.0,198600.0
+4,Internal-Nominal,1989,Urbanicity,Non-MSA,49400.0,132200.0
+4,Internal-Nominal,1989,Housing status,Owner,100300.0,269300.0
+4,Internal-Nominal,1989,Housing status,Renter or other,2000.0,38400.0
+4,Internal-Nominal,1989,Percentile of net worth,Less than 25,200.0,-600.0
+4,Internal-Nominal,1989,Percentile of net worth,25–49.9,21100.0,23000.0
+4,Internal-Nominal,1989,Percentile of net worth,50–74.9,86600.0,89000.0
+4,Internal-Nominal,1989,Percentile of net worth,75–89.9,210200.0,226000.0
+4,Internal-Nominal,1989,Percentile of net worth,90–100,688600.0,1241900.0
+4,Internal-Nominal,1992,,All families,49500.0,186600.0
+4,Internal-Nominal,1992,Percentile of income,Less than 20,4000.0,32900.0
+4,Internal-Nominal,1992,Percentile of income,20–39.9,27800.0,64200.0
+4,Internal-Nominal,1992,Percentile of income,40–59.9,39600.0,101200.0
+4,Internal-Nominal,1992,Percentile of income,60–79.9,75700.0,140800.0
+4,Internal-Nominal,1992,Percentile of income,80–89.9,115700.0,226400.0
+4,Internal-Nominal,1992,Percentile of income,90–100,363700.0,960900.0
+4,Internal-Nominal,1992,Age of head (years),Less than 35,9200.0,45400.0
+4,Internal-Nominal,1992,Age of head (years),35–44,44600.0,133300.0
+4,Internal-Nominal,1992,Age of head (years),45–54,78300.0,268900.0
+4,Internal-Nominal,1992,Age of head (years),55–64,114000.0,338000.0
+4,Internal-Nominal,1992,Age of head (years),65–74,98700.0,286500.0
+4,Internal-Nominal,1992,Age of head (years),75 or more,86900.0,214200.0
+4,Internal-Nominal,1992,Family structure,Single with child(ren),8500.0,54200.0
+4,Internal-Nominal,1992,Family structure,"Single, no child, age less than 55",14900.0,70900.0
+4,Internal-Nominal,1992,Family structure,"Single, no child, age 55 or more",58200.0,156000.0
+4,Internal-Nominal,1992,Family structure,Couple with child(ren),60500.0,205800.0
+4,Internal-Nominal,1992,Family structure,"Couple, no child",104100.0,317300.0
+4,Internal-Nominal,1992,Education of head,No high school diploma,18700.0,70100.0
+4,Internal-Nominal,1992,Education of head,High school diploma,38400.0,111700.0
+4,Internal-Nominal,1992,Education of head,Some college,57200.0,167900.0
+4,Internal-Nominal,1992,Education of head,College degree,109700.0,369800.0
+4,Internal-Nominal,1992,Race or ethnicity of respondent,White non-Hispanic,69700.0,222400.0
+4,Internal-Nominal,1992,Race or ethnicity of respondent,Black or African-American non-hispanic,9900.0,48100.0
+4,Internal-Nominal,1992,Race or ethnicity of respondent,Hispanic or Latino,6800.0,54100.0
+4,Internal-Nominal,1992,Race or ethnicity of respondent,Other or Multiple Race,37200.0,197900.0
+4,Internal-Nominal,1992,Current work status of head,Working for someone else,39500.0,122400.0
+4,Internal-Nominal,1992,Current work status of head,Self-employed,144300.0,599900.0
+4,Internal-Nominal,1992,Current work status of head,Retired,70500.0,189700.0
+4,Internal-Nominal,1992,Current work status of head,Other not working,3300.0,53100.0
+4,Internal-Nominal,1992,Current occupation of head,Managerial or professional,101300.0,375900.0
+4,Internal-Nominal,1992,Current occupation of head,"Technical, sales, or services",36500.0,137000.0
+4,Internal-Nominal,1992,Current occupation of head,Other occupation,32800.0,87500.0
+4,Internal-Nominal,1992,Current occupation of head,Retired or other not working,50000.0,157400.0
+4,Internal-Nominal,1992,Region,Northeast,64099.99999999999,210800.0
+4,Internal-Nominal,1992,Region,Midwest,57000.0,173200.0
+4,Internal-Nominal,1992,Region,South,34500.0,140900.0
+4,Internal-Nominal,1992,Region,West,71500.0,254500.0
+4,Internal-Nominal,1992,Urbanicity,Metropolitan statistical area (MSA),53000.0,208800.0
+4,Internal-Nominal,1992,Urbanicity,Non-MSA,38800.0,88900.0
+4,Internal-Nominal,1992,Housing status,Owner,98900.0,270100.0
+4,Internal-Nominal,1992,Housing status,Renter or other,3200.0,38700.0
+4,Internal-Nominal,1992,Percentile of net worth,Less than 25,500.0,-600.0
+4,Internal-Nominal,1992,Percentile of net worth,25–49.9,23600.0,25400.0
+4,Internal-Nominal,1992,Percentile of net worth,50–74.9,87600.0,90600.0
+4,Internal-Nominal,1992,Percentile of net worth,75–89.9,204100.0,218600.0
+4,Internal-Nominal,1992,Percentile of net worth,90–100,664800.0,1249400.0
+4,Internal-Nominal,1995,,All families,57800.0,212100.0
+4,Internal-Nominal,1995,Percentile of income,Less than 20,6000.0,44400.0
+4,Internal-Nominal,1995,Percentile of income,20–39.9,33500.0,79100.0
+4,Internal-Nominal,1995,Percentile of income,40–59.9,46400.0,102300.0
+4,Internal-Nominal,1995,Percentile of income,60–79.9,76100.0,161300.0
+4,Internal-Nominal,1995,Percentile of income,80–89.9,128100.0,257500.0
+4,Internal-Nominal,1995,Percentile of income,90–100,355600.0,1088600.0
+4,Internal-Nominal,1995,Age of head (years),Less than 35,12000.0,43200.0
+4,Internal-Nominal,1995,Age of head (years),35–44,52300.0,143700.0
+4,Internal-Nominal,1995,Age of head (years),45–54,94900.0,296700.0
+4,Internal-Nominal,1995,Age of head (years),55–64,115500.0,383500.0
+4,Internal-Nominal,1995,Age of head (years),65–74,111000.0,348700.0
+4,Internal-Nominal,1995,Age of head (years),75 or more,93000.0,258300.0
+4,Internal-Nominal,1995,Family structure,Single with child(ren),12000.0,72700.0
+4,Internal-Nominal,1995,Family structure,"Single, no child, age less than 55",17500.0,72600.0
+4,Internal-Nominal,1995,Family structure,"Single, no child, age 55 or more",70800.0,197900.0
+4,Internal-Nominal,1995,Family structure,Couple with child(ren),65900.0,215100.0
+4,Internal-Nominal,1995,Family structure,"Couple, no child",115400.0,361300.0
+4,Internal-Nominal,1995,Education of head,No high school diploma,22700.0,84200.0
+4,Internal-Nominal,1995,Education of head,High school diploma,51900.0,133000.0
+4,Internal-Nominal,1995,Education of head,Some college,50000.0,182500.0
+4,Internal-Nominal,1995,Education of head,College degree,121100.0,437600.0
+4,Internal-Nominal,1995,Race or ethnicity of respondent,White non-Hispanic,76600.0,251000.0
+4,Internal-Nominal,1995,Race or ethnicity of respondent,Black or African-American non-hispanic,10900.0,44100.0
+4,Internal-Nominal,1995,Race or ethnicity of respondent,Hispanic or Latino,12200.0,61500.0
+4,Internal-Nominal,1995,Race or ethnicity of respondent,Other or Multiple Race,31200.0,207000.0
+4,Internal-Nominal,1995,Current work status of head,Working for someone else,49200.0,137100.0
+4,Internal-Nominal,1995,Current work status of head,Self-employed,155800.0,701100.0
+4,Internal-Nominal,1995,Current work status of head,Retired,81200.0,225200.0
+4,Internal-Nominal,1995,Current work status of head,Other not working,3600.0,57000.0
+4,Internal-Nominal,1995,Current occupation of head,Managerial or professional,110600.0,430800.0
+4,Internal-Nominal,1995,Current occupation of head,"Technical, sales, or services",37300.0,162200.0
+4,Internal-Nominal,1995,Current occupation of head,Other occupation,45100.0,111800.0
+4,Internal-Nominal,1995,Current occupation of head,Retired or other not working,62300.0,191000.0
+4,Internal-Nominal,1995,Region,Northeast,82900.0,251000.0
+4,Internal-Nominal,1995,Region,Midwest,65600.0,199200.0
+4,Internal-Nominal,1995,Region,South,44100.0,186600.0
+4,Internal-Nominal,1995,Region,West,54700.0,232500.0
+4,Internal-Nominal,1995,Urbanicity,Metropolitan statistical area (MSA),59300.0,226200.0
+4,Internal-Nominal,1995,Urbanicity,Non-MSA,51100.0,130000.0
+4,Internal-Nominal,1995,Housing status,Owner,104100.0,303900.0
+4,Internal-Nominal,1995,Housing status,Renter or other,4900.0,43800.0
+4,Internal-Nominal,1995,Percentile of net worth,Less than 25,1000.0,-200.0
+4,Internal-Nominal,1995,Percentile of net worth,25–49.9,28200.0,30600.0
+4,Internal-Nominal,1995,Percentile of net worth,50–74.9,95100.0,99600.0
+4,Internal-Nominal,1995,Percentile of net worth,75–89.9,221200.0,238700.0
+4,Internal-Nominal,1995,Percentile of net worth,90–100,683300.0,1437400.0
+4,Internal-Nominal,1998,,All families,71700.0,282900.0
+4,Internal-Nominal,1998,Percentile of income,Less than 20,5800.0,47800.0
+4,Internal-Nominal,1998,Percentile of income,20–39.9,33100.0,96100.0
+4,Internal-Nominal,1998,Percentile of income,40–59.9,53400.0,126500.0
+4,Internal-Nominal,1998,Percentile of income,60–79.9,112300.0,206400.0
+4,Internal-Nominal,1998,Percentile of income,80–89.9,188500.0,326000.0
+4,Internal-Nominal,1998,Percentile of income,90–100,452400.0,1548800.0
+4,Internal-Nominal,1998,Age of head (years),Less than 35,9100.0,63900.0
+4,Internal-Nominal,1998,Age of head (years),35–44,63400.0,196500.0
+4,Internal-Nominal,1998,Age of head (years),45–54,105600.0,363800.0
+4,Internal-Nominal,1998,Age of head (years),55–64,127900.0,532700.0
+4,Internal-Nominal,1998,Age of head (years),65–74,146500.0,466700.0
+4,Internal-Nominal,1998,Age of head (years),75 or more,125600.0,310800.0
+4,Internal-Nominal,1998,Family structure,Single with child(ren),16100.000000000002,102400.0
+4,Internal-Nominal,1998,Family structure,"Single, no child, age less than 55",15500.0,92200.0
+4,Internal-Nominal,1998,Family structure,"Single, no child, age 55 or more",87300.0,246000.0
+4,Internal-Nominal,1998,Family structure,Couple with child(ren),87100.0,298800.0
+4,Internal-Nominal,1998,Family structure,"Couple, no child",148500.0,482400.0
+4,Internal-Nominal,1998,Education of head,No high school diploma,21100.0,78900.0
+4,Internal-Nominal,1998,Education of head,High school diploma,54100.0,157800.0
+4,Internal-Nominal,1998,Education of head,Some college,76700.0,224700.0
+4,Internal-Nominal,1998,Education of head,College degree,170200.0,612600.0
+4,Internal-Nominal,1998,Race or ethnicity of respondent,White non-Hispanic,95800.0,337800.0
+4,Internal-Nominal,1998,Race or ethnicity of respondent,Black or African-American non-hispanic,15500.0,64099.99999999999
+4,Internal-Nominal,1998,Race or ethnicity of respondent,Hispanic or Latino,9800.0,87100.0
+4,Internal-Nominal,1998,Race or ethnicity of respondent,Other or Multiple Race,38400.0,219100.0
+4,Internal-Nominal,1998,Current work status of head,Working for someone else,52800.0,168300.0
+4,Internal-Nominal,1998,Current work status of head,Self-employed,248400.0,926000.0
+4,Internal-Nominal,1998,Current work status of head,Retired,113000.0,307500.0
+4,Internal-Nominal,1998,Current work status of head,Other not working,3600.0,74000.0
+4,Internal-Nominal,1998,Current occupation of head,Managerial or professional,132300.0,541900.0
+4,Internal-Nominal,1998,Current occupation of head,"Technical, sales, or services",40800.0,193200.0
+4,Internal-Nominal,1998,Current occupation of head,Other occupation,50000.0,126500.0
+4,Internal-Nominal,1998,Current occupation of head,Retired or other not working,81900.0,268300.0
+4,Internal-Nominal,1998,Region,Northeast,94300.0,303500.0
+4,Internal-Nominal,1998,Region,Midwest,80300.0,249100.0
+4,Internal-Nominal,1998,Region,South,61300.0,267200.0
+4,Internal-Nominal,1998,Region,West,61300.0,327800.0
+4,Internal-Nominal,1998,Urbanicity,Metropolitan statistical area (MSA),72500.0,306600.0
+4,Internal-Nominal,1998,Urbanicity,Non-MSA,69100.0,144800.0
+4,Internal-Nominal,1998,Housing status,Owner,132100.0,404900.0
+4,Internal-Nominal,1998,Housing status,Renter or other,4200.0,43400.0
+4,Internal-Nominal,1998,Percentile of net worth,Less than 25,500.0,-1800.0
+4,Internal-Nominal,1998,Percentile of net worth,25–49.9,32700.000000000004,35900.0
+4,Internal-Nominal,1998,Percentile of net worth,50–74.9,120500.0,128600.0
+4,Internal-Nominal,1998,Percentile of net worth,75–89.9,310100.0,322100.0
+4,Internal-Nominal,1998,Percentile of net worth,90–100,896300.0,1938700.0
+4,Internal-Nominal,2001,,All families,86600.0,397400.0
+4,Internal-Nominal,2001,Percentile of income,Less than 20,7900.0,52800.0
+4,Internal-Nominal,2001,Percentile of income,20–39.9,37400.0,115200.0
+4,Internal-Nominal,2001,Percentile of income,40–59.9,63700.0,162700.0
+4,Internal-Nominal,2001,Percentile of income,60–79.9,144300.0,294300.0
+4,Internal-Nominal,2001,Percentile of income,80–89.9,263100.0,457300.0
+4,Internal-Nominal,2001,Percentile of income,90–100,833600.0,2266300.0
+4,Internal-Nominal,2001,Age of head (years),Less than 35,11700.0,90700.0
+4,Internal-Nominal,2001,Age of head (years),35–44,77600.0,260000.0
+4,Internal-Nominal,2001,Age of head (years),45–54,134600.0,486300.0
+4,Internal-Nominal,2001,Age of head (years),55–64,185400.0,733300.0
+4,Internal-Nominal,2001,Age of head (years),65–74,177800.0,678500.0
+4,Internal-Nominal,2001,Age of head (years),75 or more,155300.0,469100.0
+4,Internal-Nominal,2001,Family structure,Single with child(ren),13200.0,95800.0
+4,Internal-Nominal,2001,Family structure,"Single, no child, age less than 55",19600.0,151400.0
+4,Internal-Nominal,2001,Family structure,"Single, no child, age 55 or more",91400.0,290400.0
+4,Internal-Nominal,2001,Family structure,Couple with child(ren),113600.0,440700.0
+4,Internal-Nominal,2001,Family structure,"Couple, no child",177100.0,644800.0
+4,Internal-Nominal,2001,Education of head,No high school diploma,25500.0,104000.0
+4,Internal-Nominal,2001,Education of head,High school diploma,58100.0,181200.0
+4,Internal-Nominal,2001,Education of head,Some college,82900.0,278400.0
+4,Internal-Nominal,2001,Education of head,College degree,243000.0,904700.0
+4,Internal-Nominal,2001,Race or ethnicity of respondent,White non-Hispanic,122800.0,488800.0
+4,Internal-Nominal,2001,Race or ethnicity of respondent,Black or African-American non-hispanic,19400.0,71600.0
+4,Internal-Nominal,2001,Race or ethnicity of respondent,Hispanic or Latino,11400.0,88500.0
+4,Internal-Nominal,2001,Race or ethnicity of respondent,Other or Multiple Race,52600.0,309500.0
+4,Internal-Nominal,2001,Current work status of head,Working for someone else,65099.99999999999,226000.0
+4,Internal-Nominal,2001,Current work status of head,Self-employed,352300.0,1262100.0
+4,Internal-Nominal,2001,Current work status of head,Retired,115100.0,454000.0
+4,Internal-Nominal,2001,Current work status of head,Other not working,7700.0,178200.0
+4,Internal-Nominal,2001,Current occupation of head,Managerial or professional,197600.0,769000.0
+4,Internal-Nominal,2001,Current occupation of head,"Technical, sales, or services",46700.0,199700.0
+4,Internal-Nominal,2001,Current occupation of head,Other occupation,48100.0,136400.0
+4,Internal-Nominal,2001,Current occupation of head,Retired or other not working,96500.0,409200.0
+4,Internal-Nominal,2001,Region,Northeast,93300.0,454000.0
+4,Internal-Nominal,2001,Region,Midwest,106300.0,341400.0
+4,Internal-Nominal,2001,Region,South,73800.0,376500.0
+4,Internal-Nominal,2001,Region,West,89000.0,442200.0
+4,Internal-Nominal,2001,Urbanicity,Metropolitan statistical area (MSA),88200.0,428400.0
+4,Internal-Nominal,2001,Urbanicity,Non-MSA,80000.0,204100.0
+4,Internal-Nominal,2001,Housing status,Owner,172600.0,560800.0
+4,Internal-Nominal,2001,Housing status,Renter or other,4800.0,55200.0
+4,Internal-Nominal,2001,Percentile of net worth,Less than 25,1200.0,100.0
+4,Internal-Nominal,2001,Percentile of net worth,25–49.9,40900.0,44400.0
+4,Internal-Nominal,2001,Percentile of net worth,50–74.9,158000.0,167200.0
+4,Internal-Nominal,2001,Percentile of net worth,75–89.9,430900.0,451700.0
+4,Internal-Nominal,2001,Percentile of net worth,90–100,1307800.0,2766500.0
+4,Internal-Nominal,2004,,All families,93100.0,449400.0
+4,Internal-Nominal,2004,Percentile of income,Less than 20,7500.0,72700.0
+4,Internal-Nominal,2004,Percentile of income,20–39.9,33700.0,121500.0
+4,Internal-Nominal,2004,Percentile of income,40–59.9,72000.0,194700.0
+4,Internal-Nominal,2004,Percentile of income,60–79.9,160000.0,341500.0
+4,Internal-Nominal,2004,Percentile of income,80–89.9,313700.0,489900.0
+4,Internal-Nominal,2004,Percentile of income,90–100,929600.0,2542200.0
+4,Internal-Nominal,2004,Age of head (years),Less than 35,14200.0,73500.0
+4,Internal-Nominal,2004,Age of head (years),35–44,69400.0,300000.0
+4,Internal-Nominal,2004,Age of head (years),45–54,145200.0,543900.0
+4,Internal-Nominal,2004,Age of head (years),55–64,252100.0,848600.0
+4,Internal-Nominal,2004,Age of head (years),65–74,190100.0,691000.0
+4,Internal-Nominal,2004,Age of head (years),75 or more,163100.0,528100.0
+4,Internal-Nominal,2004,Family structure,Single with child(ren),20900.0,130300.00000000001
+4,Internal-Nominal,2004,Family structure,"Single, no child, age less than 55",21100.0,156300.0
+4,Internal-Nominal,2004,Family structure,"Single, no child, age 55 or more",116500.0,352700.0
+4,Internal-Nominal,2004,Family structure,Couple with child(ren),122200.0,504500.0
+4,Internal-Nominal,2004,Family structure,"Couple, no child",208800.0,754500.0
+4,Internal-Nominal,2004,Education of head,No high school diploma,20600.0,136500.0
+4,Internal-Nominal,2004,Education of head,High school diploma,68700.0,197400.0
+4,Internal-Nominal,2004,Education of head,Some college,78600.0,302500.0
+4,Internal-Nominal,2004,Education of head,College degree,270600.0,967400.0
+4,Internal-Nominal,2004,Race or ethnicity of respondent,White non-Hispanic,141000.0,563400.0
+4,Internal-Nominal,2004,Race or ethnicity of respondent,Black or African-American non-hispanic,20400.0,112300.0
+4,Internal-Nominal,2004,Race or ethnicity of respondent,Hispanic or Latino,15300.0,124300.0
+4,Internal-Nominal,2004,Race or ethnicity of respondent,Other or Multiple Race,70900.0,290200.0
+4,Internal-Nominal,2004,Current work status of head,Working for someone else,67200.0,270000.0
+4,Internal-Nominal,2004,Current work status of head,Self-employed,349500.0,1425200.0
+4,Internal-Nominal,2004,Current work status of head,Retired,139800.0,469100.0
+4,Internal-Nominal,2004,Current work status of head,Other not working,11800.0,162300.0
+4,Internal-Nominal,2004,Current occupation of head,Managerial or professional,197500.0,865300.0
+4,Internal-Nominal,2004,Current occupation of head,"Technical, sales, or services",45000.0,247600.0
+4,Internal-Nominal,2004,Current occupation of head,Other occupation,56500.0,147500.0
+4,Internal-Nominal,2004,Current occupation of head,Retired or other not working,111100.0,421500.0
+4,Internal-Nominal,2004,Region,Northeast,161700.0,569300.0
+4,Internal-Nominal,2004,Region,Midwest,115000.0,437900.0
+4,Internal-Nominal,2004,Region,South,63800.0,348500.0
+4,Internal-Nominal,2004,Region,West,95000.0,526100.0
+4,Internal-Nominal,2004,Urbanicity,Metropolitan statistical area (MSA),104400.0,505800.0
+4,Internal-Nominal,2004,Urbanicity,Non-MSA,59300.0,176900.0
+4,Internal-Nominal,2004,Housing status,Owner,184700.0,626500.0
+4,Internal-Nominal,2004,Housing status,Renter or other,4000.0,54100.0
+4,Internal-Nominal,2004,Percentile of net worth,Less than 25,1700.0,-1400.0
+4,Internal-Nominal,2004,Percentile of net worth,25–49.9,43600.0,47100.0
+4,Internal-Nominal,2004,Percentile of net worth,50–74.9,171000.0,185700.0
+4,Internal-Nominal,2004,Percentile of net worth,75–89.9,509900.0,528800.0
+4,Internal-Nominal,2004,Percentile of net worth,90–100,1430100.0,3120900.0
+4,Internal-Nominal,2007,,All families,120600.0,557800.0
+4,Internal-Nominal,2007,Percentile of income,Less than 20,8100.0,105300.0
+4,Internal-Nominal,2007,Percentile of income,20–39.9,37800.0,134900.0
+4,Internal-Nominal,2007,Percentile of income,40–59.9,88100.0,210500.0
+4,Internal-Nominal,2007,Percentile of income,60–79.9,205800.0,375100.0
+4,Internal-Nominal,2007,Percentile of income,80–89.9,356200.0,609000.0
+4,Internal-Nominal,2007,Percentile of income,90–100,1119000.0,3316500.0
+4,Internal-Nominal,2007,Age of head (years),Less than 35,11800.0,106000.0
+4,Internal-Nominal,2007,Age of head (years),35–44,88200.0,326300.0
+4,Internal-Nominal,2007,Age of head (years),45–54,184900.0,662200.0
+4,Internal-Nominal,2007,Age of head (years),55–64,254100.0,941800.0
+4,Internal-Nominal,2007,Age of head (years),65–74,239400.0,1015700.0
+4,Internal-Nominal,2007,Age of head (years),75 or more,213500.0,638300.0
+4,Internal-Nominal,2007,Family structure,Single with child(ren),23300.0,178900.0
+4,Internal-Nominal,2007,Family structure,"Single, no child, age less than 55",25100.0,207300.0
+4,Internal-Nominal,2007,Family structure,"Single, no child, age 55 or more",143900.0,390300.0
+4,Internal-Nominal,2007,Family structure,Couple with child(ren),140800.0,600400.0
+4,Internal-Nominal,2007,Family structure,"Couple, no child",225500.0,952500.0
+4,Internal-Nominal,2007,Education of head,No high school diploma,33200.0,142900.0
+4,Internal-Nominal,2007,Education of head,High school diploma,80500.0,251800.0
+4,Internal-Nominal,2007,Education of head,Some college,98100.0,361700.0
+4,Internal-Nominal,2007,Education of head,College degree,322800.0,1260800.0
+4,Internal-Nominal,2007,Race or ethnicity of respondent,White non-Hispanic,171300.0,694000.0
+4,Internal-Nominal,2007,Race or ethnicity of respondent,Black or African-American non-hispanic,21100.0,134500.0
+4,Internal-Nominal,2007,Race or ethnicity of respondent,Hispanic or Latino,21100.0,186100.0
+4,Internal-Nominal,2007,Race or ethnicity of respondent,Other or Multiple Race,60700.0,394700.0
+4,Internal-Nominal,2007,Current work status of head,Working for someone else,94000.0,352000.0
+4,Internal-Nominal,2007,Current work status of head,Self-employed,388700.0,1963800.0
+4,Internal-Nominal,2007,Current work status of head,Retired,162100.0,543200.0
+4,Internal-Nominal,2007,Current work status of head,Other not working,5700.0,124200.0
+4,Internal-Nominal,2007,Current occupation of head,Managerial or professional,247100.0,1121300.0
+4,Internal-Nominal,2007,Current occupation of head,"Technical, sales, or services",73500.0,310300.0
+4,Internal-Nominal,2007,Current occupation of head,Other occupation,65200.0,192100.0
+4,Internal-Nominal,2007,Current occupation of head,Retired or other not working,129400.0,477800.0
+4,Internal-Nominal,2007,Region,Northeast,159500.0,652600.0
+4,Internal-Nominal,2007,Region,Midwest,107500.0,468800.0
+4,Internal-Nominal,2007,Region,South,97400.0,502000.0
+4,Internal-Nominal,2007,Region,West,156600.0,663700.0
+4,Internal-Nominal,2007,Urbanicity,Metropolitan statistical area (MSA),132500.0,622700.0
+4,Internal-Nominal,2007,Urbanicity,Non-MSA,78200.0,242400.0
+4,Internal-Nominal,2007,Housing status,Owner,234800.0,780100.0
+4,Internal-Nominal,2007,Housing status,Renter or other,5100.0,71300.0
+4,Internal-Nominal,2007,Percentile of net worth,Less than 25,1200.0,-2200.0
+4,Internal-Nominal,2007,Percentile of net worth,25–49.9,54300.0,58100.0
+4,Internal-Nominal,2007,Percentile of net worth,50–74.9,220300.0,227700.0
+4,Internal-Nominal,2007,Percentile of net worth,75–89.9,573400.0,588000.0
+4,Internal-Nominal,2007,Percentile of net worth,90–100,1898700.0,3985700.0
+4,Internal-Nominal,2010,,All families,77300.0,498800.0
+4,Internal-Nominal,2010,Percentile of income,Less than 20,6200.0,116800.0
+4,Internal-Nominal,2010,Percentile of income,20–39.9,25600.0,127900.0
+4,Internal-Nominal,2010,Percentile of income,40–59.9,65900.0,199000.0
+4,Internal-Nominal,2010,Percentile of income,60–79.9,128600.0,294000.0
+4,Internal-Nominal,2010,Percentile of income,80–89.9,286600.0,567300.0
+4,Internal-Nominal,2010,Percentile of income,90–100,1194300.0,2944300.0
+4,Internal-Nominal,2010,Age of head (years),Less than 35,9300.0,65300.0
+4,Internal-Nominal,2010,Age of head (years),35–44,42100.0,217400.0
+4,Internal-Nominal,2010,Age of head (years),45–54,117900.0,573000.0
+4,Internal-Nominal,2010,Age of head (years),55–64,179400.0,880500.0
+4,Internal-Nominal,2010,Age of head (years),65–74,206700.0,848400.0
+4,Internal-Nominal,2010,Age of head (years),75 or more,216800.0,677900.0
+4,Internal-Nominal,2010,Family structure,Single with child(ren),15500.0,143700.0
+4,Internal-Nominal,2010,Family structure,"Single, no child, age less than 55",14600.0,117500.0
+4,Internal-Nominal,2010,Family structure,"Single, no child, age 55 or more",102000.0,391600.0
+4,Internal-Nominal,2010,Family structure,Couple with child(ren),86700.0,555700.0
+4,Internal-Nominal,2010,Family structure,"Couple, no child",205700.0,864800.0
+4,Internal-Nominal,2010,Education of head,No high school diploma,16100.000000000002,110700.0
+4,Internal-Nominal,2010,Education of head,High school diploma,56700.0,218100.0
+4,Internal-Nominal,2010,Education of head,Some college,57200.0,273400.0
+4,Internal-Nominal,2010,Education of head,College degree,249600.0,1125900.0
+4,Internal-Nominal,2010,Race or ethnicity of respondent,White non-Hispanic,130500.0,654500.0
+4,Internal-Nominal,2010,Race or ethnicity of respondent,Black or African-American non-hispanic,16000.0,99300.0
+4,Internal-Nominal,2010,Race or ethnicity of respondent,Hispanic or Latino,16200.0,115600.0
+4,Internal-Nominal,2010,Race or ethnicity of respondent,Other or Multiple Race,42600.0,335400.0
+4,Internal-Nominal,2010,Current work status of head,Working for someone else,55200.0,298800.0
+4,Internal-Nominal,2010,Current work status of head,Self-employed,285600.0,1743700.0
+4,Internal-Nominal,2010,Current work status of head,Retired,151100.0,485300.0
+4,Internal-Nominal,2010,Current work status of head,Other not working,11900.0,137500.0
+4,Internal-Nominal,2010,Current occupation of head,Managerial or professional,167300.0,1047000.0
+4,Internal-Nominal,2010,Current occupation of head,"Technical, sales, or services",32600.0,219100.0
+4,Internal-Nominal,2010,Current occupation of head,Other occupation,46600.0,162800.0
+4,Internal-Nominal,2010,Current occupation of head,Retired or other not working,93500.0,410400.0
+4,Internal-Nominal,2010,Region,Northeast,119900.0,615200.0
+4,Internal-Nominal,2010,Region,Midwest,68400.0,399800.0
+4,Internal-Nominal,2010,Region,South,68200.0,440800.0
+4,Internal-Nominal,2010,Region,West,73400.0,599900.0
+4,Internal-Nominal,2010,Urbanicity,Metropolitan statistical area (MSA),78400.0,553600.0
+4,Internal-Nominal,2010,Urbanicity,Non-MSA,74500.0,236100.0
+4,Internal-Nominal,2010,Housing status,Owner,174500.0,713400.0
+4,Internal-Nominal,2010,Housing status,Renter or other,5100.0,57200.0
+4,Internal-Nominal,2010,Percentile of net worth,Less than 25,0.0,-12800.0
+4,Internal-Nominal,2010,Percentile of net worth,25–49.9,32200.000000000004,35600.0
+4,Internal-Nominal,2010,Percentile of net worth,50–74.9,157200.0,168900.0
+4,Internal-Nominal,2010,Percentile of net worth,75–89.9,482700.0,527900.0
+4,Internal-Nominal,2010,Percentile of net worth,90–100,1864100.0,3716400.0
+4,Internal-Nominal,2013,,All families,81200.0,534600.0
+4,Internal-Nominal,2013,Percentile of income,Less than 20,6100.0,86100.0
+4,Internal-Nominal,2013,Percentile of income,20–39.9,22400.0,112700.0
+4,Internal-Nominal,2013,Percentile of income,40–59.9,61700.0,168600.0
+4,Internal-Nominal,2013,Percentile of income,60–79.9,159200.0,333600.0
+4,Internal-Nominal,2013,Percentile of income,80–89.9,300500.0,635800.0
+4,Internal-Nominal,2013,Percentile of income,90–100,1130700.0,3307900.0
+4,Internal-Nominal,2013,Age of head (years),Less than 35,10400.0,75500.0
+4,Internal-Nominal,2013,Age of head (years),35–44,46700.0,347200.0
+4,Internal-Nominal,2013,Age of head (years),45–54,105300.0,530100.0
+4,Internal-Nominal,2013,Age of head (years),55–64,165900.0,798400.0
+4,Internal-Nominal,2013,Age of head (years),65–74,232100.0,1057000.0
+4,Internal-Nominal,2013,Age of head (years),75 or more,194800.0,645200.0
+4,Internal-Nominal,2013,Family structure,Single with child(ren),14000.0,129100.0
+4,Internal-Nominal,2013,Family structure,"Single, no child, age less than 55",14100.0,148100.0
+4,Internal-Nominal,2013,Family structure,"Single, no child, age 55 or more",108100.0,372900.0
+4,Internal-Nominal,2013,Family structure,Couple with child(ren),92400.0,589200.0
+4,Internal-Nominal,2013,Family structure,"Couple, no child",213800.0,962800.0
+4,Internal-Nominal,2013,Education of head,No high school diploma,17200.0,108800.0
+4,Internal-Nominal,2013,Education of head,High school diploma,52500.0,199600.0
+4,Internal-Nominal,2013,Education of head,Some college,50700.0,318400.0
+4,Internal-Nominal,2013,Education of head,College degree,277000.0,1182900.0
+4,Internal-Nominal,2013,Race or ethnicity of respondent,White non-Hispanic,142000.0,705900.0
+4,Internal-Nominal,2013,Race or ethnicity of respondent,Black or African-American non-hispanic,13200.0,99000.0
+4,Internal-Nominal,2013,Race or ethnicity of respondent,Hispanic or Latino,13800.0,107700.0
+4,Internal-Nominal,2013,Race or ethnicity of respondent,Other or Multiple Race,41200.0,372100.0
+4,Internal-Nominal,2013,Current work status of head,Working for someone else,62000.0,314700.0
+4,Internal-Nominal,2013,Current work status of head,Self-employed,358900.0,2167500.0
+4,Internal-Nominal,2013,Current work status of head,Retired,128000.0,507500.0
+4,Internal-Nominal,2013,Current work status of head,Other not working,9000.0,135300.0
+4,Internal-Nominal,2013,Current occupation of head,Managerial or professional,192300.0,1062700.0
+4,Internal-Nominal,2013,Current occupation of head,"Technical, sales, or services",31800.0,268700.0
+4,Internal-Nominal,2013,Current occupation of head,Other occupation,49500.0,172100.0
+4,Internal-Nominal,2013,Current occupation of head,Retired or other not working,91100.0,436600.0
+4,Internal-Nominal,2013,Region,Northeast,129800.00000000001,630200.0
+4,Internal-Nominal,2013,Region,Midwest,75900.0,448100.0
+4,Internal-Nominal,2013,Region,South,69500.0,451500.0
+4,Internal-Nominal,2013,Region,West,86600.0,682900.0
+4,Internal-Nominal,2013,Urbanicity,Metropolitan statistical area (MSA),84700.0,575300.0
+4,Internal-Nominal,2013,Urbanicity,Non-MSA,68000.0,261300.0
+4,Internal-Nominal,2013,Housing status,Owner,195400.0,783000.0
+4,Internal-Nominal,2013,Housing status,Renter or other,5400.0,70300.0
+4,Internal-Nominal,2013,Percentile of net worth,Less than 25,0.0,-13400.0
+4,Internal-Nominal,2013,Percentile of net worth,25–49.9,31300.0,35900.0
+4,Internal-Nominal,2013,Percentile of net worth,50–74.9,168100.0,177700.0
+4,Internal-Nominal,2013,Percentile of net worth,75–89.9,505800.0,546200.0
+4,Internal-Nominal,2013,Percentile of net worth,90–100,1871800.0,4024800.0
+4,Internal-Nominal,2016,,All families,97300.0,692000.0
+4,Internal-Nominal,2016,Percentile of income,Less than 20,6500.0,89500.0
+4,Internal-Nominal,2016,Percentile of income,20–39.9,32299.999999999996,128699.99999999999
+4,Internal-Nominal,2016,Percentile of income,40–59.9,81500.0,207300.0
+4,Internal-Nominal,2016,Percentile of income,60–79.9,168300.0,373500.0
+4,Internal-Nominal,2016,Percentile of income,80–89.9,390600.0,771000.0
+4,Internal-Nominal,2016,Percentile of income,90–100,1640100.0,4550200.0
+4,Internal-Nominal,2016,Age of head (years),Less than 35,11000.0,76100.0
+4,Internal-Nominal,2016,Age of head (years),35–44,59800.0,288600.0
+4,Internal-Nominal,2016,Age of head (years),45–54,124200.0,727500.0
+4,Internal-Nominal,2016,Age of head (years),55–64,187300.0,1167400.0
+4,Internal-Nominal,2016,Age of head (years),65–74,223400.0,1066000.0
+4,Internal-Nominal,2016,Age of head (years),75 or more,264800.0,1066900.0
+4,Internal-Nominal,2016,Family structure,Single with child(ren),21700.0,169700.0
+4,Internal-Nominal,2016,Family structure,"Single, no child, age less than 55",13800.0,182300.0
+4,Internal-Nominal,2016,Family structure,"Single, no child, age 55 or more",114800.0,508100.0
+4,Internal-Nominal,2016,Family structure,Couple with child(ren),116700.0,721500.0
+4,Internal-Nominal,2016,Family structure,"Couple, no child",226300.0,1257600.0
+4,Internal-Nominal,2016,Education of head,No high school diploma,22800.0,157100.0
+4,Internal-Nominal,2016,Education of head,High school diploma,67100.0,249500.0
+4,Internal-Nominal,2016,Education of head,Some college,66000.0,340500.0
+4,Internal-Nominal,2016,Education of head,College degree,292100.0,1511100.0
+4,Internal-Nominal,2016,Race or ethnicity of respondent,White non-Hispanic,171000.0,933700.0
+4,Internal-Nominal,2016,Race or ethnicity of respondent,Black or African-American non-hispanic,17100.0,138000.0
+4,Internal-Nominal,2016,Race or ethnicity of respondent,Hispanic or Latino,20600.0,191200.0
+4,Internal-Nominal,2016,Race or ethnicity of respondent,Other or Multiple Race,64700.0,457700.0
+4,Internal-Nominal,2016,Current work status of head,Working for someone else,70500.0,413400.0
+4,Internal-Nominal,2016,Current work status of head,Self-employed,312000.0,2398100.0
+4,Internal-Nominal,2016,Current work status of head,Retired,158600.0,711200.0
+4,Internal-Nominal,2016,Current work status of head,Other not working,8200.0,102000.0
+4,Internal-Nominal,2016,Current occupation of head,Managerial or professional,205000.0,1349300.0
+4,Internal-Nominal,2016,Current occupation of head,"Technical, sales, or services",43200.0,327700.0
+4,Internal-Nominal,2016,Current occupation of head,Other occupation,51300.0,203900.0
+4,Internal-Nominal,2016,Current occupation of head,Retired or other not working,117600.0,616500.0
+4,Internal-Nominal,2016,Region,Northeast,145900.0,803800.0
+4,Internal-Nominal,2016,Region,Midwest,97400.0,622000.0
+4,Internal-Nominal,2016,Region,South,82100.0,601300.0
+4,Internal-Nominal,2016,Region,West,107900.0,824900.0
+4,Internal-Nominal,2016,Urbanicity,Metropolitan statistical area (MSA),99000.0,751200.0
+4,Internal-Nominal,2016,Urbanicity,Non-MSA,87700.0,276200.0
+4,Internal-Nominal,2016,Housing status,Owner,231400.0,1034200.0
+4,Internal-Nominal,2016,Housing status,Renter or other,5000.0,91000.0
+4,Internal-Nominal,2016,Percentile of net worth,Less than 25,100.0,-12200.0
+4,Internal-Nominal,2016,Percentile of net worth,25–49.9,39700.0,44700.0
+4,Internal-Nominal,2016,Percentile of net worth,50–74.9,191800.0,204100.0
+4,Internal-Nominal,2016,Percentile of net worth,75–89.9,604900.0,659300.0
+4,Internal-Nominal,2016,Percentile of net worth,90–100,2387500.0,5336000.0

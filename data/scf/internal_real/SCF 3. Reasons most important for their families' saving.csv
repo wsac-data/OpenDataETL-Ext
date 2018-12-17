@@ -1,0 +1,101 @@
+SCF Table,!Calculation,Year,Sub-Characteristic,Percent of Respondents
+3,Internal-Real,1989,Education,0.085
+3,Internal-Real,1989,For the family,0.031
+3,Internal-Real,1989,Buying own home,0.049
+3,Internal-Real,1989,Purchases,0.125
+3,Internal-Real,1989,Retirement,0.187
+3,Internal-Real,1989,Liquidity,0.344
+3,Internal-Real,1989,Investments,0.08
+3,Internal-Real,1989,No particular reason,0.017
+3,Internal-Real,1989,"When asked for a reason, reported do not save",0.084
+3,Internal-Real,1989,Total,1.0
+3,Internal-Real,1992,Education,0.091
+3,Internal-Real,1992,For the family,0.026000000000000002
+3,Internal-Real,1992,Buying own home,0.04
+3,Internal-Real,1992,Purchases,0.09699999999999999
+3,Internal-Real,1992,Retirement,0.19399999999999998
+3,Internal-Real,1992,Liquidity,0.33899999999999997
+3,Internal-Real,1992,Investments,0.076
+3,Internal-Real,1992,No particular reason,0.017
+3,Internal-Real,1992,"When asked for a reason, reported do not save",0.12
+3,Internal-Real,1992,Total,1.0
+3,Internal-Real,1995,Education,0.10800000000000001
+3,Internal-Real,1995,For the family,0.027000000000000003
+3,Internal-Real,1995,Buying own home,0.051
+3,Internal-Real,1995,Purchases,0.128
+3,Internal-Real,1995,Retirement,0.237
+3,Internal-Real,1995,Liquidity,0.33
+3,Internal-Real,1995,Investments,0.042
+3,Internal-Real,1995,No particular reason,0.008
+3,Internal-Real,1995,"When asked for a reason, reported do not save",0.068
+3,Internal-Real,1995,Total,1.0
+3,Internal-Real,1998,Education,0.11
+3,Internal-Real,1998,For the family,0.040999999999999995
+3,Internal-Real,1998,Buying own home,0.044000000000000004
+3,Internal-Real,1998,Purchases,0.09699999999999999
+3,Internal-Real,1998,Retirement,0.33
+3,Internal-Real,1998,Liquidity,0.298
+3,Internal-Real,1998,Investments,0.02
+3,Internal-Real,1998,No particular reason,0.013000000000000001
+3,Internal-Real,1998,"When asked for a reason, reported do not save",0.049
+3,Internal-Real,1998,Total,1.0
+3,Internal-Real,2001,Education,0.109
+3,Internal-Real,2001,For the family,0.051
+3,Internal-Real,2001,Buying own home,0.042
+3,Internal-Real,2001,Purchases,0.095
+3,Internal-Real,2001,Retirement,0.321
+3,Internal-Real,2001,Liquidity,0.312
+3,Internal-Real,2001,Investments,0.01
+3,Internal-Real,2001,No particular reason,0.011000000000000001
+3,Internal-Real,2001,"When asked for a reason, reported do not save",0.049
+3,Internal-Real,2001,Total,1.0
+3,Internal-Real,2004,Education,0.11599999999999999
+3,Internal-Real,2004,For the family,0.047
+3,Internal-Real,2004,Buying own home,0.05
+3,Internal-Real,2004,Purchases,0.077
+3,Internal-Real,2004,Retirement,0.34700000000000003
+3,Internal-Real,2004,Liquidity,0.3
+3,Internal-Real,2004,Investments,0.015
+3,Internal-Real,2004,No particular reason,0.006999999999999999
+3,Internal-Real,2004,"When asked for a reason, reported do not save",0.04
+3,Internal-Real,2004,Total,1.0
+3,Internal-Real,2007,Education,0.084
+3,Internal-Real,2007,For the family,0.055
+3,Internal-Real,2007,Buying own home,0.042
+3,Internal-Real,2007,Purchases,0.1
+3,Internal-Real,2007,Retirement,0.34
+3,Internal-Real,2007,Liquidity,0.32
+3,Internal-Real,2007,Investments,0.016
+3,Internal-Real,2007,No particular reason,0.011000000000000001
+3,Internal-Real,2007,"When asked for a reason, reported do not save",0.033
+3,Internal-Real,2007,Total,1.0
+3,Internal-Real,2010,Education,0.08199999999999999
+3,Internal-Real,2010,For the family,0.057
+3,Internal-Real,2010,Buying own home,0.032
+3,Internal-Real,2010,Purchases,0.115
+3,Internal-Real,2010,Retirement,0.301
+3,Internal-Real,2010,Liquidity,0.35200000000000004
+3,Internal-Real,2010,Investments,0.012
+3,Internal-Real,2010,No particular reason,0.013999999999999999
+3,Internal-Real,2010,"When asked for a reason, reported do not save",0.035
+3,Internal-Real,2010,Total,1.0
+3,Internal-Real,2013,Education,0.086
+3,Internal-Real,2013,For the family,0.063
+3,Internal-Real,2013,Buying own home,0.031
+3,Internal-Real,2013,Purchases,0.091
+3,Internal-Real,2013,Retirement,0.305
+3,Internal-Real,2013,Liquidity,0.358
+3,Internal-Real,2013,Investments,0.013999999999999999
+3,Internal-Real,2013,No particular reason,0.012
+3,Internal-Real,2013,"When asked for a reason, reported do not save",0.040999999999999995
+3,Internal-Real,2013,Total,1.0
+3,Internal-Real,2016,Education,0.07200000000000001
+3,Internal-Real,2016,For the family,0.069
+3,Internal-Real,2016,Buying own home,0.040999999999999995
+3,Internal-Real,2016,Purchases,0.121
+3,Internal-Real,2016,Retirement,0.303
+3,Internal-Real,2016,Liquidity,0.36200000000000004
+3,Internal-Real,2016,Investments,0.018000000000000002
+3,Internal-Real,2016,No particular reason,0.006
+3,Internal-Real,2016,"When asked for a reason, reported do not save",0.008
+3,Internal-Real,2016,Total,1.0
