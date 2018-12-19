@@ -1,81 +1,91 @@
-SCF Table,!Calculation,Year,Purpose,Distribution of Debt Amount
+SCF Table,!Calculation,Year,Sub-Characteristic,Percent of Respondents
 16,Internal-Nominal,1989,Purchase,0.64
-16,Internal-Nominal,1992,Purchase,0.672
-16,Internal-Nominal,1995,Purchase,0.703
-16,Internal-Nominal,1998,Purchase,0.679
-16,Internal-Nominal,2001,Purchase,0.709
-16,Internal-Nominal,2004,Purchase,0.702
-16,Internal-Nominal,2007,Purchase,0.695
-16,Internal-Nominal,2010,Purchase,0.695
-16,Internal-Nominal,2013,Purchase,0.705
-16,Internal-Nominal,2016,Purchase,0.667
 16,Internal-Nominal,1989,Improvement,0.025
-16,Internal-Nominal,1992,Improvement,0.025
-16,Internal-Nominal,1995,Improvement,0.02
-16,Internal-Nominal,1998,Improvement,0.021
-16,Internal-Nominal,2001,Improvement,0.02
-16,Internal-Nominal,2004,Improvement,0.019
-16,Internal-Nominal,2007,Improvement,0.023
-16,Internal-Nominal,2010,Improvement,0.019
-16,Internal-Nominal,2013,Improvement,0.017
-16,Internal-Nominal,2016,Improvement,0.015
-16,Internal-Nominal,1989,Other residential property,0.088
-16,Internal-Nominal,1992,Other residential property,0.108
-16,Internal-Nominal,1995,Other residential property,0.082
-16,Internal-Nominal,1998,Other residential property,0.078
-16,Internal-Nominal,2001,Other residential property,0.065
-16,Internal-Nominal,2004,Other residential property,0.095
-16,Internal-Nominal,2007,Other residential property,0.108
-16,Internal-Nominal,2010,Other residential property,0.105
-16,Internal-Nominal,2013,Other residential property,0.102
-16,Internal-Nominal,2016,Other residential property,0.103
+16,Internal-Nominal,1989,Other residential property,0.08800000000000001
 16,Internal-Nominal,1989,Investments excluding real estate,0.039
-16,Internal-Nominal,1992,Investments excluding real estate,0.018
-16,Internal-Nominal,1995,Investments excluding real estate,0.01
-16,Internal-Nominal,1998,Investments excluding real estate,0.033
-16,Internal-Nominal,2001,Investments excluding real estate,0.028
-16,Internal-Nominal,2004,Investments excluding real estate,0.022
-16,Internal-Nominal,2007,Investments excluding real estate,0.016
-16,Internal-Nominal,2010,Investments excluding real estate,0.02
-16,Internal-Nominal,2013,Investments excluding real estate,0.01
-16,Internal-Nominal,2016,Investments excluding real estate,0.015
 16,Internal-Nominal,1989,Vehicles,0.106
-16,Internal-Nominal,1992,Vehicles,0.07
-16,Internal-Nominal,1995,Vehicles,0.076
-16,Internal-Nominal,1998,Vehicles,0.076
-16,Internal-Nominal,2001,Vehicles,0.078
-16,Internal-Nominal,2004,Vehicles,0.067
-16,Internal-Nominal,2007,Vehicles,0.055
-16,Internal-Nominal,2010,Vehicles,0.047
-16,Internal-Nominal,2013,Vehicles,0.051
-16,Internal-Nominal,2016,Vehicles,0.063
 16,Internal-Nominal,1989,Goods and services,0.061
-16,Internal-Nominal,1992,Goods and services,0.056
-16,Internal-Nominal,1995,Goods and services,0.057
-16,Internal-Nominal,1998,Goods and services,0.063
-16,Internal-Nominal,2001,Goods and services,0.058
-16,Internal-Nominal,2004,Goods and services,0.06
-16,Internal-Nominal,2007,Goods and services,0.062
-16,Internal-Nominal,2010,Goods and services,0.057
-16,Internal-Nominal,2013,Goods and services,0.044
-16,Internal-Nominal,2016,Goods and services,0.049
 16,Internal-Nominal,1989,Education,0.024
-16,Internal-Nominal,1992,Education,0.028
-16,Internal-Nominal,1995,Education,0.027
-16,Internal-Nominal,1998,Education,0.035
-16,Internal-Nominal,2001,Education,0.031
-16,Internal-Nominal,2004,Education,0.03
-16,Internal-Nominal,2007,Education,0.036
-16,Internal-Nominal,2010,Education,0.052
-16,Internal-Nominal,2013,Education,0.066
-16,Internal-Nominal,2016,Education,0.082
 16,Internal-Nominal,1989,Other,0.017
+16,Internal-Nominal,1989,Total,1.0
+16,Internal-Nominal,1992,Purchase,0.672
+16,Internal-Nominal,1992,Improvement,0.025
+16,Internal-Nominal,1992,Other residential property,0.10800000000000001
+16,Internal-Nominal,1992,Investments excluding real estate,0.018000000000000002
+16,Internal-Nominal,1992,Vehicles,0.07
+16,Internal-Nominal,1992,Goods and services,0.055999999999999994
+16,Internal-Nominal,1992,Education,0.027999999999999997
 16,Internal-Nominal,1992,Other,0.023
+16,Internal-Nominal,1992,Total,1.0
+16,Internal-Nominal,1995,Purchase,0.703
+16,Internal-Nominal,1995,Improvement,0.02
+16,Internal-Nominal,1995,Other residential property,0.08199999999999999
+16,Internal-Nominal,1995,Investments excluding real estate,0.01
+16,Internal-Nominal,1995,Vehicles,0.076
+16,Internal-Nominal,1995,Goods and services,0.057
+16,Internal-Nominal,1995,Education,0.027000000000000003
 16,Internal-Nominal,1995,Other,0.024
+16,Internal-Nominal,1995,Total,1.0
+16,Internal-Nominal,1998,Purchase,0.679
+16,Internal-Nominal,1998,Improvement,0.021
+16,Internal-Nominal,1998,Other residential property,0.078
+16,Internal-Nominal,1998,Investments excluding real estate,0.033
+16,Internal-Nominal,1998,Vehicles,0.076
+16,Internal-Nominal,1998,Goods and services,0.063
+16,Internal-Nominal,1998,Education,0.035
 16,Internal-Nominal,1998,Other,0.015
-16,Internal-Nominal,2001,Other,0.011
+16,Internal-Nominal,1998,Total,1.0
+16,Internal-Nominal,2001,Purchase,0.7090000000000001
+16,Internal-Nominal,2001,Improvement,0.02
+16,Internal-Nominal,2001,Other residential property,0.065
+16,Internal-Nominal,2001,Investments excluding real estate,0.027999999999999997
+16,Internal-Nominal,2001,Vehicles,0.078
+16,Internal-Nominal,2001,Goods and services,0.057999999999999996
+16,Internal-Nominal,2001,Education,0.031
+16,Internal-Nominal,2001,Other,0.011000000000000001
+16,Internal-Nominal,2001,Total,1.0
+16,Internal-Nominal,2004,Purchase,0.7020000000000001
+16,Internal-Nominal,2004,Improvement,0.019
+16,Internal-Nominal,2004,Other residential property,0.095
+16,Internal-Nominal,2004,Investments excluding real estate,0.022000000000000002
+16,Internal-Nominal,2004,Vehicles,0.067
+16,Internal-Nominal,2004,Goods and services,0.06
+16,Internal-Nominal,2004,Education,0.03
 16,Internal-Nominal,2004,Other,0.006
+16,Internal-Nominal,2004,Total,1.0
+16,Internal-Nominal,2007,Purchase,0.695
+16,Internal-Nominal,2007,Improvement,0.023
+16,Internal-Nominal,2007,Other residential property,0.10800000000000001
+16,Internal-Nominal,2007,Investments excluding real estate,0.016
+16,Internal-Nominal,2007,Vehicles,0.055
+16,Internal-Nominal,2007,Goods and services,0.062
+16,Internal-Nominal,2007,Education,0.036000000000000004
 16,Internal-Nominal,2007,Other,0.005
+16,Internal-Nominal,2007,Total,1.0
+16,Internal-Nominal,2010,Purchase,0.695
+16,Internal-Nominal,2010,Improvement,0.019
+16,Internal-Nominal,2010,Other residential property,0.105
+16,Internal-Nominal,2010,Investments excluding real estate,0.02
+16,Internal-Nominal,2010,Vehicles,0.047
+16,Internal-Nominal,2010,Goods and services,0.057
+16,Internal-Nominal,2010,Education,0.052000000000000005
 16,Internal-Nominal,2010,Other,0.004
+16,Internal-Nominal,2010,Total,1.0
+16,Internal-Nominal,2013,Purchase,0.705
+16,Internal-Nominal,2013,Improvement,0.017
+16,Internal-Nominal,2013,Other residential property,0.102
+16,Internal-Nominal,2013,Investments excluding real estate,0.01
+16,Internal-Nominal,2013,Vehicles,0.051
+16,Internal-Nominal,2013,Goods and services,0.044000000000000004
+16,Internal-Nominal,2013,Education,0.066
 16,Internal-Nominal,2013,Other,0.005
+16,Internal-Nominal,2013,Total,1.0
+16,Internal-Nominal,2016,Purchase,0.667
+16,Internal-Nominal,2016,Improvement,0.015
+16,Internal-Nominal,2016,Other residential property,0.10300000000000001
+16,Internal-Nominal,2016,Investments excluding real estate,0.015
+16,Internal-Nominal,2016,Vehicles,0.063
+16,Internal-Nominal,2016,Goods and services,0.049
+16,Internal-Nominal,2016,Education,0.08199999999999999
 16,Internal-Nominal,2016,Other,0.005
+16,Internal-Nominal,2016,Total,1.0

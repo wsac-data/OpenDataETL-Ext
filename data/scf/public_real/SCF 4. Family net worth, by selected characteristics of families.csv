@@ -1,0 +1,411 @@
+SCF Table,!Calculation,Year,Characteristic,Sub-Characteristic,Median,Mean
+4,Public-Real,1989,,All families,87810.0,353330.0
+4,Public-Real,1989,Percentile of income,Less than 20,3580.0,46080.0
+4,Public-Real,1989,Percentile of income,20–39.9,46270.0,126990.0
+4,Public-Real,1989,Percentile of income,40–59.9,78590.0,191510.0
+4,Public-Real,1989,Percentile of income,60–79.9,125950.0,254850.0
+4,Public-Real,1989,Percentile of income,80–89.9,250270.0,417290.0
+4,Public-Real,1989,Percentile of income,90–100,737010.0,1876800.0
+4,Public-Real,1989,Age of head (years),Less than 35,15170.0,92970.0
+4,Public-Real,1989,Age of head (years),35–44,105510.0,277140.0
+4,Public-Real,1989,Age of head (years),45–54,183040.0,526190.0
+4,Public-Real,1989,Age of head (years),55–64,183170.0,574980.0
+4,Public-Real,1989,Age of head (years),65–74,144790.0,545110.0
+4,Public-Real,1989,Age of head (years),75 or more,135370.0,450620.0
+4,Public-Real,1989,Family structure,Single with child(ren),13060.0,118500.0
+4,Public-Real,1989,Family structure,"Single, no child, age less than 55",15390.0,139910.0
+4,Public-Real,1989,Family structure,"Single, no child, age 55 or more",75900.0,228860.0
+4,Public-Real,1989,Family structure,Couple with child(ren),116800.0,379560.0
+4,Public-Real,1989,Family structure,"Couple, no child",208940.0,664790.0
+4,Public-Real,1989,Education of head,No high school diploma,45120.0,155250.0
+4,Public-Real,1989,Education of head,High school diploma,68480.0,210090.0
+4,Public-Real,1989,Education of head,Some college,87060.0,344840.0
+4,Public-Real,1989,Education of head,College degree,237390.0,765690.0
+4,Public-Real,1989,Race or ethnicity of respondent,White non-Hispanic,134680.0,431610.0
+4,Public-Real,1989,Race or ethnicity of respondent,Black or African-American non-hispanic,8020.0,77430.0
+4,Public-Real,1989,Race or ethnicity of respondent,Hispanic or Latino,9330.0,84400.0
+4,Public-Real,1989,Race or ethnicity of respondent,Other or Multiple Race,67540.0,306100.0
+4,Public-Real,1989,Current work status of head,Working for someone else,71460.0,213800.0
+4,Public-Real,1989,Current work status of head,Self-employed,316260.0,1239910.0
+4,Public-Real,1989,Current work status of head,Retired,126260.0,347600.0
+4,Public-Real,1989,Current work status of head,Other not working,1080.0,86910.0
+4,Public-Real,1989,Current occupation of head,Managerial or professional,208570.0,716030.0
+4,Public-Real,1989,Current occupation of head,"Technical, sales, or services",52110.0,243780.0
+4,Public-Real,1989,Current occupation of head,Other occupation,68960.0,208100.0
+4,Public-Real,1989,Current occupation of head,Retired or other not working,82100.0,293250.0
+4,Public-Real,1989,Housing status,Owner,187690.0,508640.0
+4,Public-Real,1989,Housing status,Renter or other,3730.0,78760.0
+4,Public-Real,1989,Percentile of net worth,Less than 25,210.0,-1010.0
+4,Public-Real,1989,Percentile of net worth,25–49.9,39180.0,43190.0
+4,Public-Real,1989,Percentile of net worth,50–74.9,162890.0,167400.0
+4,Public-Real,1989,Percentile of net worth,75–89.9,394910.0,424880.0
+4,Public-Real,1989,Percentile of net worth,90–100,1289310.0,2368390.0
+4,Public-Real,1992,,All families,83350.0,313730.0
+4,Public-Real,1992,Percentile of income,Less than 20,6610.0,55890.0
+4,Public-Real,1992,Percentile of income,20–39.9,46540.0,108710.0
+4,Public-Real,1992,Percentile of income,40–59.9,66330.0,170090.0
+4,Public-Real,1992,Percentile of income,60–79.9,126470.0,234330.0
+4,Public-Real,1992,Percentile of income,80–89.9,201030.0,382280.0
+4,Public-Real,1992,Percentile of income,90–100,611790.0,1616100.0
+4,Public-Real,1992,Age of head (years),Less than 35,15580.0,76130.0
+4,Public-Real,1992,Age of head (years),35–44,74960.0,223590.0
+4,Public-Real,1992,Age of head (years),45–54,131310.0,451090.0
+4,Public-Real,1992,Age of head (years),55–64,190850.0,569170.0
+4,Public-Real,1992,Age of head (years),65–74,165530.0,483230.0
+4,Public-Real,1992,Age of head (years),75 or more,145740.0,359310.0
+4,Public-Real,1992,Family structure,Single with child(ren),14220.0,88980.0
+4,Public-Real,1992,Family structure,"Single, no child, age less than 55",25160.0,118630.0
+4,Public-Real,1992,Family structure,"Single, no child, age 55 or more",98210.0,262220.0
+4,Public-Real,1992,Family structure,Couple with child(ren),101130.0,346660.0
+4,Public-Real,1992,Family structure,"Couple, no child",173380.0,529530.0
+4,Public-Real,1992,Education of head,No high school diploma,31360.0,117530.0
+4,Public-Real,1992,Education of head,High school diploma,64400.00000000001,187420.0
+4,Public-Real,1992,Education of head,Some college,96430.0,282600.0
+4,Public-Real,1992,Education of head,College degree,184310.0,621670.0
+4,Public-Real,1992,Race or ethnicity of respondent,White non-Hispanic,116890.0,374010.0
+4,Public-Real,1992,Race or ethnicity of respondent,Black or African-American non-hispanic,16600.0,80780.0
+4,Public-Real,1992,Race or ethnicity of respondent,Hispanic or Latino,11390.0,90750.0
+4,Public-Real,1992,Race or ethnicity of respondent,Other or Multiple Race,62300.0,331950.0
+4,Public-Real,1992,Current work status of head,Working for someone else,66330.0,206030.0
+4,Public-Real,1992,Current work status of head,Self-employed,246530.0,1008610.0
+4,Public-Real,1992,Current work status of head,Retired,118230.0,318130.0
+4,Public-Real,1992,Current work status of head,Other not working,5530.0,89090.0
+4,Public-Real,1992,Current occupation of head,Managerial or professional,170690.0,632760.0
+4,Public-Real,1992,Current occupation of head,"Technical, sales, or services",61380.0,230380.0
+4,Public-Real,1992,Current occupation of head,Other occupation,54960.0,146720.0
+4,Public-Real,1992,Current occupation of head,Retired or other not working,83860.0,263840.0
+4,Public-Real,1992,Housing status,Owner,166200.0,454110.0
+4,Public-Real,1992,Housing status,Renter or other,5450.0,64930.00000000001
+4,Public-Real,1992,Percentile of net worth,Less than 25,840.0,-940.0
+4,Public-Real,1992,Percentile of net worth,25–49.9,39550.0,42710.0
+4,Public-Real,1992,Percentile of net worth,50–74.9,147410.0,152200.0
+4,Public-Real,1992,Percentile of net worth,75–89.9,342790.0,367380.0
+4,Public-Real,1992,Percentile of net worth,90–100,1120280.0,2100890.0
+4,Public-Real,1995,,All families,90520.0,333750.0
+4,Public-Real,1995,Percentile of income,Less than 20,9330.0,69900.0
+4,Public-Real,1995,Percentile of income,20–39.9,54340.0,125730.0
+4,Public-Real,1995,Percentile of income,40–59.9,71720.0,158970.0
+4,Public-Real,1995,Percentile of income,60–79.9,118080.0,250180.0
+4,Public-Real,1995,Percentile of income,80–89.9,200920.0,405010.0
+4,Public-Real,1995,Percentile of income,90–100,559220.0,1722490.0
+4,Public-Real,1995,Age of head (years),Less than 35,18790.0,67780.0
+4,Public-Real,1995,Age of head (years),35–44,81590.0,225600.0
+4,Public-Real,1995,Age of head (years),45–54,145170.0,470920.0
+4,Public-Real,1995,Age of head (years),55–64,180890.0,599290.0
+4,Public-Real,1995,Age of head (years),65–74,173760.0,548320.0
+4,Public-Real,1995,Age of head (years),75 or more,145640.0,407240.0
+4,Public-Real,1995,Family structure,Single with child(ren),18790.0,113960.0
+4,Public-Real,1995,Family structure,"Single, no child, age less than 55",27190.0,113730.0
+4,Public-Real,1995,Family structure,"Single, no child, age 55 or more",110790.0,310080.0
+4,Public-Real,1995,Family structure,Couple with child(ren),103200.0,339550.0
+4,Public-Real,1995,Family structure,"Couple, no child",181340.0,568710.0
+4,Public-Real,1995,Education of head,No high school diploma,36020.0,131340.0
+4,Public-Real,1995,Education of head,High school diploma,81010.0,208710.0
+4,Public-Real,1995,Education of head,Some college,78690.0,285980.0
+4,Public-Real,1995,Education of head,College degree,189390.0,690990.0
+4,Public-Real,1995,Race or ethnicity of respondent,White non-Hispanic,120270.0,395280.0
+4,Public-Real,1995,Race or ethnicity of respondent,Black or African-American non-hispanic,17100.0,68910.0
+4,Public-Real,1995,Race or ethnicity of respondent,Hispanic or Latino,19580.0,96430.0
+4,Public-Real,1995,Race or ethnicity of respondent,Other or Multiple Race,48670.0,324070.0
+4,Public-Real,1995,Current work status of head,Working for someone else,77520.0,215670.0
+4,Public-Real,1995,Current work status of head,Self-employed,244450.0,1105630.0
+4,Public-Real,1995,Current work status of head,Retired,127160.0,353830.0
+4,Public-Real,1995,Current work status of head,Other not working,5700.0,89310.0
+4,Public-Real,1995,Current occupation of head,Managerial or professional,173500.0,681570.0
+4,Public-Real,1995,Current occupation of head,"Technical, sales, or services",57860.0,250690.0
+4,Public-Real,1995,Current occupation of head,Other occupation,71570.0,176990.0
+4,Public-Real,1995,Current occupation of head,Retired or other not working,97500.0,300060.0
+4,Public-Real,1995,Housing status,Owner,162630.0,478310.0
+4,Public-Real,1995,Housing status,Renter or other,7550.0,68710.0
+4,Public-Real,1995,Percentile of net worth,Less than 25,1490.0,-230.0
+4,Public-Real,1995,Percentile of net worth,25–49.9,44350.0,47960.0
+4,Public-Real,1995,Percentile of net worth,50–74.9,148960.0,156030.0
+4,Public-Real,1995,Percentile of net worth,75–89.9,347200.0,373840.0
+4,Public-Real,1995,Percentile of net worth,90–100,1071700.0,2266620.0
+4,Public-Real,1998,,All families,105790.0,418500.0
+4,Public-Real,1998,Percentile of income,Less than 20,8510.0,73130.0
+4,Public-Real,1998,Percentile of income,20–39.9,51050.0,144140.0
+4,Public-Real,1998,Percentile of income,40–59.9,78720.0,185520.0
+4,Public-Real,1998,Percentile of income,60–79.9,164810.0,301140.0
+4,Public-Real,1998,Percentile of income,80–89.9,278860.0,486360.0
+4,Public-Real,1998,Percentile of income,90–100,667320.0,2290250.0
+4,Public-Real,1998,Age of head (years),Less than 35,13430.0,98970.0
+4,Public-Real,1998,Age of head (years),35–44,93690.0,289710.0
+4,Public-Real,1998,Age of head (years),45–54,155850.0,536360.0
+4,Public-Real,1998,Age of head (years),55–64,188710.0,787160.0
+4,Public-Real,1998,Age of head (years),65–74,216150.0,688710.0
+4,Public-Real,1998,Age of head (years),75 or more,185610.0,457930.0
+4,Public-Real,1998,Family structure,Single with child(ren),23750.0,154770.0
+4,Public-Real,1998,Family structure,"Single, no child, age less than 55",22870.0,135530.0
+4,Public-Real,1998,Family structure,"Single, no child, age 55 or more",128360.00000000001,362780.0
+4,Public-Real,1998,Family structure,Couple with child(ren),128440.0,443770.0
+4,Public-Real,1998,Family structure,"Couple, no child",219060.0,711530.0
+4,Public-Real,1998,Education of head,No high school diploma,30980.0,116400.0
+4,Public-Real,1998,Education of head,High school diploma,79900.0,232730.0
+4,Public-Real,1998,Education of head,Some college,112360.0,332170.0
+4,Public-Real,1998,Education of head,College degree,254220.0,906330.0
+4,Public-Real,1998,Race or ethnicity of respondent,White non-Hispanic,141610.0,499910.0
+4,Public-Real,1998,Race or ethnicity of respondent,Black or African-American non-hispanic,22870.0,94550.0
+4,Public-Real,1998,Race or ethnicity of respondent,Hispanic or Latino,14500.0,128520.00000000001
+4,Public-Real,1998,Race or ethnicity of respondent,Other or Multiple Race,56660.0,322650.0
+4,Public-Real,1998,Current work status of head,Working for someone else,77310.0,249660.0
+4,Public-Real,1998,Current work status of head,Self-employed,366500.0,1362620.0
+4,Public-Real,1998,Current work status of head,Retired,167170.0,446870.0
+4,Public-Real,1998,Current work status of head,Other not working,5310.0,159150.0
+4,Public-Real,1998,Current occupation of head,Managerial or professional,195940.0,803170.0
+4,Public-Real,1998,Current occupation of head,"Technical, sales, or services",60940.0,284420.0
+4,Public-Real,1998,Current occupation of head,Other occupation,73480.0,185620.0
+4,Public-Real,1998,Current occupation of head,Retired or other not working,121430.0,396820.0
+4,Public-Real,1998,Housing status,Owner,195060.0,599140.0
+4,Public-Real,1998,Housing status,Renter or other,6200.0,63810.0
+4,Public-Real,1998,Percentile of net worth,Less than 25,740.0,-2730.0
+4,Public-Real,1998,Percentile of net worth,25–49.9,48450.0,53070.0
+4,Public-Real,1998,Percentile of net worth,50–74.9,178180.0,189890.0
+4,Public-Real,1998,Percentile of net worth,75–89.9,458760.0,476120.0
+4,Public-Real,1998,Percentile of net worth,90–100,1328350.0,2868970.0
+4,Public-Real,2001,,All families,117520.0,538630.0
+4,Public-Real,2001,Percentile of income,Less than 20,10700.0,72210.0
+4,Public-Real,2001,Percentile of income,20–39.9,52220.0,160080.0
+4,Public-Real,2001,Percentile of income,40–59.9,86360.0,221260.0
+4,Public-Real,2001,Percentile of income,60–79.9,191850.0,399830.0
+4,Public-Real,2001,Percentile of income,80–89.9,355380.0,613790.0
+4,Public-Real,2001,Percentile of income,90–100,1130620.0,3063100.0
+4,Public-Real,2001,Age of head (years),Less than 35,15850.0,115310.0
+4,Public-Real,2001,Age of head (years),35–44,106360.0,352260.0
+4,Public-Real,2001,Age of head (years),45–54,181980.0,666630.0
+4,Public-Real,2001,Age of head (years),55–64,251030.0,998370.0
+4,Public-Real,2001,Age of head (years),65–74,241160.0,916730.0
+4,Public-Real,2001,Age of head (years),75 or more,211830.0,634330.0
+4,Public-Real,2001,Family structure,Single with child(ren),17670.0,129009.99999999999
+4,Public-Real,2001,Family structure,"Single, no child, age less than 55",26420.0,202300.0
+4,Public-Real,2001,Family structure,"Single, no child, age 55 or more",123830.0,395220.0
+4,Public-Real,2001,Family structure,Couple with child(ren),154520.0,598230.0
+4,Public-Real,2001,Family structure,"Couple, no child",238120.0,873320.0
+4,Public-Real,2001,Education of head,No high school diploma,34430.0,142760.0
+4,Public-Real,2001,Education of head,High school diploma,78580.0,245520.0
+4,Public-Real,2001,Education of head,Some college,112380.0,370770.0
+4,Public-Real,2001,Education of head,College degree,328840.0,1230610.0
+4,Public-Real,2001,Race or ethnicity of respondent,White non-Hispanic,166510.0,662480.0
+4,Public-Real,2001,Race or ethnicity of respondent,Black or African-American non-hispanic,26150.0,97080.0
+4,Public-Real,2001,Race or ethnicity of respondent,Hispanic or Latino,15850.0,119860.0
+4,Public-Real,2001,Race or ethnicity of respondent,Other or Multiple Race,71130.0,418990.0
+4,Public-Real,2001,Current work status of head,Working for someone else,88610.0,308870.0
+4,Public-Real,2001,Current work status of head,Self-employed,474200.0,1691540.0
+4,Public-Real,2001,Current work status of head,Retired,156470.0,617870.0
+4,Public-Real,2001,Current work status of head,Other not working,10570.0,241470.0
+4,Public-Real,2001,Current occupation of head,Managerial or professional,268400.0,1042079.9999999999
+4,Public-Real,2001,Current occupation of head,"Technical, sales, or services",62730.0,267690.0
+4,Public-Real,2001,Current occupation of head,Other occupation,67280.0,184720.0
+4,Public-Real,2001,Current occupation of head,Retired or other not working,130880.0,556650.0
+4,Public-Real,2001,Housing status,Owner,233980.0,760110.0
+4,Public-Real,2001,Housing status,Renter or other,6530.0,74680.0
+4,Public-Real,2001,Percentile of net worth,Less than 25,1630.0,110.0
+4,Public-Real,2001,Percentile of net worth,25–49.9,55550.0,60240.0
+4,Public-Real,2001,Percentile of net worth,50–74.9,213930.0,226830.0
+4,Public-Real,2001,Percentile of net worth,75–89.9,584550.0,612870.0
+4,Public-Real,2001,Percentile of net worth,90–100,1784070.0,3746780.0
+4,Public-Real,2004,,All families,118400.0,571220.0
+4,Public-Real,2004,Percentile of income,Less than 20,9440.0,91010.0
+4,Public-Real,2004,Percentile of income,20–39.9,43710.0,156720.0
+4,Public-Real,2004,Percentile of income,40–59.9,92140.0,248920.0
+4,Public-Real,2004,Percentile of income,60–79.9,203490.0,431380.0
+4,Public-Real,2004,Percentile of income,80–89.9,399340.0,627020.0
+4,Public-Real,2004,Percentile of income,90–100,1177030.0,3228540.0
+4,Public-Real,2004,Age of head (years),Less than 35,18060.0,93670.0
+4,Public-Real,2004,Age of head (years),35–44,88330.0,381150.0
+4,Public-Real,2004,Age of head (years),45–54,184540.0,692170.0
+4,Public-Real,2004,Age of head (years),55–64,320490.0,1077560.0
+4,Public-Real,2004,Age of head (years),65–74,241890.0,880080.0
+4,Public-Real,2004,Age of head (years),75 or more,207430.0,669280.0
+4,Public-Real,2004,Family structure,Single with child(ren),26200.0,166190.0
+4,Public-Real,2004,Family structure,"Single, no child, age less than 55",27470.0,198970.0
+4,Public-Real,2004,Family structure,"Single, no child, age 55 or more",149050.0,446130.0
+4,Public-Real,2004,Family structure,Couple with child(ren),155370.0,642330.0
+4,Public-Real,2004,Family structure,"Couple, no child",265290.0,957950.0
+4,Public-Real,2004,Education of head,No high school diploma,26200.0,173190.0
+4,Public-Real,2004,Education of head,High school diploma,86990.0,251010.0
+4,Public-Real,2004,Education of head,Some college,100620.0,384510.0
+4,Public-Real,2004,Education of head,College degree,342870.0,1229190.0
+4,Public-Real,2004,Race or ethnicity of respondent,White non-Hispanic,179280.0,715970.0
+4,Public-Real,2004,Race or ethnicity of respondent,Black or African-American non-hispanic,25940.0,142860.0
+4,Public-Real,2004,Race or ethnicity of respondent,Hispanic or Latino,19510.0,158150.0
+4,Public-Real,2004,Race or ethnicity of respondent,Other or Multiple Race,90170.0,370260.0
+4,Public-Real,2004,Current work status of head,Working for someone else,85600.0,343360.0
+4,Public-Real,2004,Current work status of head,Self-employed,442330.0,1810630.0
+4,Public-Real,2004,Current work status of head,Retired,177780.0,596220.0
+4,Public-Real,2004,Current work status of head,Other not working,14820.0,206250.0
+4,Public-Real,2004,Current occupation of head,Managerial or professional,251050.0,1099650.0
+4,Public-Real,2004,Current occupation of head,"Technical, sales, or services",57690.0,314760.0
+4,Public-Real,2004,Current occupation of head,Other occupation,72260.0,187730.0
+4,Public-Real,2004,Current occupation of head,Retired or other not working,140790.0,535690.0
+4,Public-Real,2004,Housing status,Owner,234900.0,796330.0
+4,Public-Real,2004,Housing status,Renter or other,5150.0,68920.0
+4,Public-Real,2004,Percentile of net worth,Less than 25,2160.0,-1700.0
+4,Public-Real,2004,Percentile of net worth,25–49.9,55450.0,59980.0
+4,Public-Real,2004,Percentile of net worth,50–74.9,217600.0,236370.0
+4,Public-Real,2004,Percentile of net worth,75–89.9,648480.0,672640.0
+4,Public-Real,2004,Percentile of net worth,90–100,1818010.0,3966330.0
+4,Public-Real,2007,,All families,140120.0,644790.0
+4,Public-Real,2007,Percentile of income,Less than 20,10180.0,122590.0
+4,Public-Real,2007,Percentile of income,20–39.9,43770.0,155740.0
+4,Public-Real,2007,Percentile of income,40–59.9,102370.0,243940.0
+4,Public-Real,2007,Percentile of income,60–79.9,237050.0,430610.0
+4,Public-Real,2007,Percentile of income,80–89.9,413990.0,711150.0
+4,Public-Real,2007,Percentile of income,90–100,1297090.0,3829000.0
+4,Public-Real,2007,Age of head (years),Less than 35,13560.0,122780.0
+4,Public-Real,2007,Age of head (years),35–44,102660.0,378160.0
+4,Public-Real,2007,Age of head (years),45–54,214230.0,767130.0
+4,Public-Real,2007,Age of head (years),55–64,293790.0,1084250.0
+4,Public-Real,2007,Age of head (years),65–74,277230.0,1173530.0
+4,Public-Real,2007,Age of head (years),75 or more,246890.0,740170.0
+4,Public-Real,2007,Family structure,Single with child(ren),28640.0,206480.0
+4,Public-Real,2007,Family structure,"Single, no child, age less than 55",29070.0,240740.0
+4,Public-Real,2007,Family structure,"Single, no child, age 55 or more",166640.0,451930.0
+4,Public-Real,2007,Family structure,Couple with child(ren),163160.0,694160.0
+4,Public-Real,2007,Family structure,"Couple, no child",259279.99999999997,1099180.0
+4,Public-Real,2007,Education of head,No high school diploma,38330.0,165470.0
+4,Public-Real,2007,Education of head,High school diploma,93220.0,291570.0
+4,Public-Real,2007,Education of head,Some college,112690.0,418080.0
+4,Public-Real,2007,Education of head,College degree,375430.0,1454720.0
+4,Public-Real,2007,Race or ethnicity of respondent,White non-Hispanic,198620.0,802050.0
+4,Public-Real,2007,Race or ethnicity of respondent,Black or African-American non-hispanic,24320.0,155690.0
+4,Public-Real,2007,Race or ethnicity of respondent,Hispanic or Latino,24430.0,215530.0
+4,Public-Real,2007,Race or ethnicity of respondent,Other or Multiple Race,70520.0,457200.0
+4,Public-Real,2007,Current work status of head,Working for someone else,108390.0,407210.0
+4,Public-Real,2007,Current work status of head,Self-employed,450470.0,2265040.0
+4,Public-Real,2007,Current work status of head,Retired,186670.0,629420.0
+4,Public-Real,2007,Current work status of head,Other not working,6600.0,143090.0
+4,Public-Real,2007,Current occupation of head,Managerial or professional,286260.0,1294090.0
+4,Public-Real,2007,Current occupation of head,"Technical, sales, or services",85550.0,359340.0
+4,Public-Real,2007,Current occupation of head,Other occupation,74980.0,222480.0
+4,Public-Real,2007,Current occupation of head,Retired or other not working,149380.0,553500.0
+4,Public-Real,2007,Housing status,Owner,272080.0,901720.0
+4,Public-Real,2007,Housing status,Renter or other,5910.0,82520.0
+4,Public-Real,2007,Percentile of net worth,Less than 25,1520.0,-2440.0
+4,Public-Real,2007,Percentile of net worth,25–49.9,62780.0,67320.0
+4,Public-Real,2007,Percentile of net worth,50–74.9,255450.0,263730.0
+4,Public-Real,2007,Percentile of net worth,75–89.9,662620.0,680940.0
+4,Public-Real,2007,Percentile of net worth,90–100,2196990.0,4602990.0
+4,Public-Real,2010,,All families,85110.0,547040.0
+4,Public-Real,2010,Percentile of income,Less than 20,6700.0,129169.99999999999
+4,Public-Real,2010,Percentile of income,20–39.9,30620.0,143640.0
+4,Public-Real,2010,Percentile of income,40–59.9,71770.0,217870.0
+4,Public-Real,2010,Percentile of income,60–79.9,140490.0,323190.0
+4,Public-Real,2010,Percentile of income,80–89.9,319360.0,629550.0
+4,Public-Real,2010,Percentile of income,90–100,1315340.0,3212700.0
+4,Public-Real,2010,Age of head (years),Less than 35,10280.0,71990.0
+4,Public-Real,2010,Age of head (years),35–44,46820.0,239430.0
+4,Public-Real,2010,Age of head (years),45–54,129490.00000000001,630190.0
+4,Public-Real,2010,Age of head (years),55–64,197520.0,971430.0
+4,Public-Real,2010,Age of head (years),65–74,228440.0,931290.0
+4,Public-Real,2010,Age of head (years),75 or more,239750.0,727560.0
+4,Public-Real,2010,Family structure,Single with child(ren),17300.0,158260.0
+4,Public-Real,2010,Family structure,"Single, no child, age less than 55",16250.0,130699.99999999999
+4,Public-Real,2010,Family structure,"Single, no child, age 55 or more",111970.0,421640.0
+4,Public-Real,2010,Family structure,Couple with child(ren),95500.0,610220.0
+4,Public-Real,2010,Family structure,"Couple, no child",226560.0,950860.0
+4,Public-Real,2010,Education of head,No high school diploma,18020.0,122230.0
+4,Public-Real,2010,Education of head,High school diploma,62670.0,239170.0
+4,Public-Real,2010,Education of head,Some college,63000.0,301920.0
+4,Public-Real,2010,Education of head,College degree,274040.0,1233900.0
+4,Public-Real,2010,Race or ethnicity of respondent,White non-Hispanic,143420.0,717520.0
+4,Public-Real,2010,Race or ethnicity of respondent,Black or African-American non-hispanic,17570.0,109730.0
+4,Public-Real,2010,Race or ethnicity of respondent,Hispanic or Latino,18290.0,128030.0
+4,Public-Real,2010,Race or ethnicity of respondent,Other or Multiple Race,47200.0,369300.0
+4,Public-Real,2010,Current work status of head,Working for someone else,60900.0,329010.0
+4,Public-Real,2010,Current work status of head,Self-employed,314470.0,1900490.0
+4,Public-Real,2010,Current work status of head,Retired,166350.0,535120.0
+4,Public-Real,2010,Current work status of head,Other not working,13150.0,148910.0
+4,Public-Real,2010,Current occupation of head,Managerial or professional,183820.0,1145030.0
+4,Public-Real,2010,Current occupation of head,"Technical, sales, or services",35950.0,241390.0
+4,Public-Real,2010,Current occupation of head,Other occupation,51490.0,179550.0
+4,Public-Real,2010,Current occupation of head,Retired or other not working,103240.0,452480.0
+4,Public-Real,2010,Housing status,Owner,191230.0,782520.0
+4,Public-Real,2010,Housing status,Renter or other,5640.0,62700.0
+4,Public-Real,2010,Percentile of net worth,Less than 25,0.0,-13420.0
+4,Public-Real,2010,Percentile of net worth,25–49.9,35700.0,39380.0
+4,Public-Real,2010,Percentile of net worth,50–74.9,173320.0,185790.0
+4,Public-Real,2010,Percentile of net worth,75–89.9,530470.0,580310.0
+4,Public-Real,2010,Percentile of net worth,90–100,2060110.0000000002,4069690.0
+4,Public-Real,2013,,All families,83930.0,544860.0
+4,Public-Real,2013,Percentile of income,Less than 20,6390.0,90250.0
+4,Public-Real,2013,Percentile of income,20–39.9,22170.0,114810.0
+4,Public-Real,2013,Percentile of income,40–59.9,63720.0,175360.0
+4,Public-Real,2013,Percentile of income,60–79.9,163650.0,344230.0
+4,Public-Real,2013,Percentile of income,80–89.9,307680.0,649510.0
+4,Public-Real,2013,Percentile of income,90–100,1169790.0,3349040.0
+4,Public-Real,2013,Age of head (years),Less than 35,10790.0,77780.0
+4,Public-Real,2013,Age of head (years),35–44,48510.0,358290.0
+4,Public-Real,2013,Age of head (years),45–54,108630.0,542400.0
+4,Public-Real,2013,Age of head (years),55–64,170870.0,820130.0
+4,Public-Real,2013,Age of head (years),65–74,239320.0,1079890.0
+4,Public-Real,2013,Age of head (years),75 or more,201070.0,630450.0
+4,Public-Real,2013,Family structure,Single with child(ren),14600.0,133160.0
+4,Public-Real,2013,Family structure,"Single, no child, age less than 55",14580.0,152600.0
+4,Public-Real,2013,Family structure,"Single, no child, age 55 or more",111260.0,384370.0
+4,Public-Real,2013,Family structure,Couple with child(ren),95900.0,605460.0
+4,Public-Real,2013,Family structure,"Couple, no child",220380.0,970700.0
+4,Public-Real,2013,Education of head,No high school diploma,17890.0,111620.0
+4,Public-Real,2013,Education of head,High school diploma,54030.0,205950.0
+4,Public-Real,2013,Education of head,Some college,51970.0,328490.0
+4,Public-Real,2013,Education of head,College degree,285620.0,1199670.0
+4,Public-Real,2013,Race or ethnicity of respondent,White non-Hispanic,146310.0,718170.0
+4,Public-Real,2013,Race or ethnicity of respondent,Black or African-American non-hispanic,13490.0,102110.0
+4,Public-Real,2013,Race or ethnicity of respondent,Hispanic or Latino,14230.0,111160.0
+4,Public-Real,2013,Race or ethnicity of respondent,Other or Multiple Race,42230.0,384440.0
+4,Public-Real,2013,Current work status of head,Working for someone else,64019.99999999999,324580.0
+4,Public-Real,2013,Current work status of head,Self-employed,370680.0,2187060.0
+4,Public-Real,2013,Current work status of head,Retired,132500.0,516679.99999999994
+4,Public-Real,2013,Current work status of head,Other not working,9340.0,139350.0
+4,Public-Real,2013,Current occupation of head,Managerial or professional,198590.0,1080380.0
+4,Public-Real,2013,Current occupation of head,"Technical, sales, or services",32640.0,275920.0
+4,Public-Real,2013,Current occupation of head,Other occupation,50770.0,177670.0
+4,Public-Real,2013,Current occupation of head,Retired or other not working,93620.0,444780.0
+4,Public-Real,2013,Housing status,Owner,201580.0,797460.0
+4,Public-Real,2013,Housing status,Renter or other,5570.0,72580.0
+4,Public-Real,2013,Percentile of net worth,Less than 25,0.0,-13370.0
+4,Public-Real,2013,Percentile of net worth,25–49.9,32340.000000000004,36980.0
+4,Public-Real,2013,Percentile of net worth,50–74.9,173460.0,183240.0
+4,Public-Real,2013,Percentile of net worth,75–89.9,520789.99999999994,563240.0
+4,Public-Real,2013,Percentile of net worth,90–100,1929820.0,4085680.0
+4,Public-Real,2016,,All families,97290.0,689510.0
+4,Public-Real,2016,Percentile of income,Less than 20,6600.0,91390.0
+4,Public-Real,2016,Percentile of income,20–39.9,31500.0,124070.0
+4,Public-Real,2016,Percentile of income,40–59.9,81900.0,210650.0
+4,Public-Real,2016,Percentile of income,60–79.9,167270.0,373300.0
+4,Public-Real,2016,Percentile of income,80–89.9,389700.0,770110.0
+4,Public-Real,2016,Percentile of income,90–100,1639550.0,4525360.0
+4,Public-Real,2016,Age of head (years),Less than 35,11000.0,76200.0
+4,Public-Real,2016,Age of head (years),35–44,59700.0,288240.0
+4,Public-Real,2016,Age of head (years),45–54,124040.0,724130.0
+4,Public-Real,2016,Age of head (years),55–64,187300.0,1164370.0
+4,Public-Real,2016,Age of head (years),65–74,224000.0,1058920.0
+4,Public-Real,2016,Age of head (years),75 or more,264750.0,1064700.0
+4,Public-Real,2016,Family structure,Single with child(ren),21600.0,169770.0
+4,Public-Real,2016,Family structure,"Single, no child, age less than 55",14100.0,182240.0
+4,Public-Real,2016,Family structure,"Single, no child, age 55 or more",114400.0,507800.0
+4,Public-Real,2016,Family structure,Couple with child(ren),117300.0,719520.0
+4,Public-Real,2016,Family structure,"Couple, no child",225620.0,1250260.0
+4,Public-Real,2016,Education of head,No high school diploma,22820.0,157280.0
+4,Public-Real,2016,Education of head,High school diploma,67000.0,249450.0
+4,Public-Real,2016,Education of head,Some college,66040.0,340090.0
+4,Public-Real,2016,Education of head,College degree,292110.0,1504170.0
+4,Public-Real,2016,Race or ethnicity of respondent,White non-Hispanic,171000.0,929840.0
+4,Public-Real,2016,Race or ethnicity of respondent,Black or African-American non-hispanic,17150.0,138060.0
+4,Public-Real,2016,Race or ethnicity of respondent,Hispanic or Latino,20720.0,191430.0
+4,Public-Real,2016,Race or ethnicity of respondent,Other or Multiple Race,64620.00000000001,457690.0
+4,Public-Real,2016,Current work status of head,Working for someone else,70650.0,413220.0
+4,Public-Real,2016,Current work status of head,Self-employed,312370.0,2379580.0
+4,Public-Real,2016,Current work status of head,Retired,158400.0,709700.0
+4,Public-Real,2016,Current work status of head,Other not working,8170.0,102040.0
+4,Public-Real,2016,Current occupation of head,Managerial or professional,205000.0,1343060.0
+4,Public-Real,2016,Current occupation of head,"Technical, sales, or services",43200.0,326060.0
+4,Public-Real,2016,Current occupation of head,Other occupation,51600.0,204240.0
+4,Public-Real,2016,Current occupation of head,Retired or other not working,116620.0,615220.0
+4,Public-Real,2016,Housing status,Owner,231420.0,1030760.0
+4,Public-Real,2016,Housing status,Renter or other,5000.0,90200.0
+4,Public-Real,2016,Percentile of net worth,Less than 25,100.0,-11900.0
+4,Public-Real,2016,Percentile of net worth,25–49.9,39920.0,44670.0
+4,Public-Real,2016,Percentile of net worth,50–74.9,192050.0,204060.0
+4,Public-Real,2016,Percentile of net worth,75–89.9,605000.0,659160.0
+4,Public-Real,2016,Percentile of net worth,90–100,2386500.0,5310880.0

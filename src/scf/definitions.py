@@ -1,13 +1,23 @@
 
 class ConvertInfo:
-    def __init__(self, default, types=None, add_suffix=False, add_horizontally=False):
-        self.default = default
+    def __init__(self, default, types=None, add_suffix=False, header_rows=None, header=None, year_row=0):
+
         if types is None:
             types = [None]
         assert isinstance(types, list)
+
+        self.header_rows = []
+        if header_rows is not None:
+            self.header_rows = header_rows
+
+        self.header = ''
+        if header is not None:
+            self.header = header
+
+        self.default = default
         self.types = types
         self.add_suffix = add_suffix
-        self.add_horizontally = add_horizontally
+        self.year_row = year_row
 
 
 TYPES = [
@@ -18,17 +28,6 @@ TYPES = [
 ]
 
 URL = r'https://www.federalreserve.gov/econres/files/scf2016_tables_{source}_{dollar}_historical.xlsx'
-
-HEADER_ROWS = {
-    '1': [3, 4, 5],
-    '2': [4, 5],
-    '3': [3],
-    '4': [3, 4],
-    '13': [3, 4],
-    '15': [3, 4],
-    '16': [3],
-    '17': [3, 4],
-}
 
 YEAR_INFO = {
     '1': {},
@@ -42,23 +41,23 @@ YEAR_INFO = {
 }
 
 CONVERT_INFO = {
-    '1': ConvertInfo('dollar_default', add_suffix=True, add_horizontally=True),
-    '2': ConvertInfo('percent', add_suffix=True),
-    '3': ConvertInfo('percent'),
-    '4': ConvertInfo('dollar'),
-    '13': ConvertInfo('identity', types=['percent', 'dollar'], add_suffix=True),
-    '15': ConvertInfo('percent', add_horizontally=True),
-    '16': ConvertInfo('percent'),
-    '17': ConvertInfo('percent', add_suffix=True),
+    '1': ConvertInfo('dollar_default', add_suffix=True, header_rows=[4, 5], year_row=3),
+    '2': ConvertInfo('percent', add_suffix=True, header_rows=[4, 5]),
+    '3': ConvertInfo('percent', year_row=3, header='Percent of Respondents'),
+    '4': ConvertInfo('dollar', header_rows=[4], year_row=3),
+    '13': ConvertInfo('identity', types=['percent', 'dollar'], add_suffix=True, header_rows=[3, 4]),
+    '15': ConvertInfo('percent', header_rows=[4], year_row=3),
+    '16': ConvertInfo('percent', year_row=3, header='Percent of Respondents'),
+    '17': ConvertInfo('percent', add_suffix=True, header_rows=[3], year_row=4),
 }
 
 BEG_HEADERS = {
-    '1': ['Characteristic', 'Sub-Characteristic'],
+    '1': ['Year', 'Characteristic', 'Sub-Characteristic'],
     '2': ['Year', 'Characteristic', 'Sub-Characteristic'],
-    '3': ['Sub-Characteristic'],
-    '4': ['Characteristic', 'Sub-Characteristic'],
+    '3': ['Year', 'Sub-Characteristic'],
+    '4': ['Year', 'Characteristic', 'Sub-Characteristic'],
     '13': ['Year', 'Characteristic', 'Sub-Characteristic'],
-    '15': ['Characteristic', 'Sub-Characteristic'],
-    '16': ['Sub-Characteristic'],
-    '17': ['Characteristic', 'Sub-Characteristic'],
+    '15': ['Year', 'Characteristic', 'Sub-Characteristic'],
+    '16': ['Year', 'Sub-Characteristic'],
+    '17': ['Year', 'Characteristic', 'Sub-Characteristic'],
 }

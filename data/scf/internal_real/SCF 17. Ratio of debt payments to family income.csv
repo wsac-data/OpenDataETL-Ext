@@ -1,0 +1,201 @@
+SCF Table,!Calculation,Year,Characteristic,Sub-Characteristic,Aggregate (%),Median for debtors (%),Debtors with ratio greater than 40 percent (%),Debtors with any payment past due 60 days or more (%)
+17,Internal-Real,1989,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,1989,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,1989,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,1989,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,1989,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,1989,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,1989,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,1989,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,1989,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,1989,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,1989,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,1989,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,1989,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,1989,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,1989,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,1989,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,1989,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,1989,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,1989,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,1989,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,1992,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,1992,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,1992,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,1992,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,1992,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,1992,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,1992,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,1992,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,1992,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,1992,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,1992,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,1992,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,1992,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,1992,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,1992,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,1992,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,1992,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,1992,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,1992,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,1992,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,1995,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,1995,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,1995,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,1995,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,1995,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,1995,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,1995,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,1995,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,1995,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,1995,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,1995,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,1995,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,1995,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,1995,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,1995,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,1995,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,1995,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,1995,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,1995,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,1995,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,1998,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,1998,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,1998,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,1998,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,1998,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,1998,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,1998,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,1998,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,1998,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,1998,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,1998,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,1998,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,1998,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,1998,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,1998,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,1998,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,1998,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,1998,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,1998,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,1998,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,2001,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,2001,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,2001,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,2001,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,2001,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,2001,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,2001,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,2001,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,2001,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,2001,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,2001,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,2001,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,2001,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,2001,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,2001,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,2001,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,2001,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,2001,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,2001,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,2001,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,2004,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,2004,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,2004,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,2004,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,2004,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,2004,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,2004,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,2004,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,2004,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,2004,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,2004,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,2004,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,2004,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,2004,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,2004,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,2004,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,2004,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,2004,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,2004,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,2004,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,2007,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,2007,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,2007,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,2007,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,2007,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,2007,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,2007,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,2007,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,2007,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,2007,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,2007,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,2007,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,2007,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,2007,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,2007,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,2007,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,2007,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,2007,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,2007,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,2007,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,2010,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,2010,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,2010,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,2010,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,2010,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,2010,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,2010,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,2010,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,2010,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,2010,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,2010,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,2010,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,2010,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,2010,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,2010,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,2010,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,2010,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,2010,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,2010,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,2010,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,2013,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,2013,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,2013,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,2013,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,2013,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,2013,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,2013,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,2013,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,2013,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,2013,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,2013,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,2013,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,2013,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,2013,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,2013,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,2013,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,2013,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,2013,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,2013,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,2013,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
+17,Internal-Real,2016,,All families,0.128,0.153,0.1,0.073
+17,Internal-Real,2016,Percentile of income,Less than 20,0.141,0.13699999999999998,0.24600000000000002,0.182
+17,Internal-Real,2016,Percentile of income,20–39.9,0.13,0.166,0.145,0.122
+17,Internal-Real,2016,Percentile of income,40–59.9,0.163,0.153,0.11,0.05
+17,Internal-Real,2016,Percentile of income,60–79.9,0.16899999999999998,0.177,0.057999999999999996,0.059000000000000004
+17,Internal-Real,2016,Percentile of income,80–89.9,0.157,0.152,0.034,0.011000000000000001
+17,Internal-Real,2016,Percentile of income,90–100,0.087,0.12,0.019,0.024
+17,Internal-Real,2016,Age of head (years),Less than 35,0.18100000000000002,0.161,0.126,0.11199999999999999
+17,Internal-Real,2016,Age of head (years),35–44,0.16699999999999998,0.172,0.073,0.064
+17,Internal-Real,2016,Age of head (years),45–54,0.124,0.158,0.11,0.045
+17,Internal-Real,2016,Age of head (years),55–64,0.092,0.12,0.086,0.07400000000000001
+17,Internal-Real,2016,Age of head (years),65–74,0.055999999999999994,0.10800000000000001,0.078,0.033
+17,Internal-Real,2016,Age of head (years),75 or more,0.022000000000000002,0.095,0.141,0.012
+17,Internal-Real,2016,Percentile of net worth,Less than 25,0.12,0.10099999999999999,0.081,0.17600000000000002
+17,Internal-Real,2016,Percentile of net worth,25–49.9,0.163,0.16899999999999998,0.11900000000000001,0.076
+17,Internal-Real,2016,Percentile of net worth,50–74.9,0.179,0.188,0.111,0.038
+17,Internal-Real,2016,Percentile of net worth,75–89.9,0.146,0.151,0.09300000000000001,0.022000000000000002
+17,Internal-Real,2016,Percentile of net worth,90–100,0.07200000000000001,0.115,0.07,0.016
+17,Internal-Real,2016,Housing status,Owner,0.14400000000000002,0.188,0.11900000000000001,0.05
+17,Internal-Real,2016,Housing status,Renter or other,0.066,0.079,0.057,0.12300000000000001
