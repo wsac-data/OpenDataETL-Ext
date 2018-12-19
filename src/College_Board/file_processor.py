@@ -87,6 +87,55 @@ def correct_levels(indx):
 
     return(pd.MultiIndex.from_tuples(new_indx, names = ['ethnicity','AP_score']))
 
+def transform(df=df, year=year, student_group=student_group, table_name=table_name,
+              geography=geography):
+    # move mean score to second level of index
+    df.index = pd.MultiIndex.from_tuples(
+            [('', 'MEAN SCORE') if x[0] == 'MEAN SCORE' else (x[0], x[1]) for x in df.index])
+    # remove TOTAL
+    df.index = pd.MultiIndex.from_tuples(
+            [('', x[1]) if x[0] == 'TOTAL' else (x[0], x[1]) for x in df.index])
+    df.index = correct_levels(df.index)
+    # stack subjects
+    df = df.stack('subject')
+    # move mean scores to separate df
+    tmp_df = df.copy(deep=True)
+    # remove mean score from working df
+    df.drop('MEAN SCORE', level=1, inplace = True)
+    # remove all but mean scores from temp df
+    # wa_2013.loc[[,'MEAN SCORE']]
+    # tmp_df.loc[(slice(None),'MEAN SCORE'),:]
+    #idx = pd.IndexSlice
+    tmp_df = tmp_df.loc[idx[:, 'MEAN SCORE'], :]
+    # add mean score for correct index to mean score column
+    df['MEAN SCORE'] = np.nan
+    for ethnicity in list(set(df.index.get_level_values(0))):
+        for subject in list(set(df.index.get_level_values(2))):
+            try:
+                df.loc[idx[ethnicity, :, subject],'MEAN SCORE'] = tmp_df.loc[
+                        idx[ethnicity, :, subject],:].values[0][0]
+            except IndexError:
+                continue
+    #
+    df['H2'] = 'D'
+    df['MEASURE NAME'] = 'SCHOOL AP SCORE DISTRIBUTIONS BY TOTAL AND ETHNIC GROUP'
+    df['AP Exam Year'] = year
+    df['Table Name'] = table_name
+    df['Geography'] = geography
+    df['Student Group'] = student_group
+    #
+    df = df.reset_index()
+    df = df[['H2','MEASURE NAME', 'AP Exam Year', 'Table Name', 'Geography', 'Student Group', 
+             'ethnicity', 'AP_score', 'subject', 'NUMBER OF STUDENTS FOR EACH EXAMINATION', 
+             'MEAN SCORE']]
+    #
+    df.rename(columns={'ethnicity': 'Subgroup'}, inplace=True)
+    df.rename(columns={'AP_score': 'AP Score'}, inplace=True)
+    df.rename(columns={'subject': 'Subject'}, inplace=True)
+    df.rename(columns={'NUMBER OF STUDENTS FOR EACH EXAMINATION': 'Student Count'}, inplace=True)
+    return(df)
+    
+
 
 ## Washington 2013 All ##
 wa_2013_all = pd.read_excel('../../data/College_Board/Washington_Summary_13.xls', 
@@ -1170,20 +1219,428 @@ wa_2018_male.rename(columns={'AP_score': 'AP Score'}, inplace=True)
 wa_2018_male.rename(columns={'subject': 'Subject'}, inplace=True)
 wa_2018_male.rename(columns={'NUMBER OF STUDENTS FOR EACH EXAMINATION': 'Student Count'}, inplace=True)
 
+
+## National 2013 All ##
+student_group = 'All Students'
+# student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2013
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2013_all = pd.read_excel(
+        '../../data/College_Board/National_Summary_13.xls', 
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AL', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 5)
+
+clean_indexes(na_2013_all)
+na_2013_all = clean_data(na_2013_all)
+na_2013_all_t = transform(df=na_2013_all,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2013 Female ##
+# student_group = 'All Students'
+student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2013
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2013_female = pd.read_excel(
+        '../../data/College_Board/National_Summary_13.xls', 
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AL', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 5)
+
+clean_indexes(na_2013_female)
+na_2013_female = clean_data(na_2013_female)
+na_2013_female_t = transform(df=na_2013_female,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2013 Male ##
+# student_group = 'All Students'
+# student_group = 'Female Students'
+student_group = 'Male Students'
+year = 2013
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2013_male = pd.read_excel(
+        '../../data/College_Board/National_Summary_13.xls', 
+        sheet_name = 'Males', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AL', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 5)
+
+clean_indexes(na_2013_male)
+na_2013_male = clean_data(na_2013_male)
+na_2013_male_t = transform(df=na_2013_male,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2014 All ##
+student_group = 'All Students'
+# student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2014
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2014_all = pd.read_excel(
+        '../../data/College_Board/National-Summary-2014.xlsx', 
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AL', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 7)
+
+clean_indexes(na_2014_all)
+na_2014_all = clean_data(na_2014_all)
+na_2014_all_t = transform(df=na_2014_all,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2014 Female ##
+# student_group = 'All Students'
+student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2014
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2014_female = pd.read_excel(
+        '../../data/College_Board/National-Summary-2014.xlsx', 
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AL', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2014_female)
+na_2014_female = clean_data(na_2014_female)
+na_2014_female_t = transform(df=na_2014_female,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2014 Male ##
+# student_group = 'All Students'
+# student_group = 'Female Students'
+student_group = 'Male Students'
+year = 2014
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2014_male = pd.read_excel(
+        '../../data/College_Board/National-Summary-2014.xlsx', 
+        sheet_name = 'Males', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AL', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2014_male)
+na_2014_male = clean_data(na_2014_male)
+na_2014_male_t = transform(df=na_2014_male,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2015 All ##
+student_group = 'All Students'
+# student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2015
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2015_all = pd.read_excel(
+        '../../data/College_Board/national-summary-2015.xlsx', 
+        sheet_name = 'All', 
+        skiprows=3, 
+        header=[0,1], 
+        usecols = 'B:AN', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2015_all)
+na_2015_all = clean_data(na_2015_all)
+na_2015_all_t = transform(df=na_2015_all,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2015 Female ##
+# student_group = 'All Students'
+student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2015
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2015_female = pd.read_excel(
+        '../../data/College_Board/national-summary-2015.xlsx', 
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AN', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2015_female)
+na_2015_female = clean_data(na_2015_female)
+na_2015_female_t = transform(df=na_2015_female,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+
+## National 2015 Male ##
+# student_group = 'All Students'
+# student_group = 'Female Students'
+student_group = 'Male Students'
+year = 2015
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2015_male = pd.read_excel(
+        '../../data/College_Board/national-summary-2015.xlsx', 
+        sheet_name = 'Males', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AN', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2015_male)
+na_2015_male = clean_data(na_2015_male)
+na_2015_male_t = transform(df=na_2015_male,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2016 All ##
+student_group = 'All Students'
+# student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2016
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2016_all = pd.read_excel(
+        '../../data/College_Board/national-summary-2016.xlsx', 
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AO', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 7)
+
+clean_indexes(na_2016_all)
+na_2016_all = clean_data(na_2016_all)
+na_2016_all_t = transform(df=na_2016_all,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2016 Female ##
+# student_group = 'All Students'
+student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2016
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2016_female = pd.read_excel(
+        '../../data/College_Board/national-summary-2016.xlsx', 
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AO', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 7)
+
+clean_indexes(na_2016_female)
+na_2016_female = clean_data(na_2016_female)
+na_2016_female_t = transform(df=na_2016_female,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2016 Male ##
+# student_group = 'All Students'
+# student_group = 'Female Students'
+student_group = 'Male Students'
+year = 2016
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2016_male = pd.read_excel(
+        '../../data/College_Board/national-summary-2016.xlsx', 
+        sheet_name = 'Males', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AO', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 7)
+
+clean_indexes(na_2016_male)
+na_2016_male = clean_data(na_2016_male)
+na_2016_male_t = transform(df=na_2016_male,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+
+## National 2017 All ##
+student_group = 'All Students'
+# student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2017
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2017_all = pd.read_excel(
+        '../../data/College_Board/national-summary-2017.xlsx', 
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AP', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 8)
+
+clean_indexes(na_2017_all)
+na_2017_all = clean_data(na_2017_all)
+na_2017_all_t = transform(df=na_2017_all,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+
+## National 2017 Female ##
+# student_group = 'All Students'
+student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2017
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2017_female = pd.read_excel(
+        '../../data/College_Board/national-summary-2017.xlsx', 
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AP', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 8)
+
+clean_indexes(na_2017_female)
+na_2017_female = clean_data(na_2017_female)
+na_2017_female_t = transform(df=na_2017_female,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2017 Male ##
+# student_group = 'All Students'
+# student_group = 'Female Students'
+student_group = 'Male Students'
+year = 2017
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2017_male = pd.read_excel(
+        '../../data/College_Board/national-summary-2017.xlsx', 
+        sheet_name = 'Males', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AP', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 8)
+
+clean_indexes(na_2017_male)
+na_2017_male = clean_data(na_2017_male)
+na_2017_male_t = transform(df=na_2017_male,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+
+## National 2018 All ##
+student_group = 'All Students'
+# student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2018
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2018_all = pd.read_excel(
+        '../../data/College_Board/national-summary-2018.xlsx', 
+        sheet_name = 'All', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AP', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2018_all)
+na_2018_all = clean_data(na_2018_all)
+na_2018_all_t = transform(df=na_2018_all,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2018 Female ##
+# student_group = 'All Students'
+student_group = 'Female Students'
+# student_group = 'Male Students'
+year = 2018
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2018_female = pd.read_excel(
+        '../../data/College_Board/national-summary-2018.xlsx', 
+        sheet_name = 'Females', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AP', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2018_female)
+na_2018_female = clean_data(na_2018_female)
+na_2018_female_t = transform(df=na_2018_female,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+## National 2018 Male ##
+# student_group = 'All Students'
+# student_group = 'Female Students'
+student_group = 'Male Students'
+year = 2018
+table_name = 'NA-ALL CAND'
+geography = 'National'
+na_2018_male = pd.read_excel(
+        '../../data/College_Board/national-summary-2018.xlsx', 
+        sheet_name = 'Males', 
+        skiprows=4, 
+        header=[0,1], 
+        usecols = 'B:AP', 
+        index_col = [0,1], 
+        na_values = {'*','','No Data'}, 
+        skipfooter = 6)
+
+clean_indexes(na_2018_male)
+na_2018_male = clean_data(na_2018_male)
+na_2018_male_t = transform(df=na_2018_male,student_group=student_group, year=year, 
+                                table_name=table_name, geography=geography)
+
+
 ## Staple together 
 big_df = pd.concat([wa_2013_all, wa_2013_fem, wa_2013_mal, 
                     wa_2014_all, wa_2014_female, wa_2014_male,
                     wa_2015_all, wa_2015_female, wa_2015_male,
                     wa_2016_all, wa_2016_female, wa_2016_male,
                     wa_2017_all, wa_2017_female, wa_2017_male,
-                    wa_2018_all, wa_2018_female, wa_2018_male
+                    wa_2018_all, wa_2018_female, wa_2018_male,
+                    na_2013_all_t, na_2013_female_t, na_2013_male_t,
+                    na_2014_all_t, na_2014_female_t, na_2014_male_t,
+                    na_2015_all_t, na_2015_female_t, na_2015_male_t,
+                    na_2016_all_t, na_2016_female_t, na_2016_male_t,
+                    na_2017_all_t, na_2017_female_t, na_2017_male_t,
+                    na_2018_all_t, na_2018_female_t, na_2018_male_t
                     ], ignore_index = True)
 
 # check for "No Data"
-big_df[~big_df['Student Count'].apply(np.isreal)] 
+big_df[big_df['Student Count'].apply(np.isreal)] 
 # All rows of student count are numbers
 
-big_df[~big_df['MEAN SCORE'].apply(np.isreal)] 
+big_df[big_df['MEAN SCORE'].apply(np.isreal)] 
 # All rows of mean score are numbers
 
 ## Consistency Checks ##
